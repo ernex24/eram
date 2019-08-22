@@ -1,0 +1,298 @@
+/*Reset css*/
+@import "assets/css/reset.css";
+
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+@font-face {
+  font-family: velinoThin;
+  src: url(assets/fonts/VelinoDisplay-Thin.otf);
+}
+
+@font-face {
+  font-family: velinoLigth;
+  src: url(assets/fonts/VelinoDisplay-Light.otf);
+}
+
+@font-face {
+  font-family: velinoMedium;
+  src: url(assets/fonts/VelinoDisplay-Medium.otf);
+}
+
+@font-face {
+  font-family: velinoBook;
+  src: url(assets/fonts/VelinoDisplay-Book.otf);
+}
+
+@font-face {
+  font-family: velinoBold;
+  src: url(assets/fonts/VelinoDisplay-Bold.otf);
+}
+
+@font-face {
+  font-family: velinoMedium;
+  src: url(assets/fonts/VelinoDisplay-Medium.otf);
+}
+
+@font-face {
+  font-family: velinoBlack;
+  src: url(assets/fonts/VelinoDisplay-Black.otf);
+}
+
+/*HTML basic styles--------------------*/
+
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #fff3dc;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+/*UI-----------------------------*/
+
+.emergency {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.pill-link {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0 20px;
+  margin: 0;
+  width: max-content;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pill-link a {
+  color: #000000;
+}
+
+.pill-link a:hover {
+  color: #333333;
+}
+
+/*Layout--------------------------*/
+
+.container-web{
+  position: absolute;
+  top: 0;
+  display: block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*Main Menu*/
+
+.hero-background {
+  width: 100vw;
+  height: 100vh;
+  /*  background-color: red; */
+}
+
+.menu {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: lato;
+  color: #ffffff;
+}
+
+.main-menu {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.main-menu_left {
+  margin-left: 30px;
+}
+
+.main-menu_left_telephone {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.main-menu_left_telephone li {
+  margin: 0 5px;
+}
+
+.main-menu_left_telephone_phones {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-menu_rigth {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-menu_rigth li {
+  margin: 0 5px;
+}
+
+.main-menu_rigth li img {
+  max-width: 26px;
+}
+
+/*Second Menu*/
+
+.second-menu_categories_logo {
+  margin-bottom: 15px;
+}
+
+.second-menu_categories {
+  position: absolute;
+  top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-family: lato;
+}
+
+.second-menu_categories_items>li {
+  margin: 0 15px 0 15px;
+}
+
+.second-menu_categories_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Hero Main section */
+/*Flexslider*/
+
+.flexslider {
+  height: auto;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  zoom: 0;
+  z-index: -1;
+  border: 0;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+}
+
+.flexslider .slides img {
+  width: -moz-available;
+  /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;
+  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  height: -moz-available;
+  /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;
+  /* Mozilla-based browsers will ignore this. */
+  height: fill-available;
+
+}
+
+.flex-control-nav {
+  display: none;
+}
+
+.flex-direction-nav {
+  display: none;
+}
+
+.flexslider-hero-picture1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/images/clinic.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flexslider-hero-picture1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  opacity: 0.7;
+}
+
+.flexslider-hero-picture2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/images/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flexslider-hero-picture3 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/images/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Our treatments section */
+
+.OurTreatments {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff
+}
+
+/* Banner advertising */
+
+.banner-ad1{
+  position: relative;
+  top: 0;
+  height: 40vh;
+  width: 100vw;
+  background-color: aqua;
+}
