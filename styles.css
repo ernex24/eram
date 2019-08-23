@@ -363,13 +363,14 @@ a:active {
 
 .banner-ad1{
   position: relative;
-  top: 0;
+  top: 0px;
   height: 40vh;
   width: 100vw;
   background-color: aqua;
-  background-image: url('assets/images/smile-ad.jpg');
-  background-position: center;
+  background-image: url(assets/images/smile-ad.jpg);
+  background-position: 0px -500px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
 }
