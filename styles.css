@@ -318,6 +318,10 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-animation: zoomout2 20s ease-in infinite;
+  animation: zoomout2 20s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
 }
 
 .flexslider-hero-picture2 {
@@ -328,6 +332,10 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-animation: zoomout 20s ease-in infinite;
+  animation: zoomout 20s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
 }
 
 .flexslider-hero-picture3 {
@@ -340,6 +348,22 @@ a:active {
   background-attachment: fixed;
 }
 
+
+
+@-webkit-keyframes zoomout {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+@-webkit-keyframes zoomout2 {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+
+
 /* Our treatments section */
 
 .hero-background::after {
@@ -349,7 +373,7 @@ a:active {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .OurTreatments {
