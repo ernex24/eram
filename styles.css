@@ -49,6 +49,22 @@ html {
   margin: 0;
 }
 
+h1 {
+  font-family: velinoBook;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+}
+
+h2 {
+  font-family: velinoLigth;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: left;
+}
+
 a {
   text-decoration: none;
 }
@@ -95,6 +111,80 @@ a:active {
 .pill-link a:hover {
   color: #333333;
 }
+
+/*UI Form*/
+
+.category-contact-form_container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: normal;
+  font-family: lato;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.form-element{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  width: 100%;
+    margin: 5px 5px 5px 5px;
+
+}
+
+.form-element-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type=text] {
+  margin: 6px 0;
+  height: 38px;
+  width: 100%;
+  border: 0;
+  padding-left: 5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 20px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 6px 0;
+}
+
+select{
+  margin: 6px 0;
+  height: 38px;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+button {
+  margin: 6px 0;
+  height: 38px;
+  width: 100%;
+  border: 0;
+  background-color: #333333;
+  color: #ffffff;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
 
 /*Layout--------------------------*/
 
@@ -377,12 +467,6 @@ a:active {
   top: 0px;
   height: 40vh;
   width: 100vw;
-  background-color: aqua;
-  background-image: url(assets/images/smile-ad.jpg);
-  background-position: 0px -500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -390,16 +474,21 @@ a:active {
   color: #ffffff;
   line-height: 36px;
   font-family: velinoBook;
+  background-color: #000000;;
 }
 
 .banner-ad1::before{
   content: "";
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
-  width: 100vw;
-  height: 100vh;
-  background: #000000;
-  opacity: 0.7;
+  background-image: url(assets/images/smile-ad.jpg);
+  background-position: 0px -500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
 }
 
 .ad-description{
@@ -428,7 +517,6 @@ a:active {
   font-family: velinoBook;
 }
 
-
 /*$section Our Treatments*/
 
 .OurTreatments {
@@ -445,6 +533,7 @@ a:active {
   height: 100%;
   width: auto;
 }
+
 .menu-grid{
   width: 80%;
   display: grid;
@@ -456,6 +545,7 @@ a:active {
 .item{
   background-color: aqua;
   height: 100%;
+  cursor: pointer;
 }
 
 .category-smileDesign {
@@ -504,15 +594,15 @@ a:active {
 
 .category-hygiene {
   grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-image: url(assets/images/smile-ad.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(assets/images/bg2.jpg);
+    background-position: right;
+    background-size: 170%;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 .category-hygiene:hover {
@@ -526,7 +616,7 @@ a:active {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(assets/images/smile-ad.jpg);
+  background-image: url(https://via.placeholder.com/400x400.png?text=image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -545,7 +635,7 @@ a:active {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(assets/images/smile-ad.jpg);
+  background-image: url(https://via.placeholder.com/400x400.png?text=image);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -564,11 +654,11 @@ a:active {
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(assets/images/smile-ad.jpg);
-  background-position: center;
+  background-image: url(assets/images/bg1.jpg);
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
@@ -583,12 +673,13 @@ a:active {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url(assets/images/smile-ad.jpg);
-    background-position: center;
+    background-image: url(assets/images/bg4.jpg);
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
+    transform:scaleX(-1);
 }
 
 .category-aesthetics:hover {
@@ -602,9 +693,61 @@ a:active {
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 5;
-    background-image: url(assets/images/clinic.jpg);
+    background-image: url(assets/images/eram_11_opacity.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/*$section About Us*/
+
+.AboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: fit-content;
+  background-color: #333333;
+}
+
+.zahra-eram {
+  width: 100%;
+    height: 550px;
+    max-width: 1024px;
+    background-color: #000000;
+    margin: 120px 0;
+    background-image: url(assets/images/architect-home-box-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zahra-text-area {
+  width: 50%;
+}
+
+.zahra-text-area_container{
+  margin: 30px;
+}
+
+.zahra-picture {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+  background-image: url("assets/images/Zahra.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.zahra-picture img {
+  width: 100%;
+  height: auto;
+}
