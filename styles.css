@@ -198,7 +198,7 @@ a:active {
   justify-content: center;
 }
 
-/* Hero Main section */
+/*$section Hero Main section */
 
 .main_title{
   pointer-events: none;
@@ -318,8 +318,8 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  -webkit-animation: zoomout2 20s ease-in infinite;
-  animation: zoomout2 20s ease-in infinite;
+  -webkit-animation: zoomout 20s ease-in infinite;
+  animation: zoomout 20s ease-in infinite;
   transition: all .5s ease-in-out;
   overflow: hidden;
 }
@@ -346,25 +346,18 @@ a:active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-animation: zoomout 20s ease-in infinite;
+  animation: zoomout 20s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
 }
 
 
-
-@-webkit-keyframes zoomout {
+@keyframes zoomout {
   0% {transform: scale(1);}
   50% {transform: scale(1.2);}
   100% {transform: scale(1);}
 }
-
-@-webkit-keyframes zoomout2 {
-  0% {transform: scale(1);}
-  50% {transform: scale(1.2);}
-  100% {transform: scale(1);}
-}
-
-
-
-/* Our treatments section */
 
 .hero-background::after {
   content: "";
@@ -376,14 +369,8 @@ a:active {
   opacity: 0.5;
 }
 
-.OurTreatments {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-color: #ffffff
-}
 
-/* Banner advertising */
+/*$section Banner advertising */
 
 .banner-ad1{
   position: relative;
@@ -439,5 +426,185 @@ a:active {
   text-align: right;
   z-index: 1;
   font-family: velinoBook;
+}
+
+
+/*$section Our Treatments*/
+
+.OurTreatments {
+  position: relative;
+  width: 100vw;
+  height: 1200px;
+  background-color: #ffffff;
+}
+
+.container_menu-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+}
+.menu-grid{
+  width: 80%;
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 240px);
+}
+
+.item{
+  background-color: aqua;
+  height: 100%;
+}
+
+.category-smileDesign {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(assets/images/bg5.jpg);
+  background-position: -720px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 500ms;
+  transform:scaleX(-1);
+}
+
+.category-smileDesign:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+.category-implants {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url(assets/images/bg3.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transform:scaleX(-1);
+}
+
+.category-implants:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+
+.category-hygiene {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url(assets/images/smile-ad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.category-hygiene:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+.category-kids {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url(assets/images/smile-ad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.category-kids:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+.category-orthodontics {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url(assets/images/smile-ad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.category-orthodontics:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+.category-care {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url(assets/images/smile-ad.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.category-care:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+.category-aesthetics {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(assets/images/smile-ad.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.category-aesthetics:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  transition: all 500ms;
+}
+
+.category-contact-form {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(assets/images/clinic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
