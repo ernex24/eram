@@ -1,109 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="assets/css/flexslider.css"
+      type="text/css"
+      media="screen"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
     <title>Eram dental health clinic</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="container-web">
-        <div class="menu">
-            <div class="main-menu">
-                <div class="main-menu_left">
-                    <ul class="main-menu_left_telephone">
-                        <li>
-                            <ul class="main-menu_left_telephone_phones">
-                                <li>
-                                    <div class="pill-link"><a href="#">Phone +412222111</a></div>
-                                </li>
-                                <li>Bleicherweg
-                                    33, 8002 Zurich
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="main-menu_left_emergency emergency">Emergency</li>
-                    </ul>
-                </div>
-
-                <ul class=" main-menu_rigth">
-                    <li>
-                        <a href=""><img src="assets/images/facebook-logo-button.svg"></a>
-                    </li>
-                    <li><a href=""><img src="assets/images/twitter-logo-button.svg"></a>
-                    </li>
-                    <li>
-                        <div class="pill-link"><a href="#">Book an apointment</a></div>
-                    </li>
+      <div class="menu">
+        <div class="main-menu">
+          <div class="main-menu_left">
+            <ul class="main-menu_left_telephone">
+              <li>
+                <ul class="main-menu_left_telephone_phones">
+                  <li>
+                    <div class="pill-link">
+                      <a href="#">Phone +412222111</a>
+                    </div>
+                  </li>
+                  <li>Bleicherweg 33, 8002 Zurich</li>
                 </ul>
-            </div>
+              </li>
+              <li class="main-menu_left_emergency emergency">Emergency</li>
+            </ul>
+          </div>
 
-            <div class="second-menu_categories">
-                <div class="second-menu_categories_logo">
-                    <a href="#"><img src="assets/images/logo.png"></a>
-                </div>
-                <ul class="second-menu_categories_items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our treatments</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">The clinic</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-            </div>
+          <ul class=" main-menu_rigth">
+            <li>
+              <a href=""><img src="assets/images/facebook-logo-button.svg"/></a>
+            </li>
+            <li>
+              <a href=""><img src="assets/images/twitter-logo-button.svg"/></a>
+            </li>
+            <li>
+              <div class="pill-link"><a href="#">Book an apointment</a></div>
+            </li>
+          </ul>
         </div>
 
-        <div class="main_title">
-                <p>We design a <span>perfect smile</span> for you</p>
-            </div>
+        <div class="second-menu_categories">
+          <div class="second-menu_categories_logo">
+            <a href="#"><img src="assets/images/logo.png"/></a>
+          </div>
+          <ul class="second-menu_categories_items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our treatments</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">The clinic</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
 
-        <div class="hero-background">
+      <div class="main_title">
+        <p>We design a <span>perfect smile</span> for you</p>
+      </div>
+
+      <div class="hero-background">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+         
+                    <div class="fullscreen-bg">
+                            <video loop muted autoplay  class="fullscreen-bg__video">
+                                <source src="assets/images/video.webm" type="video/mp4">
+                            </video>
+                        </div>
             
-            <div class="flexslider">
-                <ul class="slides">
-                    <li>
-                        <div class="flexslider-hero-picture1">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="flexslider-hero-picture2">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="flexslider-hero-picture3">
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            </li>
+            <li>
+              <div class="flexslider-hero-picture1"></div>
+            </li>
+            <li>
+              <div class="flexslider-hero-picture2"></div>
+            </li>
+          </ul>
         </div>
-        <div class="banner-ad1 parallax"></div>
-        <div class="OurTreatments"></div>
-
-
-
+      </div>
+      <div class="banner-ad1 parallax"></div>
+      <div class="OurTreatments"></div>
     </div>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="assets/js/jquery.flexslider.js"></script>
 
     <script type="text/javascript">
+      $(window).load(function() {
+        $(".flexslider").flexslider({
+          animation: "fade",
+          animationLoop: true
+        });
 
-        $(window).load(function () {
-            $('.flexslider').flexslider({
-                animation: "fade",
-                animationLoop: true,
-            });
-
-            console.log('hola')
-
-});
-
+        console.log("hola");
+      });
     </script>
-</body>
-
+  </body>
 </html>
