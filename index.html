@@ -12,6 +12,24 @@
 
 <body>
     <div class="container-web">
+
+        <div class="none menu_scroll ">
+            <div class="menu_scroll_logo">Eram Health Dental CLinic</div>
+            <ul class="menu_scroll_categories_items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our treatments</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">The clinic</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <ul class="main-menu_rigth">
+                <li><a href=""><img src="assets/images/facebook-logo-button.svg" /></a></li>
+                <li><a href=""><img src="assets/images/twitter-logo-button.svg" /></a></li>
+                <li><div class="pill-link-black"><a href="#">Book an apointment</a></div></li>
+            </ul>
+        </div>
+
         <div class="menu">
             <div class="main-menu">
                 <div class="main-menu_left">
@@ -29,7 +47,6 @@
                         <li class="main-menu_left_emergency emergency">Emergency</li>
                     </ul>
                 </div>
-
                 <ul class=" main-menu_rigth">
                     <li>
                         <a href=""><img src="assets/images/facebook-logo-button.svg" /></a>
@@ -148,21 +165,21 @@
                 </div>
             </div>
         </div>
-   
-    <div class="AboutUs">
-        
-        <div class="zahra-eram">
-            <div class="zahra-text-area">
-               <div class="zahra-text-area_container">
-                <h1>Eram Dental Health Clinic</h1><br> 
-                <h2> Located in the hearth of Zurich, is trusted by patients to deliver the highest quality dentistry in state-of-the-art surroundings, by a high level team with over 15 years of experience.</h2>
+        <div class="AboutUs">
+            <div class="zahra-eram">
+                <div class="zahra-text-area">
+                    <div class="zahra-text-area_container">
+                        <h1>Eram Dental Health Clinic</h1><br>
+                        <h2> Located in the hearth of Zurich, is trusted by patients to deliver the highest quality
+                            dentistry in state-of-the-art surroundings, by a high level team with over 15 years of
+                            experience.</h2>
+                        <img src="assets/images/signature.jpg">
+                        <div class="caption-signaure">Zahra Eram <br> CEO</div>
+                    </div>
+                </div>
+                <div class="zahra-picture"></div>
             </div>
-            
-            </div>
-            
-            <div class="zahra-picture"></div>
         </div>
-    </div>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script defer src="assets/js/jquery.flexslider.js"></script>
@@ -173,7 +190,18 @@
                 animation: "fade",
                 animationLoop: true
             });
+
             console.log("hola");
+
+            var offsetAmount = 50;
+            $(document).scroll(function () {
+                if ($(document).scrollTop() >= offsetAmount) {
+                    $('.menu_scroll').removeClass("none");
+                } else {
+                    $('.menu_scroll').addClass("none");
+                }
+            });
+
         });
     </script>
 </body>
