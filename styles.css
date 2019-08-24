@@ -3,7 +3,7 @@
 
 /*Fonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap");
 
 @font-face {
   font-family: velinoThin;
@@ -50,6 +50,10 @@ html {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-family: velinoBlack;
   color: #ffffff;
@@ -87,12 +91,12 @@ a:active {
 }
 
 hr {
-    width: 350px;
-    position: absolute;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-top: 1px solid black;
- }
+  width: 350px;
+  position: absolute;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top: 1px solid black;
+}
 
 /*Classes for Javascript*/
 
@@ -102,7 +106,7 @@ hr {
 }
 
 .block {
- display: block;
+  display: block;
 }
 
 /*UI-----------------------------*/
@@ -145,7 +149,7 @@ hr {
 
 /*UI Form*/
 
-.sectionTitle{
+.sectionTitle {
   font-family: velinoMedium;
   font-size: 42px;
   text-align: left;
@@ -159,7 +163,6 @@ hr {
 .category-contact-form_container > .sectionTitle {
   margin: 30px 0;
 }
-
 
 .category-contact-form_container {
   display: flex;
@@ -188,7 +191,7 @@ hr {
   justify-content: space-between;
 }
 
-input[type=text] {
+input[type="text"] {
   margin: 6px 0;
   height: 38px;
   width: 100%;
@@ -239,7 +242,6 @@ button {
   display: block;
   width: 100%;
   height: 100%;
- 
 }
 
 /*Main Menu*/
@@ -300,7 +302,7 @@ button {
 
 .main-menu_rigth li {
   margin: 0 5px;
-  cursor:  ;
+  cursor: ;
 }
 
 .main-menu_rigth li img {
@@ -327,7 +329,7 @@ button {
   font-size: 18px;
 }
 
-.second-menu_categories_items>li {
+.second-menu_categories_items > li {
   margin: 0 15px 0 15px;
   font-family: lato;
 }
@@ -340,7 +342,7 @@ button {
 
 /*Scroll menu */
 
-.menu_scroll{
+.menu_scroll {
   top: -100px;
   position: fixed;
   height: 60px;
@@ -354,46 +356,45 @@ button {
   font-size: 14px;
   line-height: 26px;
   font-family: lato;
-  filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
   transition: 500ms;
 }
 
-.menu_scroll_categories_items{
+.menu_scroll_categories_items {
   display: flex;
   margin-right: 30px;
-  
 }
 
-.menu_scroll_categories_items a{
-  color:#000000;
+.menu_scroll_categories_items a {
+  color: #000000;
   display: flex;
   font-family: lato;
   margin: 0 15px 0 15px;
   font-size: 16px;
 }
 
-.menu_scroll_logo{
+.menu_scroll_logo {
   color: #000000;
   font-family: velinoBold;
   font-size: 24px;
   margin-left: 15px;
 }
 
-.menu_scroll_logo::after{
+.menu_scroll_logo::after {
   height: 20px;
-    width: 32px;
-    position: absolute;
-    top: 8px;
-    content: "";
-    background-image: url(assets/images/swiss-cross.jpg);
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
-    transform: scale(0.7);
+  width: 32px;
+  position: absolute;
+  top: 8px;
+  content: "";
+  background-image: url(assets/images/swiss-cross.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  transform: scale(0.7);
 }
 
 .menu_scroll > .main-menu_rigth li > a > img {
-filter: invert(100%);
+  filter: invert(100%);
 }
 
 /*$section Hero Main section */
@@ -455,7 +456,6 @@ filter: invert(100%);
   height: -webkit-fill-available;
   /* Mozilla-based browsers will ignore this. */
   height: fill-available;
-
 }
 
 .flex-control-nav {
@@ -500,7 +500,7 @@ filter: invert(100%);
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    background: url("../img/videoframe.jpg") center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
@@ -511,45 +511,44 @@ filter: invert(100%);
 .flexslider-hero-picture1 {
   width: 100vw;
   height: 100vh;
-  background-image: url('assets/images/clinic.jpg');
+  background-image: url("assets/images/clinic.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-animation: zoomout 20s ease-in infinite;
   animation: zoomout 20s ease-in infinite;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   overflow: hidden;
 }
 
 .flexslider-hero-picture2 {
   width: 100vw;
   height: 100vh;
-  background-image: url('assets/images/bg1.jpg');
+  background-image: url("assets/images/bg1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-animation: zoomout 20s ease-in infinite;
   animation: zoomout 20s ease-in infinite;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   overflow: hidden;
 }
 
 .flexslider-hero-picture3 {
   width: 100vw;
   height: 100vh;
-  background-image: url('assets/images/bg2.jpg');
+  background-image: url("assets/images/bg2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-animation: zoomout 20s ease-in infinite;
   animation: zoomout 20s ease-in infinite;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   overflow: hidden;
 }
-
 
 @keyframes zoomout {
   0% {
@@ -574,7 +573,6 @@ filter: invert(100%);
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   opacity: 0.5;
 }
-
 
 /*$section Banner advertising */
 
@@ -605,7 +603,6 @@ filter: invert(100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 0.4;
- 
 }
 
 .ad-description {
@@ -680,7 +677,7 @@ filter: invert(100%);
   filter: drop-shadow(0px 0px 10px #000000);
 }
 
-.category-logo{
+.category-logo {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -711,7 +708,6 @@ filter: invert(100%);
   transform: scaleX(-1);
   position: absolute;
 }
-
 
 .category-smileDesign:hover {
   -webkit-filter: grayscale(0%);
@@ -904,8 +900,8 @@ item6 {
   position: relative;
   width: 100vw;
   height: fit-content;
-  background-color: #302F2D;
-  background-image: url('assets/images/pattern-module.png');
+  background-color: #302f2d;
+  background-image: url("assets/images/pattern-module.png");
   background-position: center;
   background-size: auto;
   background-repeat: repeat;
@@ -963,4 +959,67 @@ item6 {
   color: #ffffff;
   text-align: left;
   font-family: velinoBook;
+}
+
+/*$section About Us the clinic*/
+
+.theClinic{
+  width: 100vw;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title{
+  font-family: velinoLigth;
+  font-size: 72px;
+  text-align: center;
+  padding: 120px 0 120px 0;
+  background-color: #ffffff;
+  color: #4c4c4c;
+  line-height: 70px;
+}
+
+.section-title span {
+  font-family: velinoBold;
+  font-size: 72px;
+  text-align: center;
+  color: #000000;;
+}
+
+.section-picture{
+  width: 100%;
+  height: 400px;
+  background-image: url(assets/images/eram_17.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-description {
+  width: 100%;
+  font-family: velinoLigth;
+  font-size: 22px;
+  text-align: center;
+  padding: 120px 0 120px 0;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-description_title {
+  font-family: velinoBold;
+  font-size: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.section-description_text{
+  width: 50%;
+  text-align: center;
+  align-self: center;
 }
