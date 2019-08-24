@@ -1478,3 +1478,8 @@ item6 {
 }
 
 
+@media (max-width: 1350px) {
+  .container-web {
+    display: none;
+  }
+}
