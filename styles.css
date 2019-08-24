@@ -375,8 +375,8 @@ button {
 
 .menu_scroll_logo {
   color: #000000;
-  font-family: velinoBold;
-  font-size: 24px;
+  font-family: velinoLigth;
+  font-size: 26px;
   margin-left: 15px;
 }
 
@@ -701,7 +701,7 @@ button {
   width: 100%;
   height: 100%;
   background-image: url(assets/images/bg5.jpg);
-  background-position: right;
+  background-position: -750px;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
@@ -963,7 +963,7 @@ item6 {
 
 /*$section About Us the clinic*/
 
-.theClinic{
+.theClinic {
   width: 100vw;
   height: auto;
   background-color: #ffffff;
@@ -972,7 +972,7 @@ item6 {
   justify-content: center;
 }
 
-.section-title{
+.section-title {
   font-family: velinoLigth;
   font-size: 72px;
   text-align: center;
@@ -986,10 +986,10 @@ item6 {
   font-family: velinoBold;
   font-size: 72px;
   text-align: center;
-  color: #000000;;
+  color: #000000;
 }
 
-.section-picture{
+.section-picture {
   width: 100%;
   height: 400px;
   background-image: url(assets/images/eram_17.jpg);
@@ -1018,8 +1018,101 @@ item6 {
   margin-bottom: 30px;
 }
 
-.section-description_text{
+.section-description_text {
   width: 50%;
   text-align: center;
   align-self: center;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-galery {
+  width: 80%;
+  max-width: 1280px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 160px);
+  margin: 0 0 120px 0;
+}
+
+.gallery-item1 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(assets/images/eram_01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item2 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-image: url(assets/images/eram_16.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item3 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  background-image: url(assets/images/eram_04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item4 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 4;
+  background-image: url(assets/images/eram_12.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item5 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  background-image: url(assets/images/eram_07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item6 {
+  width: 100%;
+    height: 100%;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-image: url(assets/images/eram_08.jpg);
+    background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
