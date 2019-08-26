@@ -1,7 +1,7 @@
 {
     "phone": "+4122221111",
     "address": "Bleicherweg 33, 8002 Zurich",
-    "mainTitle": "We create a perfect smile for you",
+    "mainTitle": "<p>We create a <span>perfect</span> smile for you</p>",
     "mainGallery":{
         "video":"",
         "picture1":"",
