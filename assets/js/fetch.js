@@ -2,13 +2,16 @@ window.onload = function() {
  
     const localHost = 'http://127.0.0.1:5500/'
     const cloud = 'https://ernex24.github.io/eram/'
+    const wordPress = 'https://ernesto-perez.com/wp-json/wp/v2/posts/1562'
 
-    fetch( cloud + 'assets/js/api.json')
+    fetch( localHost + 'assets/js/api.json')
+    /* fetch(wordPress) */
     .then(function(response) {
       return response.json();
     })
     .then(function(myJson) {
      JSON.stringify(myJson);
+     console.log(myJson.acf)
       document.getElementById('phone').innerHTML = myJson.phone
       document.getElementById('mainTitle').innerHTML = myJson.mainTitle
       document.getElementById('mainVideo').innerHTML = myJson.mainVideo
