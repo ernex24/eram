@@ -1,0 +1,16 @@
+{
+    "phone": "+4122221111",
+    "address": "Bleicherweg 33, 8002 Zurich",
+    "mainTitle": "We create a perfect smile for you",
+    "mainGallery":{
+        "video":"",
+        "picture1":"",
+        "picture2":"",
+        "picture3":""
+        },
+    "advertising": {
+        "ad-name":"DentalWhitening",
+        "ad-price":"480.-",
+        "ad-copy":"Your best shade is yet to come get your theet withening today"
+    }
+}
