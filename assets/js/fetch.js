@@ -27,7 +27,7 @@ window.onload = function() {
       document.querySelector('#advertising_description').innerHTML = eram.advertising_description;
 
       document.querySelector('.banner-ad1').style.backgroundImage = "url(" + eram.advertising_image.url + ")"; 
-
+      document.querySelector('#zahra_text').innerHTML = eram.zahra_text;
       document.querySelector('#clinic_description').innerHTML = eram.clinic_description;
 
       document.querySelector('.gallery-item1').style.backgroundImage = "url(" + eram.gallery_item1.url + ")";
