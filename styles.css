@@ -1477,6 +1477,74 @@ item6 {
   background-repeat: no-repeat;
 }
 
+.clinic-message {
+  width: 100%;
+  height: 400px;
+  background-image: url(assets/images/keyvisual_eram_07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clinic-message::before {
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+.clinic-message p {
+  position: absolute;
+  font-family: velinoLigth;
+  font-size: 42px;
+  color: #ffffff;
+  max-width: 1200px;
+  text-align: center;
+  z-index: 2;
+}
+
+.our-values{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.values-lists{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.value-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 350px;
+  margin: 0 0 120px 0;
+}
+.value-list_title{
+  font-family: velinoBold;
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.value-list_sub-title{
+  font-family: velinoBook;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.value-list_text{
+  font-family: velinoLigth;
+  font-size: 22px;
+}
+
 
 @media (max-width: 1350px) {
   .container-web {
