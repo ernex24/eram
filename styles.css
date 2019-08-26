@@ -724,7 +724,10 @@ button {
   color: #ffffff;
   line-height: 36px;
   font-family: velinoBook;
-  background-color: #000000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .banner-ad1::before {
@@ -733,11 +736,7 @@ button {
   width: 100%;
   position: absolute;
   top: 0;
-  background-image: url(assets/images/smile-ad.jpg);
-  background-position: 0px -500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #000000;
   opacity: 0.4;
 }
 

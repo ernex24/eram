@@ -24,7 +24,9 @@ window.onload = function() {
       document.querySelector('#advertising_title').innerHTML = eram.advertising_title;
       document.querySelector('#advertising_price').innerHTML = eram.advertising_price;
       document.querySelector('#advertising_description').innerHTML = eram.advertising_description;
-      document.querySelector('#zahra_text').innerHTML = eram.zahra_text;
+      document.querySelector('#advertising_description').innerHTML = eram.advertising_description;
+
+      document.querySelector('.banner-ad1').style.backgroundImage = "url(" + eram.advertising_image.url + ")"; 
 
       document.querySelector('#clinic_description').innerHTML = eram.clinic_description;
 
