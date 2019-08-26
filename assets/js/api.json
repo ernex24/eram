@@ -3,10 +3,10 @@
     "address": "Bleicherweg 33, 8002 Zurich",
     "mainTitle": "<p>We create a <span>perfect</span> smile for you</p>",
     "mainGallery":{
-        "video":"",
-        "picture1":"",
-        "picture2":"",
-        "picture3":""
+        "mainVideo":"assets/images/video.mp4",
+        "picture1":"assets/images/clinic.jpg",
+        "picture2":"assets/images/bg5.jpg",
+        "picture3":"assets/images/bg2.jpg"
         },
     "advertising": {
         "ad-name":"DentalWhitening",

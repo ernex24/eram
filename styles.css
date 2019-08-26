@@ -618,7 +618,6 @@ button {
 .flexslider-hero-picture1 {
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/images/clinic.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -633,7 +632,6 @@ button {
 .flexslider-hero-picture2 {
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/images/bg1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -648,7 +646,6 @@ button {
 .flexslider-hero-picture3 {
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/images/bg2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

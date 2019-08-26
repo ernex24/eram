@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="styles.css?ll" type="text/css" media="screen" />
+    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
     <title>Eram dental health clinic</title>
 </head>
 
@@ -24,7 +24,7 @@
             </ul>
             <ul class="main-menu_rigth">
                 <li>
-                    <a href=""><img  src="assets/images/facebook-logo-button.svg" /></a>
+                    <a href=""><img src="assets/images/facebook-logo-button.svg" /></a>
                 </li>
                 <li>
                     <a href=""><img src="assets/images/twitter-logo-button.svg" /></a>
@@ -89,7 +89,7 @@
         </div>
 
         <div id="mainTitle" class="main_title">
-            
+
         </div>
 
         <div id="#home" class="hero-background">
@@ -97,17 +97,19 @@
                 <ul class="slides">
                     <li>
                         <div class="fullscreen-bg">
-                            <video loop muted autoplay class="fullscreen-bg__video">
-                                <source src="assets/images/video.mp4" type="video/mp4" />
+                            <video id="mainVideo" loop muted autoplay class="fullscreen-bg__video" type="video/mp4">
                             </video>
                         </div>
                     </li>
                     <li>
-                        <div class="flexslider-hero-picture1"></div>
+                        <div id="picture1" class="flexslider-hero-picture1"></div>
                     </li>
                     <li>
-                        <div class="flexslider-hero-picture2"></div>
+                        <div id="picture2" class="flexslider-hero-picture2"></div>
                     </li>
+                    <li>
+                            <div id="picture2" class="flexslider-hero-picture3"></div>
+                        </li>
                 </ul>
             </div>
         </div>
@@ -383,28 +385,28 @@
         </div>
 
 
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/fetch.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script defer src="assets/js/jquery.flexslider.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/fetch.js"></script>
+        <script src="assets/js/jquery.js"></script>
+        <script defer src="assets/js/jquery.flexslider.js"></script>
 
-    <script type="text/javascript">
-        $(window).load(function () {
-            $(".flexslider").flexslider({
-                animation: "fade",
-                animationLoop: true
+        <script type="text/javascript">
+            $(window).load(function () {
+                $(".flexslider").flexslider({
+                    animation: "fade",
+                    animationLoop: true
+                });
+                console.log("hola");
+                var offsetAmount = 80;
+                $(document).scroll(function () {
+                    if ($(document).scrollTop() > offsetAmount) {
+                        $(".menu_scroll").addClass("none");
+                    } else {
+                        $(".menu_scroll").removeClass("none");
+                    }
+                });
             });
-            console.log("hola");
-            var offsetAmount = 80;
-            $(document).scroll(function () {
-                if ($(document).scrollTop() > offsetAmount) {
-                    $(".menu_scroll").addClass("none");
-                } else {
-                    $(".menu_scroll").removeClass("none");
-                }
-            });
-        });
-    </script>
+        </script>
 </body>
 
 </html>
