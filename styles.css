@@ -1260,7 +1260,6 @@ item6 {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(assets/images/eram_01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1273,7 +1272,6 @@ item6 {
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 4;
-  background-image: url(assets/images/eram_16.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1286,7 +1284,6 @@ item6 {
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 5;
-  background-image: url(assets/images/eram_04.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1299,7 +1296,6 @@ item6 {
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 4;
-  background-image: url(assets/images/eram_12.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1312,7 +1308,6 @@ item6 {
   grid-column-end: 3;
   grid-row-start: 5;
   grid-row-end: 7;
-  background-image: url(assets/images/eram_07.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1325,7 +1320,6 @@ item6 {
     grid-column-end: 7;
     grid-row-start: 5;
     grid-row-end: 7;
-    background-image: url(assets/images/eram_08.jpg);
     background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;

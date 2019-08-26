@@ -25,6 +25,17 @@ window.onload = function() {
       document.querySelector('#advertising_price').innerHTML = eram.advertising_price;
       document.querySelector('#advertising_description').innerHTML = eram.advertising_description;
       document.querySelector('#zahra_text').innerHTML = eram.zahra_text;
+
+      document.querySelector('#clinic_description').innerHTML = eram.clinic_description;
+
+      document.querySelector('.gallery-item1').style.backgroundImage = "url(" + eram.gallery_item1.url + ")";
+      document.querySelector('.gallery-item2').style.backgroundImage = "url(" + eram.gallery_item2.url + ")";
+      document.querySelector('.gallery-item3').style.backgroundImage = "url(" + eram.gallery_item3.url + ")";
+      document.querySelector('.gallery-item4').style.backgroundImage = "url(" + eram.gallery_item4.url + ")";
+      document.querySelector('.gallery-item5').style.backgroundImage = "url(" + eram.gallery_item5.url + ")";
+      document.querySelector('.gallery-item6').style.backgroundImage = "url(" + eram.gallery_item6.url + ")";
+      
+      document.querySelector('#team_description').innerHTML = eram.team_description;
       
     });
 
