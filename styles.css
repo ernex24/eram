@@ -1524,9 +1524,10 @@ item6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   max-width: 350px;
   margin: 0 0 120px 0;
+  text-align: center;
 }
 
 .value-list_title {
