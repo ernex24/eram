@@ -11,6 +11,78 @@
 </head>
 
 <body>
+
+    <div class="modal-contact">
+        <div class="contactUs">
+            <div class="contact-form">
+                <form class="category-contact-form_container">
+                    <div class="sectionTitle">
+                        <p>Make an appointment</p>
+                    </div>
+                    <div class="form-element-group">
+                        <div class="form-element">
+                            <label>Please Choose:</label>
+                            <select name="cars">
+                                <option value="volvo">Option 1</option>
+                                <option value="saab">Option 2</option>
+                                <option value="fiat">Option 3</option>
+                            </select>
+                        </div>
+
+                        <div class="form-element">
+                            <label>Name:</label>
+                            <input type="text" name="name" placeholder="What is your name?" />
+                        </div>
+                    </div>
+
+                    <div class="form-element-group">
+                        <div class="form-element">
+                            <label>Email:</label>
+                            <input type="text" name="email" placeholder="What is your email" />
+                        </div>
+                        <div class="form-element">
+                            <label>Telephone number:</label>
+                            <input type="text" name="phone" placeholder="What is your your phone number" />
+                        </div>
+                    </div>
+
+                    <div class="form-element">
+                        <label>Message:</label>
+                        <textarea rows="4" cols="50" placeholder="Write here your message" name="message"></textarea>
+                    </div>
+                    <div class="form-element">
+                        <button>Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="address-container">
+                <div class="address-group-container">
+                    <div class="icon"><img src="assets/images/poi.svg"></div>
+                    <ul class="address-list">
+                        <li class="address-street">Bleichwerg 33</li>
+                        <li class="address-country">8002 Zurich Switzerland</li>
+                    </ul>
+                </div>
+                <div class="address-group-container">
+                    <div class="icon"><img src="assets/images/clock.svg"></div>
+                    <ul class="address-list">
+                        <li class="address-monToFry"><span>Monday to Friday:</span> 8:00 - 20:00</li>
+                        <li class="address-saturday"><span>Saturday:</span> 8:00 - 20:00</li>
+                    </ul>
+                </div>
+                <div class="address-group-container">
+                    <div class="icon">
+                        <img src="assets/images/old-typical-phone.svg"></div>
+                    <div class="address-telephone">+411112222222</div>
+                </div>
+                <div class="address-group-container">
+                    <img class="icon-instagram" src="assets/images/instagram.svg">
+                    <img class="icon-facebook" src="assets/images/facebook-button.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-web">
         <div class="menu_scroll ">
             <div class="menu_scroll_logo">Eram Health Dental CLinic</div>
@@ -31,7 +103,7 @@
                 </li>
                 <li>
                     <div class="pill-link-black">
-                        <a href="#">Book an apointment</a>
+                        <a class="show-modal" href="#">Book an apointment</a>
                     </div>
                 </li>
             </ul>
@@ -62,7 +134,7 @@
                         <a href=""><img src="assets/images/twitter-logo-button.svg" /></a>
                     </li>
                     <li>
-                        <div class="pill-link"><a href="#">Book an apointment</a></div>
+                        <div class="pill-link"><a class="show-modal" href="#">Book an apointment</a></div>
                     </li>
                     <li>
                         <a href=""><img src="assets/images/germany.svg" /></a>
@@ -562,7 +634,6 @@
             });
 
 
-            console.log("hola");
             var offsetAmount = 80;
             $(document).scroll(function () {
                 if ($(document).scrollTop() > offsetAmount) {
@@ -571,6 +642,23 @@
                     $(".menu_scroll").removeClass("none");
                 }
             });
+
+            $(".show-modal").click(function (e) {
+                e.preventDefault()
+                $(".modal-contact").css("display", "flex")
+            });
+
+            $(".modal-contact").click(function (e) {
+                e.preventDefault()
+                console.log(e.target)
+                if (e.target.className === "modal-contact") {
+                    $(".modal-contact").css("display", "none");
+                }
+            });
+
+
+
+
         });
     </script>
 </body>

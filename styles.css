@@ -110,6 +110,10 @@ hr {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
 /*UI-----------------------------*/
 
 .emergency {
@@ -1890,6 +1894,17 @@ item6 {
   text-align: center;
   font-family: lato;
   font-size: 12px;
+}
+
+.modal-contact {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 5;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1350px) {
