@@ -13,6 +13,7 @@
 <body>
 
     <div class="modal-contact">
+
         <div class="contactUs">
             <div class="contact-form">
                 <form class="category-contact-form_container">
@@ -56,6 +57,7 @@
                 </form>
             </div>
             <div class="address-container">
+                <img class="close" src="assets/images/close.svg">
                 <div class="address-group-container">
                     <div class="icon"><img src="assets/images/poi.svg"></div>
                     <ul class="address-list">
@@ -653,6 +655,8 @@
                 console.log(e.target)
                 if (e.target.className === "modal-contact") {
                     $(".modal-contact").css("display", "none");
+                } else if (e.target.className === "close") {
+                    $(".modal-contact").css("display", "none")
                 }
             });
 
