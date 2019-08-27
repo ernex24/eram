@@ -2073,9 +2073,77 @@ item6 {
           filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
 }
 
+/*Treatments*/
+
+.category-picture{
+  width: 100%;
+  height: 400px;
+  background-image: url(assets/images/keyvisual_eram_02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.category-title{
+  font-family: velinoBook;
+  font-size: 52px;
+  color: #ffffff;
+  position: absolute;
+  top: 240px;
+}
+
+.category-container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.treatment-container{
+  height: 350px;
+  width: 350px;
+  background: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  margin: 25px;
+}
+
+.treatment_title {
+  font-family: velinoBook;
+  font-size: 42px;
+  margin-bottom: 15px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.treatment_description {
+  text-align: center;
+  font-family: velinoLigth;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+
 @media (max-width: 1350px) {
   .container-web {
     display: none;
   }
   
 }
+
+
+
+
