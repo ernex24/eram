@@ -401,6 +401,13 @@ button {
   flex-direction: row;
 }
 
+.main-menu_rigth_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-menu_rigth li {
   margin: 0 5px;
 }
