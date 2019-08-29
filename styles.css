@@ -133,9 +133,16 @@ hr {
   width: -moz-max-content;
   width: max-content;
   border-radius: 20px;
+  font-weight: 500;
+  font-family: lato;
+  font-size: 18px;
   text-transform: uppercase;
-  font-weight: bold;
 }
+
+.main-menu_rigth > li > .pill-link a {
+  color: #d66e48;
+}
+
 
 .pill-link-black {
   background-color: #000000;
@@ -146,8 +153,12 @@ hr {
   width: -moz-max-content;
   width: max-content;
   border-radius: 20px;
-  text-transform: uppercase;
   font-weight: bold;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: lato;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .pill-link a {
@@ -375,6 +386,8 @@ button {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-menu_rigth {
@@ -511,8 +524,7 @@ button {
 }
 
 .menu_scroll>.main-menu_rigth li>a>img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+
 }
 
 /*$section Hero Main section */
