@@ -418,6 +418,16 @@ button {
   height: auto;
 }
 
+.container-main-menu_rigth{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.main-menu-rigth_adress{
+  margin: -8px 0;
+}
+
 /*Second Menu*/
 
 .second-menu_categories_logo {
@@ -589,15 +599,6 @@ button {
   text-align: center;
 }
 
-/* 
-.flexslider .slides img {
-  width: -moz-available;
-  width: -webkit-fill-available;
-  width: fill-available;
-  height: -moz-available;
-  height: -webkit-fill-available;
-  height: fill-available;
-} */
 
 .flex-control-nav {
   display: none;
@@ -734,9 +735,21 @@ button {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   opacity: 0.5;
+  z-index: -1;
+}
+
+.eram-finantial{
+  position: absolute;
+  bottom: 0px;
+}
+
+.eram-finantial img{
+  height: 300px;
+  cursor: pointer;
 }
 
 /*$section Banner advertising */
+
 
 .banner-ad1 {
   position: relative;
@@ -762,6 +775,38 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.ad-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.ad-section-title{
+  font-size: 38px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    font-family: lato;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.ad-list-wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  align-items: center;
 }
 
 .banner-ad1::before {
