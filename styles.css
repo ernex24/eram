@@ -935,21 +935,39 @@ button {
 .category-smileDesign {
   width: 100%;
   height: 100%;
-  background-image: url('/assets/images/t3.jpg');
+  background-image: url(/assets/images/t3.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   position: absolute;
+  transition: all 500ms;
 }
 
 .category-smileDesign:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: auto 110%;
+}
+
+.category-smileDesign:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .item2 {
