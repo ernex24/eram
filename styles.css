@@ -943,6 +943,7 @@ button {
   filter: grayscale(100%);
   position: absolute;
   transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-smileDesign:hover {
@@ -962,12 +963,13 @@ button {
   top: 0;
   background-color: rgba(0,0,0,0.4);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+  align-items: flex-start;
   font-family: lato;
   font-size: 52px;
   text-align: center;
   color: #ffffff;
+  padding: 20px 30px;
 }
 
 .item2 {
@@ -982,21 +984,41 @@ button {
 .category-implants {
   width: 100%;
   height: 100%;
-  background-image: url(assets/images/bg3.jpg);
-  background-position: right;
-  background-size: cover;
+  background-image: url(/assets/images/t5.jpg);
+  background-position: center;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  position: absolute;
+  transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-implants:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  filter: grayscale(0%);
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: 110% auto ;
+}
+
+.category-implants:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
 }
 
 .item3 {
@@ -1011,19 +1033,41 @@ button {
 .category-hygiene {
   width: 100%;
   height: 100%;
-  background-image: url(assets/images/bg2.jpg);
-  background-position: right;
-  background-size: 170%;
+  background-image: url(/assets/images/t6.jpg);
+  background-position: center;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  position: absolute;
+  transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-hygiene:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  filter: grayscale(0%);
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: 110% auto ;
+}
+
+.category-hygiene:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
 }
 
 item4 {
@@ -1038,19 +1082,41 @@ item4 {
 .category-kids {
   width: 100%;
   height: 100%;
-  background-image: url(assets/images/bg7.jpg);
+  background-image: url(/assets/images/t2.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  position: absolute;
+  transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-kids:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  filter: grayscale(0%);
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: 110% auto ;
+}
+
+.category-kids:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
 }
 
 item5 {
@@ -1065,19 +1131,41 @@ item5 {
 .category-orthodontics {
   width: 100%;
   height: 100%;
-  background-image: url(assets/images/bg6.jpg);
+  background-image: url(/assets/images/t1.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  position: absolute;
+  transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-orthodontics:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  filter: grayscale(0%);
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: 110% auto ;
+}
+
+.category-orthodontics:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
 }
 
 item6 {
@@ -1092,23 +1180,41 @@ item6 {
 .category-care {
   width: 100%;
   height: 100%;
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-image: url(assets/images/bg1.jpg);
-  background-position: right;
-  background-size: cover;
+  background-image: url(/assets/images/t7.jpg);
+  background-position: center;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+  position: absolute;
+  transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-care:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  filter: grayscale(0%);
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: 110% auto ;
+}
+
+.category-care:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
 }
 
 .item7 {
@@ -1123,21 +1229,41 @@ item6 {
 .category-aesthetics {
   width: 100%;
   height: 100%;
-  background-image: url(assets/images/bg4.jpg);
-  background-position: right;
-  background-size: cover;
+  background-image: url(/assets/images/t4.jpg);
+  background-position: center;
+  background-size: auto 100% ;
   background-repeat: no-repeat;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  position: absolute;
+  transition: all 500ms;
+  overflow: hidden;
 }
 
 .category-aesthetics:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-  -webkit-transition: all 500ms;
+  filter: grayscale(0%);
+  -webkit-transition: all 1s;
   transition: all 500ms;
+  background-size: auto 110% ;
+}
+
+.category-aesthetics:hover::before {
+  content: "+";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  font-family: lato;
+  font-size: 52px;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 30px;
 }
 
 .category-contact-form {
