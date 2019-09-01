@@ -1627,7 +1627,7 @@ item6 {
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 4;
-  background-position: center;
+  background-position: bottom;
   background-size: 100% auto ;
   background-repeat: no-repeat;
   transition: all 500ms;
@@ -1636,7 +1636,7 @@ item6 {
 }
 
 .gallery-item5:hover{
-  background-position: center;
+  background-position: bottom;
   background-size: 110% auto;
   background-repeat: no-repeat;
   transition: all 500ms;
@@ -1766,6 +1766,12 @@ item6 {
   color: #ffffff;
   font-size: 56px;
   transition: all 500ms;
+}
+
+.lightBox-gal{
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 /*$section About Us the Team*/
