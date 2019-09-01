@@ -36,6 +36,8 @@ window.onload = function() {
       document.querySelector('.gallery-item4').style.backgroundImage = "url(" + eram.gallery_item4.url + ")";
       document.querySelector('.gallery-item5').style.backgroundImage = "url(" + eram.gallery_item5.url + ")";
       document.querySelector('.gallery-item6').style.backgroundImage = "url(" + eram.gallery_item6.url + ")";
+      document.querySelector('.gallery-item7').style.backgroundImage = "url(" + eram.gallery_item7.url + ")";
+      document.querySelector('.gallery-item8').style.backgroundImage = "url(" + eram.gallery_item8.url + ")";
       
       document.querySelector('#team_description').innerHTML = eram.team_description;
       

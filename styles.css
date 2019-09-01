@@ -1401,7 +1401,6 @@ item6 {
   font-size: 72px;
   text-align: center;
   padding: 120px 0 120px 0;
-  background-color: #ffffff;
   color: #4c4c4c;
   line-height: 70px;
 }
@@ -1477,7 +1476,7 @@ item6 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
   background-position: center;
@@ -1486,6 +1485,18 @@ item6 {
 }
 
 .gallery-item2 {
+  width: 100%;
+  height: 100%;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item3 {
   width: 100%;
   height: 100%;
   grid-column-start: 5;
@@ -1497,7 +1508,7 @@ item6 {
   background-repeat: no-repeat;
 }
 
-.gallery-item3 {
+.gallery-item4 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -1509,7 +1520,7 @@ item6 {
   background-repeat: no-repeat;
 }
 
-.gallery-item4 {
+.gallery-item5 {
   width: 100%;
   height: 100%;
   grid-column-start: 5;
@@ -1521,7 +1532,7 @@ item6 {
   background-repeat: no-repeat;
 }
 
-.gallery-item5 {
+.gallery-item6 {
   width: 100%;
   height: 100%;
   grid-column-start: 1;
@@ -1533,10 +1544,22 @@ item6 {
   background-repeat: no-repeat;
 }
 
-.gallery-item6 {
+.gallery-item7 {
   width: 100%;
   height: 100%;
   grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 7;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-item8{
+  width: 100%;
+  height: 100%;
+  grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 5;
   grid-row-end: 7;
@@ -1582,7 +1605,7 @@ item6 {
   font-size: 42px;
   text-align: center;
   color: #000000;
-  margin: 0 0 120px 0;
+  margin: 0 0 60px 0;
 }
 
 .dentist-grid-galery {
@@ -1590,19 +1613,21 @@ item6 {
   max-width: 1280px;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 300px);
-  margin: 0 0 120px 0;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(2, 250px);
+  margin: 0 0 60px 0;
+  justify-content: center;
 }
 
 .dentist-grid-galery-2 {
   width: 80%;
-  max-width: 1280px;
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 300px);
-  margin: 0 0 120px 0;
+    max-width: 1280px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(1, 250px);
+    margin: 0 0 60px 0;
+    justify-content: center;
 }
 
 .dentist-grid-galery-3 {
@@ -1610,9 +1635,10 @@ item6 {
   max-width: 1280px;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 300px);
-  margin: 0 0 120px 0;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(1, 250px);
+  margin: 0 0 60px 0;
+  justify-content: center;
 }
 
 .team-item1 {
@@ -1745,7 +1771,7 @@ item6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffffff;
+  background-color: #dfd9d6;
 }
 
 .values-lists {
@@ -2105,7 +2131,7 @@ item6 {
 }
 
 .footer {
-  background-color: #524E44;
+  background-color: #5c5754;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2125,7 +2151,7 @@ item6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 120px 0 0 0;
+  margin: 60px 0 0 0;
   width: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -2174,15 +2200,16 @@ item6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 60px 0;
   color: #ffffff;
   font-family: lato;
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .footer-phone>img {
