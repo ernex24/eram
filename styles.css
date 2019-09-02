@@ -540,6 +540,41 @@ button {
   transform: scale(0.7);
 }
 
+.dropDown-menu{
+  top: 160px;
+  display: none;
+  background-color: rgb(92, 87, 84, 0.9);
+  padding: 30px 0 0 0;
+  position: absolute;
+  width: 100%;
+  color: #ffffff;
+  z-index: 100;
+}
+
+.dropDown-menu_wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.dropDown-menu_list{
+  font-family: lato;
+    line-height: 28px;
+    font-weight: 300;
+    border-right: 0.5px solid #464341;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+.dropDown-menu_list:last-child{
+  border-right: 0;
+}
+
+.dropDown-menu_list img {
+max-height: 50px;
+max-height: 50px;
+margin: 0 0 15px 0;
+}
+
 /*$ Pre loader */
 
 .pre-loader{
