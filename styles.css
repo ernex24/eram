@@ -321,17 +321,13 @@ button {
 .menu {
   position: absolute;
     width: 100%;
-    height: auto;
+    height: 160px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     margin-top: 0px;
     font-family: lato;
     color: #ffffff;
@@ -339,11 +335,24 @@ button {
     transition: all 1s;
     padding: 15px 0 5px 0px;
     flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.2) 80%, transparent 100%);
 }
 
-.menu:hover{
+.menu:hover {
   transition: all 1s;
-  background-color: #ffffff;
+  background-color: #ffffff; 
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(182, 154, 154, 0) 0%, transparent 0%);
+}
+
+.menu:hover *{
+  transition: all 1s;
+  color: #000000 !important;
+}
+
+.menu:hover .second-menu_categories_logo_pic{
+  background-image: url(assets/images/logo_black.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .main-menu {
@@ -444,9 +453,16 @@ button {
   margin-bottom: 15px;
 }
 
+.second-menu_categories_logo_pic{
+  height: 130px;
+  width: 150px;
+  background-image: url(assets/images/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .second-menu_categories {
   position: relative;
-  top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,6 +477,7 @@ button {
   font-family: lato;
   text-align: center;
   font-size: 18px;
+  top: -60px;
 }
 
 .second-menu_categories_items>li {
@@ -551,7 +568,7 @@ button {
 }
 
 .dropDown-menu{
-  top: 205px;
+  top: 175px;
   display: none;
   background-color: rgb(92, 87, 84, 0.9);
   padding: 30px 0 30px 0;
@@ -573,6 +590,7 @@ button {
     font-weight: 300;
     border-right: 0.5px solid #464341;
     padding-right: 40px;
+    padding-left: 10px;
     padding-bottom: 0px;
 }
 .dropDown-menu_list:last-child{
