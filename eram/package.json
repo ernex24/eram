@@ -2,6 +2,10 @@
   "name": "eram",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.11.3",
+    "node": "12.4.0"
+  },
   "dependencies": {
     "aos": "^2.3.4",
     "babel-loader": "^8.0.6",
