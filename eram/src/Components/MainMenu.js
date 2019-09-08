@@ -113,14 +113,14 @@ class MainMenu extends Component {
                                 </div>
                             </li>
                             <li>
-                                <div className="pill-link" >
+                                <div className="pill-link" onClick={this.openModalHandler}  >
                                     <a className="show-modal" >Book an apointment </a>
                                 </div>
                                 <span id="address">Bleicherweg 33, 8002 Zurich</span>
                             </li>
                         </ul>
                     </div>
-                    <div className="second-menu_categories" onClick={this.openModalHandler}>
+                    <div className="second-menu_categories">
                         <div className="second-menu_categories_logo">
                             <a href="#">
                                 <div className="second-menu_categories_logo_pic"></div>
