@@ -1,26 +1,60 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
 
-function App() {
+import './App.css';
+import MainMenu from './Components/MainMenu';
+import HeroCarousel from './Components/HeroCarousel';
+import BannerAd from './Components/BannerAd';
+import OurTreatments from './Components/OurTreatments';
+import AboutUs from './Components/AboutUs';
+import OurValues from './Components/OurValues';
+import TheClinic from './Components/TheClinic';
+import TheTeam from './Components/TheTeam';
+import Message from './Components/Message';
+import Testimonials from './Components/Testimonials';
+import ContactUs from './Components/ContactUs';
+import Footer from './Components/Footer';
+
+
+class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      movies: []
+    }
+  }
+
+  componentDidMount() {
+    let dataURL = "https://ernesto-perez.com/wp-json/wp/v2/posts/1562";
+    fetch(dataURL)
+      .then(res => res.json())
+      .then(res => {
+        this.setState({
+          movies: res.acf
+        })
+        console.log(res.acf)
+      })
+      
+  }
+
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-web ">
+    <MainMenu/>
+    <HeroCarousel/>
+    <BannerAd/>
+    <OurTreatments/>
+    <AboutUs/>
+    <OurValues/>
+    <TheClinic/>
+    <TheTeam/>
+    <Message/>
+    <Testimonials/>
+    <ContactUs/>
+    <Footer/>
     </div>
   );
+}
 }
 
 export default App;
