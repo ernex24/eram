@@ -122,6 +122,18 @@ hr {
   color: red;
   text-transform: uppercase;
   font-weight: 800;
+  cursor: pointer;
+}
+
+.emergency::before{
+  position: absolute;
+  content: " ";
+  width: 30px;
+  height: 30px;
+  background-image: url(assets/images/siren.svg);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  left: 30px;
 }
 
 .pill-link {
@@ -141,6 +153,11 @@ hr {
 
 .pill-link-phone{
   font-size: 20px;
+  text-align: right;
+}
+
+#phone > span{
+  font-weight: 800;
 }
 
 .main-menu_rigth::before {
@@ -427,7 +444,7 @@ button {
 }
 
 .main-menu_left_telephone li {
-  margin: 0 5px;
+  margin: 0 12px;
 }
 
 .main-menu_left_telephone_phones {
