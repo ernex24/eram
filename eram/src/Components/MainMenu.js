@@ -3,29 +3,27 @@ import { NavLink } from 'react-router-dom';
 
 class MainMenu extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state={ isHide: false };
-      }
+        this.state = { isHide: false };
+    }
 
-       hideBar = () => {
+    hideBar = () => {
         this.prev = window.scrollY;
-
-        if(this.prev >= 100 ){
-            this.setState({isHide: true })
-        } else if (this.prev <= 100 ) {
-            this.setState({isHide: false })
+        if (this.prev >= 100) {
+            this.setState({ isHide: true })
+        } else if (this.prev <= 100) {
+            this.setState({ isHide: false })
         }
-     }
+    }
 
-     componentDidMount(){
-         window.addEventListener('scroll',this.hideBar);
-     }
+    componentDidMount() {
+        window.addEventListener('scroll', this.hideBar);
+    }
 
-     componentWillUnmount(){
-          window.removeEventListener('scroll',this.hideBar);
-     }
-
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.hideBar);
+    }
 
     render() {
         let classHide = this.state.isHide ? "scroll_show" : "  ";
@@ -36,22 +34,22 @@ class MainMenu extends Component {
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
                     <ul className="menu_scroll_categories_items">
                         <li>
-                            <a href=" ">Home</a>
+                            <NavLink exact to="/">Home</NavLink>
                         </li>
                         <li>
-                            <a href=" ">Our treatments</a>
+                        <a href="#ourTreatments">Our treatments</a>
                         </li>
                         <li>
-                            <a href=" ">About us</a>
+                            <a href="#aboutUs">About us</a>
                         </li>
                         <li>
-                            <a href=" ">The Clinic</a>
+                            <a href="#theclinic">The Clinic</a>
                         </li>
                         <li>
-                            <a href=" ">Testimonials</a>
+                            <a href="#testimonials">Testimonials</a>
                         </li>
                         <li>
-                            <a href=" ">Contact Us</a>
+                            <a href="#contact">Contact Us</a>
                         </li>
                     </ul>
                     <div className="container-main-menu_rigth">
@@ -94,7 +92,7 @@ class MainMenu extends Component {
                             <li>
                                 <div className="pill-link-phone">
                                     <a href="#">
-                                        <span id="phone">Cal for a consultation <br/> +41 / 222 22 22</span>
+                                        <span id="phone">Cal for a consultation <br /> +41 / 222 22 22</span>
                                     </a>
                                 </div>
                             </li>
