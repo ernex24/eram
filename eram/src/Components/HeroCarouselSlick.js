@@ -58,7 +58,7 @@ class HeroCarousel extends Component {
                 </div>
            
 
-                <div class="eram-finantial">
+                <div className="eram-finantial">
                     <img src="assets/images/eram-finantial.png" />
                 </div>
             </React.Fragment>

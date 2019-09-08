@@ -3,12 +3,36 @@ import { NavLink } from 'react-router-dom';
 
 class MainMenu extends Component {
 
+    constructor(props){
+        super(props);
+        this.state={ isHide: false };
+      }
+
+       hideBar = () => {
+        this.prev = window.scrollY;
+
+        if(this.prev >= 100 ){
+            this.setState({isHide: true })
+        } else if (this.prev <= 100 ) {
+            this.setState({isHide: false })
+        }
+     }
+
+     componentDidMount(){
+         window.addEventListener('scroll',this.hideBar);
+     }
+
+     componentWillUnmount(){
+          window.removeEventListener('scroll',this.hideBar);
+     }
+
+
     render() {
+        let classHide = this.state.isHide ? "scroll_show" : "  ";
         return (
             <React.Fragment>
 
-                <div className="menu_scroll ">
-
+                <div className={"menu_scroll" + classHide}>
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
                     <ul className="menu_scroll_categories_items">
                         <li>

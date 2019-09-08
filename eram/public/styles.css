@@ -116,6 +116,8 @@ hr {
   display: flex;
 }
 
+
+
 /*UI-----------------------------*/
 
 .emergency {
@@ -596,6 +598,35 @@ button {
 
 .menu_scroll {
   top: -100px;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: lato;
+  -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.menu_scrollscroll_show {
+  top: 0;
   position: fixed;
   height: 60px;
   width: 100%;
