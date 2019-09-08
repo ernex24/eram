@@ -2659,7 +2659,7 @@ item6 {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  width: 50%;
+  width: 65%;
 }
 
 .address-group-container {
@@ -2932,12 +2932,16 @@ item6 {
   font-size: 12px;
 }
 
+
+
+
+
 .modal-contact {
   height: 100vh;
   width: 100vw;
   position: fixed;
   z-index: 15;
-  display: none;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

@@ -1,11 +1,25 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
+import ModalContactUs from './ModalContactUs'
+
 class MainMenu extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { isHide: false };
+        this.state = { isHide: false, isShowing: false };
+    }
+
+    openModalHandler = () => {
+        this.setState({
+            isShowing: true
+        });
+    }
+
+    closeModalHandler = () => {
+        this.setState({
+            isShowing: false
+        });
     }
 
     hideBar = () => {
@@ -28,8 +42,12 @@ class MainMenu extends Component {
     render() {
         let classHide = this.state.isHide ? "scroll_show" : "  ";
         return (
-            <React.Fragment>
 
+            <React.Fragment>
+                <ModalContactUs
+                    show={this.state.isShowing}
+                    close={this.closeModalHandler}>
+                </ModalContactUs>
                 <div className={"menu_scroll" + classHide}>
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
                     <ul className="menu_scroll_categories_items">
@@ -37,7 +55,7 @@ class MainMenu extends Component {
                             <NavLink exact to="/">Home</NavLink>
                         </li>
                         <li>
-                        <a href="#ourTreatments">Our treatments</a>
+                            <a href="#ourTreatments">Our treatments</a>
                         </li>
                         <li>
                             <a href="#aboutUs">About us</a>
@@ -75,7 +93,6 @@ class MainMenu extends Component {
                         <div className="main-menu-rigth_adress"> Call us +41 / 222 21 11 Bleicherweg 33, 8002 Zurich</div>
                     </div>
                 </div>
-
                 <div className="menu">
                     <div className="main-menu">
                         <div className="main-menu_left">
@@ -87,7 +104,6 @@ class MainMenu extends Component {
                                 <li className="main-menu_left_emergency emergency">Emergency</li>
                             </ul>
                         </div>
-
                         <ul className=" main-menu_rigth">
                             <li>
                                 <div className="pill-link-phone">
@@ -97,14 +113,14 @@ class MainMenu extends Component {
                                 </div>
                             </li>
                             <li>
-                                <div className="pill-link">
-                                    <a className="show-modal" href="#">Book an apointment </a>
+                                <div className="pill-link" >
+                                    <a className="show-modal" >Book an apointment </a>
                                 </div>
                                 <span id="address">Bleicherweg 33, 8002 Zurich</span>
                             </li>
                         </ul>
                     </div>
-                    <div className="second-menu_categories">
+                    <div className="second-menu_categories" onClick={this.openModalHandler}>
                         <div className="second-menu_categories_logo">
                             <a href="#">
                                 <div className="second-menu_categories_logo_pic"></div>
