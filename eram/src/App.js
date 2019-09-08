@@ -1,18 +1,12 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import Home from './Components/Home';
 import MainMenu from './Components/MainMenu';
-import HeroCarousel from './Components/HeroCarousel';
-import BannerAd from './Components/BannerAd';
-import OurTreatments from './Components/OurTreatments';
-import AboutUs from './Components/AboutUs';
-import OurValues from './Components/OurValues';
-import TheClinic from './Components/TheClinic';
-import TheTeam from './Components/TheTeam';
-import Message from './Components/Message';
-import Testimonials from './Components/Testimonials';
-import ContactUs from './Components/ContactUs';
-import Footer from './Components/Footer';
+import SectionOurTreatments from './Components/SectionOurTreatments';
+
+import { Link, Route, Switch } from 'react-router-dom';
+
 
 
 class App extends Component {
@@ -40,18 +34,9 @@ class App extends Component {
   render() {
   return (
     <div className="container-web ">
-    <MainMenu/>
-    <HeroCarousel/>
-    <BannerAd/>
-    <OurTreatments/>
-    <AboutUs/>
-    <OurValues/>
-    <TheClinic/>
-    <TheTeam/>
-    <Message/>
-    <Testimonials/>
-    <ContactUs/>
-    <Footer/>
+  <MainMenu/>
+  <Route exact path="/" component={Home} />
+  <Route exact path="/ourtreatments" component={SectionOurTreatments} />
     </div>
   );
 }

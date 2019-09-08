@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class MainMenu extends Component {
 
@@ -89,10 +90,10 @@ class MainMenu extends Component {
                         </div>
                         <ul className="second-menu_categories_items">
                             <li>
-                                <a href="#">Home</a>
+                            <NavLink exact to="/">Home</NavLink>
                             </li>
                             <li id="dropDown">
-                                <a href="#ourTreatments">Our treatments</a>
+                            <NavLink exact to="/ourtreatments">Our treatments</NavLink>
                                 <div id="drop-panel" className="dropDown-menu">
                                     <div className="dropDown-menu_wrapper">
                                         <ul className="dropDown-menu_list">
@@ -243,5 +244,11 @@ class MainMenu extends Component {
         );
     }
 }
+
+
+
+
+
+
 
 export default MainMenu;
