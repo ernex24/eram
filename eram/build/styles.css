@@ -116,6 +116,8 @@ hr {
   display: flex;
 }
 
+
+
 /*UI-----------------------------*/
 
 .emergency {
@@ -148,7 +150,13 @@ hr {
   font-weight: 500;
   font-family: lato;
   font-size: 18px;
-  /* text-transform: uppercase; */
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.pill-link:hover {
+  background-color: #f8652f;
+  transition: all 500ms;
 }
 
 .pill-link-phone{
@@ -168,6 +176,7 @@ hr {
   background-repeat: no-repeat;
   height: 30px;
   margin: -2px 0px 0 0;
+
 }
 
 .menu:hover .main-menu_rigth::before {
@@ -421,6 +430,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          z-index: 9999999;
 }
 
 .main-menu_left {
@@ -546,7 +556,7 @@ button {
   font-family: lato;
   text-align: center;
   font-size: 20px;
-  margin: -45px 0 0 0;
+  margin: -70px 0 0 0;
 }
 
 
@@ -596,6 +606,35 @@ button {
 
 .menu_scroll {
   top: -100px;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: lato;
+  -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.menu_scrollscroll_show {
+  top: 0;
   position: fixed;
   height: 60px;
   width: 100%;
@@ -841,6 +880,10 @@ pointer-events: none;
   height: 100%;
 }
 
+.clinic-message_video{
+  width: 100%;
+}
+
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 300%;
@@ -915,8 +958,8 @@ pointer-events: none;
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   100% {
@@ -932,8 +975,8 @@ pointer-events: none;
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   100% {
@@ -1203,12 +1246,12 @@ pointer-events: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -1260,12 +1303,12 @@ pointer-events: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -1317,12 +1360,12 @@ pointer-events: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+-webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -1374,12 +1417,12 @@ item4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -1431,12 +1474,12 @@ item5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+-webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -1488,12 +1531,12 @@ item6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -1545,12 +1588,12 @@ item6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+-webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
   font-family: lato;
   font-size: 52px;
   text-align: center;
@@ -2624,7 +2667,7 @@ item6 {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  width: 50%;
+  width: 65%;
 }
 
 .address-group-container {
@@ -2897,12 +2940,16 @@ item6 {
   font-size: 12px;
 }
 
+
+
+
+
 .modal-contact {
   height: 100vh;
   width: 100vw;
   position: fixed;
   z-index: 15;
-  display: none;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
