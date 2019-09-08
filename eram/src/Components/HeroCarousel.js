@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
 
-
 class HeroCarousel extends Component {
-
     render() {
         return (
             <React.Fragment>
@@ -13,7 +11,7 @@ class HeroCarousel extends Component {
                         <ul className="slides">
                             <li>
                                 <div className="fullscreen-bg">
-                                    <video id="mainVideo" loop muted autoplay className="fullscreen-bg__video" type="video/mp4">
+                                    <video id="mainVideo" loop muted autoPlay className="fullscreen-bg__video" type="video/mp4">
                                     </video>
                                 </div>
                             </li>

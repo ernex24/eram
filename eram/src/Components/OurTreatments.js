@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class OurTreatments extends Component {
 
@@ -14,9 +15,9 @@ class OurTreatments extends Component {
                             <div className="category-logo">
                                 <img src="assets/images/eramSimileDesign.svg" />
                             </div>
-                            <a href="smile_design.html">
+                            <NavLink exact to="/ourtreatments">
                                 <div className="category-smileDesign"></div>
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="item item2" data-aos="fade-up" data-aos-duration="1000">
                             <div className="category-logo">

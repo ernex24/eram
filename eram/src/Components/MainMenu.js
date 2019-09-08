@@ -93,14 +93,14 @@ class MainMenu extends Component {
                             <NavLink exact to="/">Home</NavLink>
                             </li>
                             <li id="dropDown">
-                            <NavLink exact to="/ourtreatments">Our treatments</NavLink>
+                                <a href="#ourTreatments">Our treatments</a>
                                 <div id="drop-panel" className="dropDown-menu">
                                     <div className="dropDown-menu_wrapper">
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/ourtreatments">
                                                     <img src="assets/images/eramSimileDesign.svg" />
-                                                </a>
+                                            </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Teeth Whitening</a>
