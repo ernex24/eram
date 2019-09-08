@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
-import HeroCarousel from './HeroCarousel';
+import HeroCarousel from './HeroCarouselSlick';
 import BannerAd from './BannerAd';
 import OurTreatments from './OurTreatments';
 import AboutUs from './AboutUs';

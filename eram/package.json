@@ -5,6 +5,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "babel-loader": "^8.0.6",
+    "flexslider": "^2.7.2",
     "jquery": "^3.4.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

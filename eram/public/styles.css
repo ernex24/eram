@@ -546,7 +546,7 @@ button {
   font-family: lato;
   text-align: center;
   font-size: 20px;
-  margin: -40px 0 0 0;
+  margin: -70px 0 0 0;
 }
 
 
@@ -915,8 +915,8 @@ pointer-events: none;
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   100% {
@@ -932,8 +932,8 @@ pointer-events: none;
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   100% {

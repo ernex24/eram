@@ -4,6 +4,13 @@ import Slider from "react-slick";
 
 class HeroCarousel extends Component {
 
+    constructor(props, context) {
+        super(props, context);
+        this.state = {
+          movies: []
+        }
+      }
+
     render() {
         var settings = {
             dots: false,
@@ -20,6 +27,9 @@ class HeroCarousel extends Component {
         };
         return (
             <React.Fragment>
+                <div id="maintitle" className="main_title" data-aos="fade-up" data-aos-duration="3000"><p>We create the perfect smile</p></div>
+
+                <div id="#home" className="hero-background">
                 <Slider {...settings}>
                     <div>
                         <div>
@@ -44,6 +54,9 @@ class HeroCarousel extends Component {
                         </div>
                     </div>
                 </Slider>
+
+                </div>
+           
 
                 <div class="eram-finantial">
                     <img src="assets/images/eram-finantial.png" />

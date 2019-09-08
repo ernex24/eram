@@ -6,7 +6,7 @@ class MainMenu extends Component {
     render() {
         return (
             <React.Fragment>
-                
+
                 <div className="menu_scroll ">
 
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
@@ -70,15 +70,15 @@ class MainMenu extends Component {
                             <li>
                                 <div className="pill-link-phone">
                                     <a href="#">
-                                        <span id="phone">+41 / 222 22 22</span>
+                                        <span id="phone">Cal for a consultation <br/> +41 / 222 22 22</span>
                                     </a>
                                 </div>
                             </li>
                             <li>
                                 <div className="pill-link">
-                                    <a className="show-modal" href="#">Book an apointment</a>
+                                    <a className="show-modal" href="#">Book an apointment </a>
                                 </div>
-                                <span id="address"></span>
+                                <span id="address">Bleicherweg 33, 8002 Zurich</span>
                             </li>
                         </ul>
                     </div>
@@ -90,7 +90,7 @@ class MainMenu extends Component {
                         </div>
                         <ul className="second-menu_categories_items">
                             <li>
-                            <NavLink exact to="/">Home</NavLink>
+                                <NavLink exact to="/">Home</NavLink>
                             </li>
                             <li id="dropDown">
                                 <a href="#ourTreatments">Our treatments</a>
@@ -98,9 +98,9 @@ class MainMenu extends Component {
                                     <div className="dropDown-menu_wrapper">
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                            <NavLink exact to="/ourtreatments">
+                                                <NavLink exact to="/ourtreatments">
                                                     <img src="assets/images/eramSimileDesign.svg" />
-                                            </NavLink>
+                                                </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Teeth Whitening</a>

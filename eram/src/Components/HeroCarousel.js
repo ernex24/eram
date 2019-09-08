@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import Slider from "react-slick";
 
 class HeroCarousel extends Component {
+
+    componentDidMount() {
+    
+      }
+
     render() {
         return (
             <React.Fragment>

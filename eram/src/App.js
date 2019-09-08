@@ -35,7 +35,6 @@ class App extends Component {
         })
         console.log(res.acf)
       })
-      
   }
 
   render() {
