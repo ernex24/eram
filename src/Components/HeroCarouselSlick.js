@@ -11,6 +11,11 @@ class HeroCarousel extends Component {
         }
       }
 
+      componentDidMount(){
+          document.querySelector('#videoSource').src = "assets/images/video.mp4";
+          console.log('cargo');
+      }
+
     render() {
         var settings = {
             dots: false,
@@ -37,7 +42,7 @@ class HeroCarousel extends Component {
                                 loop
                                 type="video/mp4"
                                 className="fullscreen-bg__video">
-                                <source src="https://ernesto-perez.com/wp-content/uploads/2019/08/video.mp4" type="video/mp4"/>
+                                <source id="videoSource" src="assets/images/video.mp4" type="video/mp4"/>
                             </video>
                         </div>
                     </div>
