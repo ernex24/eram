@@ -11,14 +11,11 @@ class HeroCarousel extends Component {
         }
       }
 
-      componentDidMount(){
-          
-          
-        const playPromise = this.refs.vidRef.play();;
+      componentDidMount(){ 
+        const playPromise = this.refs.vidRef.play();
         if (playPromise !== null){
             playPromise.catch(() => { this.refs.vidRef.play(); })
         }
-console.log('cargo');
       }
 
     render() {
@@ -43,12 +40,11 @@ console.log('cargo');
                         <div>
                             <video
                                 id="mainVideo"
-                                ref="vidRef"
                                 autoPlay
                                 loop
                                 type="video/mp4"
                                 className="fullscreen-bg__video">
-                                <source id="videoSource" src="assets/images/video.mp4" type="video/mp4"/>
+                                <source id="videoSource" ref="vidRef" src="assets/images/video.mp4" type="video/mp4"/>
                             </video>
                         </div>
                     </div>
