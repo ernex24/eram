@@ -33,11 +33,11 @@ class HeroCarousel extends Component {
                         <div>
                             <video
                                 id="mainVideo"
-                                src="https://ernesto-perez.com/wp-content/uploads/2019/08/video.mp4"
                                 autoPlay
                                 loop
                                 type="video/mp4"
                                 className="fullscreen-bg__video">
+                                <source src="https://ernesto-perez.com/wp-content/uploads/2019/08/video.mp4" type="video/mp4"/>
                             </video>
                         </div>
                     </div>
