@@ -12,9 +12,13 @@ class HeroCarousel extends Component {
       }
 
       componentDidMount(){
-          document.querySelector('#videoSource').src = "assets/images/video.mp4";
-          console.log('cargo');
-          this.refs.vidRef.play();
+          
+          
+        const playPromise = this.refs.vidRef.play();;
+        if (playPromise !== null){
+            playPromise.catch(() => { this.refs.vidRef.play(); })
+        }
+console.log('cargo');
       }
 
     render() {
