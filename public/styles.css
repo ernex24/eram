@@ -821,6 +821,11 @@ pointer-events: none;
   overflow: hidden;
 }
 
+.slick-slide img{
+  display: block;
+  width: 100%;
+}
+
 
 .flexslider {
   height: auto;
@@ -934,7 +939,7 @@ pointer-events: none;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
-  background-image: url('assets/images/eram_02.jpg');
+
 }
 
 .flexslider-hero-picture3 {
@@ -949,6 +954,22 @@ pointer-events: none;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
+ 
+}
+
+.flexslider-hero-picture3 {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-animation: zoomout 20s ease-in infinite;
+  animation: zoomout 20s ease-in infinite;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+
 }
 
 @-webkit-keyframes zoomout {

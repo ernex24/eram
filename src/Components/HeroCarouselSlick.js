@@ -45,12 +45,17 @@ class HeroCarousel extends Component {
                     </div>
                     <div>
                         <div id="picture2" className="flexslider-hero-picture2">
-                            <img src="assets/images/eram_02.jpg" />
+                            <img src="assets/images/image1.jpeg" />
                         </div>
                     </div>
                     <div>
                         <div id="picture2" className="flexslider-hero-picture2">
-                            <img src="assets/images/eram_04.jpg" />
+                            <img src="assets/images/image2.jpeg" />
+                        </div>
+                    </div>
+                    <div>
+                        <div id="picture2" className="flexslider-hero-picture3">
+                            <img src="assets/images/image3.jpeg" />
                         </div>
                     </div>
                 </Slider>

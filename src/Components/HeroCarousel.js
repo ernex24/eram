@@ -26,7 +26,7 @@ class HeroCarousel extends Component {
                                 <div id="picture2" className="flexslider-hero-picture2"></div>
                             </li>
                             <li>
-                                <div id="picture2" className="flexslider-hero-picture3"></div>
+                                <div id="picture3" className="flexslider-hero-picture3"></div>
                             </li>
                         </ul>
                     </div>
