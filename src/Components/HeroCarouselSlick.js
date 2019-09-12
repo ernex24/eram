@@ -14,6 +14,7 @@ class HeroCarousel extends Component {
       componentDidMount(){
           document.querySelector('#videoSource').src = "assets/images/video.mp4";
           console.log('cargo');
+          this.refs.vidRef.play();
       }
 
     render() {
@@ -38,6 +39,7 @@ class HeroCarousel extends Component {
                         <div>
                             <video
                                 id="mainVideo"
+                                ref="vidRef"
                                 autoPlay
                                 loop
                                 type="video/mp4"
