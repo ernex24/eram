@@ -40,11 +40,12 @@ class HeroCarousel extends Component {
                         <div>
                             <video
                                 id="mainVideo"
+                                ref="vidRef"
                                 autoPlay
                                 loop
                                 type="video/mp4"
                                 className="fullscreen-bg__video">
-                                <source id="videoSource" ref="vidRef" src="assets/images/video.mp4" type="video/mp4"/>
+                                <source id="videoSource" src="assets/images/video.mp4" type="video/mp4"/>
                             </video>
                         </div>
                     </div>
