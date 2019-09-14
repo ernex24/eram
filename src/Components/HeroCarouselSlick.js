@@ -4,21 +4,10 @@ import Slider from "react-slick";
 
 class HeroCarousel extends Component {
 
-    constructor(props, context) {
-        super(props, context);
-        this.state = {
-          movies: []
-        }
-      }
-
-      componentDidMount(){ 
-        const playPromise = this.refs.vidRef.play();
-        if (playPromise !== null){
-            playPromise.catch(() => { this.refs.vidRef.play(); })
-        }
-      }
-
     render() {
+        const home = this.props.data.home;
+        const slider = home ? home.main_slider : ''
+        console.log(home)
         var settings = {
             dots: false,
             infinite: true,
@@ -32,8 +21,7 @@ class HeroCarousel extends Component {
         };
         return (
             <React.Fragment>
-                <div id="maintitle" className="main_title" data-aos="fade-up" data-aos-duration="3000"><p>We create the perfect smile</p></div>
-
+                <div id="maintitle" className="main_title" data-aos="fade-up" data-aos-duration="3000"><p>{home ? home.maintitle : ''}</p></div>
                 <div id="#home" className="hero-background">
                 <Slider {...settings}>
                     <div>
@@ -45,23 +33,23 @@ class HeroCarousel extends Component {
                                 loop
                                 type="video/mp4"
                                 className="fullscreen-bg__video">
-                                <source id="videoSource" src="assets/images/video.mp4" type="video/mp4"/>
+                                <source id="videoSource" src={ slider ? slider.mainVideo.url : ''} type="video/mp4"/>
                             </video>
                         </div>
                     </div>
                     <div>
                         <div id="picture2" className="flexslider-hero-picture2">
-                            <img src="assets/images/image1.jpeg" />
+                            <img src={ slider? slider.picture1.url : ''}/>
                         </div>
                     </div>
                     <div>
                         <div id="picture2" className="flexslider-hero-picture2">
-                            <img src="assets/images/image2.jpeg" />
+                            <img src={ slider ? slider.picture2.url  : ''}/>
                         </div>
                     </div>
                     <div>
                         <div id="picture2" className="flexslider-hero-picture3">
-                            <img src="assets/images/image3.jpeg" />
+                            <img src={ slider ? slider.picture3.url  : ''}/>
                         </div>
                     </div>
                 </Slider>

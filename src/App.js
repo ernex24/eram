@@ -16,26 +16,12 @@ class App extends Component {
     AOS.init({
       duration : 2000
     })
-    this.state = {
-      movies: []
-    }
   }
 
   componentWillReceiveProps (){ 
     AOS.refresh(); 
   } 
 
-  componentDidMount() {
-    let dataURL = "https://ernesto-perez.com/wp-json/wp/v2/posts/1562";
-    fetch(dataURL)
-      .then(res => res.json())
-      .then(res => {
-        this.setState({
-          movies: res.acf
-        })
-        console.log(res.acf)
-      })
-  }
 
   render() {
   return (
