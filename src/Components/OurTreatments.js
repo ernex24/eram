@@ -8,12 +8,19 @@ class OurTreatments extends Component {
 
     render() {
         const treatments = this.props.data.our_treatments;
-        const smileDesign = treatments ? treatments.smile_design.treatments : '';
+        const link1 = treatments ? treatments.smile_design.treatments.treatment_1.link : '';
+        const link2 = treatments ? treatments.smile_design.treatments.treatment_2.link : '';
+        const link3 = treatments ? treatments.smile_design.treatments.treatment_3.link : '';
+        const link4 = treatments ? treatments.smile_design.treatments.treatment_4.link : '';
+        const link5 = treatments ? treatments.smile_design.treatments.treatment_5.link : '';
+        const link6 = treatments ? treatments.smile_design.treatments.treatment_6.link : '';
         
-        Object.values(smileDesign).map(function(key, index) {
-            console.log(key)
-          });
-        console.log(smileDesign)
+    
+
+        // Object.values(smileDesign).map(function(key, index) {
+        //     console.log(key)
+        //   });
+        
         return (
             <div id="ourTreatments" className="OurTreatments">
                 <div className="container_menu-grid">
