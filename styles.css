@@ -3035,6 +3035,10 @@ background-color: rgba(0,0,0,0.3);
   -webkit-transition: all 500ms;
   transition: all 500ms;
   width: 90%;
+  overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
 }
 
 

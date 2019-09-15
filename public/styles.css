@@ -3022,6 +3022,15 @@ item6 {
           align-items: center;
 }
 
+.category-picture::before{
+  content: " ";
+position: absolute;
+top: 0;
+width: 100%;
+height: inherit;
+background-color: rgba(0,0,0,0.4);
+}
+
 .category-title{
   font-family: velinoBook;
   font-size: 52px;
@@ -3046,9 +3055,9 @@ item6 {
 .treatment-container{
   height: 350px;
   width: 350px;
-  background-image: url(assets/images/bg6.jpg);
+ 
   background-position: center;
-  background-size: 100%;
+  background-size: 160%;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3079,7 +3088,7 @@ item6 {
 .treatment-container:hover{
   -webkit-filter: drop-shadow(0 0 20px rgba(0,0,0,0.5));
           filter: drop-shadow(0 0 20px rgba(0,0,0,0.5));
-  background-size: 110%;
+  background-size: 150%;
   -webkit-transition: all 500ms;
   transition: all 500ms;
   text-shadow: 0 0 20px #000000;
@@ -3124,6 +3133,10 @@ background-color: rgba(0,0,0,0.3);
   -webkit-transition: all 500ms;
   transition: all 500ms;
   width: 90%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 

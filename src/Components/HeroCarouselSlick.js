@@ -5,7 +5,7 @@ import Slider from "react-slick";
 class HeroCarousel extends Component {
 
     render() {
-        const home = this.props.data.home;
+        const home = this.props.data ? this.props.data : '';
         const slider = home ? home.main_slider : ''
         console.log(home)
         var settings = {

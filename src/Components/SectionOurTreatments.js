@@ -5,45 +5,27 @@ import ContactUs from './ContactUs';
 import OurValues from './OurValues';
 
 class SectionOurTreatments extends Component {
-    state = {}
+  
     render() {
+        let title = this.props.title ? this.props.title : '' ;
+        let treatments = this.props.treatments ? this.props.treatments : '';
+        let image  = this.props.images.image_1 ? this.props.images.image_1 : '';
         return (
 <React.Fragment>
-            <div className="category-picture">
-                <div className="category-title">Eram smile design</div>
+
+            <div className="category-picture" style={{backgroundImage:`url(${image})`}} >
+                <div className="category-title">{title}</div>
             </div>
 
             <div className="category-container">
 
-                <div className="treatment-container">
-                    <div className="treatment_title">Teeth Whitening</div>
-                    <div className="treatment_description">Lorem ipsum sit dolor amet Lorem ipsum sit dolor amet ipsum sit dolor amet ipsum sit dolor amet</div>
-                </div>
-
-                <div className="treatment-container">
-                    <div className="treatment_title">Invisaling</div>
-                    <div className="treatment_description">Lorem ipsum sit dolor amet Lorem ipsum sit dolor amet ipsum sit dolor amet ipsum sit dolor amet</div>
-                </div>
-
-                <div className="treatment-container">
-                    <div className="treatment_title">Orthodontic Treatment</div>
-                    <div className="treatment_description">Lorem ipsum sit dolor amet Lorem ipsum sit dolor amet ipsum sit dolor amet ipsum sit dolor amet</div>
-                </div>
-
-                <div className="treatment-container">
-                    <div className="treatment_title">Smile Makeover</div>
-                    <div className="treatment_description">Lorem ipsum sit dolor amet Lorem ipsum sit dolor amet ipsum sit dolor amet ipsum sit dolor amet</div>
-                </div>
-
-                <div className="treatment-container">
-                    <div className="treatment_title">Veneers</div>
-                    <div className="treatment_description">Lorem ipsum sit dolor amet Lorem ipsum sit dolor amet ipsum sit dolor amet ipsum sit dolor amet</div>
-                </div>
-
-                <div className="treatment-container">
-                    <div className="treatment_title">White Fillings</div>
-                    <div className="treatment_description">Lorem ipsum sit dolor amet Lorem ipsum sit dolor amet ipsum sit dolor amet ipsum sit dolor amet</div>
-                </div>
+                {  Object.values(treatments).map((key, index) => {
+                 return <div key={index} className="treatment-container" style={{backgroundImage: `url(${key.image_1})`
+                 }}>
+                 <div className="treatment_title">{key.title}</div>
+                 <div className="treatment_description">{key.description}</div></div>
+                })
+                }
 
             </div>
             <OurValues/>

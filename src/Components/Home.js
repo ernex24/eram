@@ -13,40 +13,39 @@ import Testimonials from './Testimonials';
 import ContactUs from './ContactUs';
 import Footer from './Footer';
 
-
 class Home extends Component {
 
-    constructor(props, context) {
-        super(props, context);
-        this.state = {
-          data: {},
-          isLoading: true,
-          errors: null
-      };
-      }
+    // constructor(props, context) {
+    //     super(props, context);
+    //     this.state = {
+    //       data: {},
+    //       isLoading: true,
+    //       errors: null
+    //   };
+    //   }
 
-      componentDidMount() {
-        this.fetchUsers();
-      };
+      // componentDidMount() {
+      //   this.fetchUsers();
+      // };
     
-      fetchUsers(){
-        let dataURL = "https://ernesto-perez.com/wp-json/wp/v2/posts/1562";
-        fetch(dataURL)
-          // We get the API response and receive data in JSON format...
-          .then(response => response.json())
-          // ...then we update the users state
-          .then(data =>
-            this.setState({
-              data: data.acf,
-              isLoading: false,
-            })
-          )
-          // Catch any errors we hit and update the app
-          .catch(error => this.setState({ error, isLoading: false }));   
-      }
+      // fetchUsers(){
+      //   let dataURL = "https://ernesto-perez.com/wp-json/wp/v2/posts/1562";
+      //   fetch(dataURL)
+      //     // We get the API response and receive data in JSON format...
+      //     .then(response => response.json())
+      //     // ...then we update the users state
+      //     .then(data =>
+      //       this.setState({
+      //         data: data.acf,
+      //         isLoading: false,
+      //       })
+      //     )
+      //     // Catch any errors we hit and update the app
+      //     .catch(error => this.setState({ error, isLoading: false }));   
+      // }
 
     render() { 
-        const home = this.state.data
+        const home = this.props.data
         console.log(home)
         return (
             <React.Fragment>

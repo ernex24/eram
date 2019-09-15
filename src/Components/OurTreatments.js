@@ -1,40 +1,29 @@
 import React, { Component } from 'react';
 import { NavLink, Link, BrowserRouter as Router, Route  } from 'react-router-dom';
 import ReactDOM from "react-dom";
+import SectionOurtreatments from './SectionOurTreatments';
 
 class OurTreatments extends Component {
 
-
-
     render() {
-        const treatments = this.props.data.our_treatments;
-        const link1 = treatments ? treatments.smile_design.treatments.treatment_1.link : '';
-        const link2 = treatments ? treatments.smile_design.treatments.treatment_2.link : '';
-        const link3 = treatments ? treatments.smile_design.treatments.treatment_3.link : '';
-        const link4 = treatments ? treatments.smile_design.treatments.treatment_4.link : '';
-        const link5 = treatments ? treatments.smile_design.treatments.treatment_5.link : '';
-        const link6 = treatments ? treatments.smile_design.treatments.treatment_6.link : '';
-        
-    
 
-        // Object.values(smileDesign).map(function(key, index) {
-        //     console.log(key)
-        //   });
-        
+    
         return (
             <div id="ourTreatments" className="OurTreatments">
                 <div className="container_menu-grid">
-                    <div className="section-title" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="section-title" data-aos="fade-up"data-aos-duration="1000">
                         <p>Our<br /><span>Treatments</span></p>
                     </div>
                     <div className="menu-grid">
+
                         <div className="item item1" data-aos="fade-right" data-aos-duration="1000">
 
                             <div className="category-logo">
                                 <img src="assets/images/eramSimileDesign.svg" />
                             </div>
+                            
 
-                            <NavLink exact to="/ourtreatments">
+                            <NavLink to={`/treatment/smile_design`}>
                                 <div className="category-smileDesign"></div>
                             </NavLink>
 
@@ -45,9 +34,9 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramImplants.svg" />
                             </div>
 
-                            <NavLink exact to="/ourtreatments">
+                            <Link to={`/treatment/implants`}>
                             <div className="category-implants"></div>
-                            </NavLink>
+                            </Link>
                         </div>
                         <div className="item item3" data-aos="fade-left" data-aos-duration="1000">
 
@@ -55,9 +44,9 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramHygiene.svg" />
                             </div>
 
-                            <NavLink exact to="/ourtreatments">
+                            <Link to={`/treatment/hygiene`}>
                             <div className="category-hygiene"></div>
-                            </NavLink>
+                            </Link>
 
                         </div>
                         <div className="item item4" data-aos="fade-up" data-aos-duration="1500">
@@ -65,9 +54,9 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramKids.svg" />
                             </div>
 
-                            <NavLink exact to="/ourtreatments">
+                            <Link to={`/treatment/kids`}>
                             <div className="category-kids"></div>
-                            </NavLink>
+                            </Link>
 
                         </div>
                         <div className="item item5" data-aos="fade-left" data-aos-duration="1000">
@@ -75,9 +64,9 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramOrthodontics.svg" />
                             </div>
 
-                            <NavLink exact to="/ourtreatments">
+                            <Link to={`/treatment/orthodontics`}>
                             <div className="category-orthodontics"></div>
-                            </NavLink>
+                            </Link>
 
                         </div>
                         <div className="item item6" data-aos="fade-left" data-aos-duration="1500">
@@ -85,9 +74,9 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramSimileDesign.svg" />
                             </div>
 
-                            <NavLink exact to="/ourtreatments">
+                            <Link to={`/treatment/care`}>
                             <div className="category-care"></div>
-                            </NavLink>
+                            </Link>
 
                         </div>
                         <div className="item item7" data-aos="fade-right" data-aos-duration="1000">
@@ -95,9 +84,9 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramSimileDesign.svg" />
                             </div>
 
-                             <NavLink exact to="/ourtreatments">
+                              <Link to={`/treatment/care`}>
                             <div className="category-aesthetics"></div>
-                            </NavLink>
+                            </Link>
 
                         </div>
                         <div className="item category-contact-form" data-aos="fade-left" data-aos-duration="1000">
@@ -142,6 +131,7 @@ class OurTreatments extends Component {
                         </div>
                     </div>
                 </div>
+
             </div>
 
         );

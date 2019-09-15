@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class BannerAd extends Component {
     
     render() {
-        const home = this.props.data.home;
-        const ad = home ? home.advertising : '';
+    
+        const ad = this.props.data.home ? this.props.data.home : '';
         console.log(ad)
         return (<div className="banner-ad1">
             <div className="ad-wrapper">
