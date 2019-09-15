@@ -4,7 +4,7 @@ class BannerAd extends Component {
     
     render() {
     
-        const ad = this.props.data.home ? this.props.data.home : '';
+        const ad = this.props.data ? this.props.data: '';
         console.log(ad)
         return (<div className="banner-ad1">
             <div className="ad-wrapper">
