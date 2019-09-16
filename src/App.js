@@ -32,7 +32,7 @@ class App extends Component {
   };
 
   fetchUsers(){
-    let dataURL = "https://ernesto-perez.com/wp-json/wp/v2/posts/1562";
+    let dataURL = "https://www.eram-dh.com/wp-json/wp/v2/posts/2842";
     return fetch(dataURL)
       // We get the API response and receive data in JSON format...
       .then(response => response.json())
