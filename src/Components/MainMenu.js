@@ -61,8 +61,139 @@ class MainMenu extends Component {
                         <li>
                             <NavLink exact to="/">Home</NavLink>
                         </li>
-                        <li>
+                        <li id="dropDown2">
                             <Link exact to="/#ourTreatments">Our treatments</Link>
+                            <div id="drop-panel" className="dropDown-menu2">
+                                    <div className="dropDown-menu_wrapper">
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                                <NavLink exact to="/ourtreatments">
+                                                    <img src="/assets/images/eramSimileDesign.svg" />
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Teeth Whitening</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Invisaling</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Orthodontic Treatment</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Smile Makeover</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Veneers</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">White Fillings</a>
+                                            </li>
+                                        </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                                <a href=" ">
+                                                    <img src="/assets/images/eramCare.svg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Dental Implants</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Periodontics</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Tooth Extraction</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Single Dental Implant</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Implant Retained Dentures</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Prosthodontics</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Endodontics</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Dentist Check Up</a>
+                                            </li>
+                                        </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                                <a href=" ">
+                                                    <img src="/assets/images/eramaesthetics.svg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Anti-Aging Treatment</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Dermal Fillers</a>
+                                            </li>
+                                        </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                                <a href=" ">
+                                                    <img src="/assets/images/eramHygiene.svg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Dental Hygiene</a>
+                                            </li>
+                                        </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                                <a href=" ">
+                                                    <img src="/assets/images/eramKids.svg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Prophylaxe</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Fluoridation</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Sealing from the 1st Tooth</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Cavities</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Teeth grinding</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">General Anesthesia</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Tooth extractions</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Orthodontics</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Sport Mouthguard</a>
+                                            </li>
+                                        </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                                <a href=" ">
+                                                    <img src="/assets/images/eramOrthodontics.svg" />
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Invisalign</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Orthodontic Treatment</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            
                         </li>
                         <li>
                         <Link exact to="/#aboutUs">About us</Link>
