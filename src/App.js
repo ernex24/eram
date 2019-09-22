@@ -51,7 +51,6 @@ class App extends Component {
   render() {
     
     const data = this.state.data.our_treatments ? this.state.data.our_treatments : '' ;
-    const data2 = this.state.data.our_treatments ? this.state.data.our_treatments : '' ;
     const treatment1 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment1.treatments : '';
     const treatment2 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment2.treatments : '';
     const treatment3 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment3.treatments : '';
@@ -98,6 +97,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment1.treatments}
                   />} 
               />})
   }
@@ -112,6 +112,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment2.treatments}
                   />} 
               />})
   }
@@ -126,6 +127,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment3.treatments}
                   />} 
               />})
   }
@@ -140,6 +142,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment4.treatments}
                   />} 
               />})
   }
@@ -154,6 +157,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment5.treatments}
                   />} 
               />})
   }
@@ -168,6 +172,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment6.treatments}
                   />} 
               />})
   }
@@ -182,6 +187,7 @@ class App extends Component {
                   image_1={key.image_1}
                   image_2={key.image_2}
                   image_3={key.image_3}
+                  menu={data.treatment7.treatments}
                   />} 
               />})
   }

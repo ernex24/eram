@@ -11,6 +11,7 @@ class SingleTreatment extends Component {
         let title = this.props.title ? this.props.title : '' ;
         let description = this.props.description ? this.props.description : '' ;
         let image  = this.props.image_1 ? this.props.image_1 : '';
+        let menu  = this.props.menu ? this.props.menu : ''
         console.log(this.props)
         
         function setDescription() {
@@ -23,10 +24,25 @@ class SingleTreatment extends Component {
                 <div className="category-title">{title}</div>
             </div>
 
-            <div className="category-container">
-            <div className="textContentTitle">{title}</div>
-            <div className="textContent" dangerouslySetInnerHTML={setDescription()}></div>
+            <div className="category-container-treatment">
+            <div className="wraperContent">
+                <div className="textContentTitle">{title}</div>
+                <div className="textContent" dangerouslySetInnerHTML={setDescription()}></div>
             </div>
+
+            <div className="lateralMenu">
+                <ul>
+                {  Object.values(menu).map((key, index) => {
+                    return <NavLink key={index} to={`/treatment/treat/${key.link}`}>
+                                   <li>{key.title}</li>
+                           </NavLink>
+                   })
+                   }
+                </ul>
+            </div>
+ 
+            </div>
+
 
             <OurValues/>
             <ContactUs/>

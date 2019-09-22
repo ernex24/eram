@@ -12,7 +12,7 @@ class AboutUs extends Component {
                     <h2>
                         <span id="zahra_text"></span>
                     </h2>
-                    <img src="assets/images/signature.png" />
+                    <img src="/assets/images/signature.png" />
                     <div className="caption-signaure">
                         Zahra Eram
                         <br /> CEO

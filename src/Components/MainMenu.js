@@ -137,7 +137,7 @@ class MainMenu extends Component {
                                         <ul className="dropDown-menu_list">
                                             <li>
                                                 <NavLink exact to="/ourtreatments">
-                                                    <img src="assets/images/eramSimileDesign.svg" />
+                                                    <img src="/assets/images/eramSimileDesign.svg" />
                                                 </NavLink>
                                             </li>
                                             <li>
@@ -162,7 +162,7 @@ class MainMenu extends Component {
                                         <ul className="dropDown-menu_list">
                                             <li>
                                                 <a href=" ">
-                                                    <img src="assets/images/eramCare.svg" />
+                                                    <img src="/assets/images/eramCare.svg" />
                                                 </a>
                                             </li>
                                             <li>
@@ -193,7 +193,7 @@ class MainMenu extends Component {
                                         <ul className="dropDown-menu_list">
                                             <li>
                                                 <a href=" ">
-                                                    <img src="assets/images/eramaesthetics.svg" />
+                                                    <img src="/assets/images/eramaesthetics.svg" />
                                                 </a>
                                             </li>
                                             <li>
@@ -206,7 +206,7 @@ class MainMenu extends Component {
                                         <ul className="dropDown-menu_list">
                                             <li>
                                                 <a href=" ">
-                                                    <img src="assets/images/eramHygiene.svg" />
+                                                    <img src="/assets/images/eramHygiene.svg" />
                                                 </a>
                                             </li>
                                             <li>
@@ -216,7 +216,7 @@ class MainMenu extends Component {
                                         <ul className="dropDown-menu_list">
                                             <li>
                                                 <a href=" ">
-                                                    <img src="assets/images/eramKids.svg" />
+                                                    <img src="/assets/images/eramKids.svg" />
                                                 </a>
                                             </li>
                                             <li>
@@ -250,7 +250,7 @@ class MainMenu extends Component {
                                         <ul className="dropDown-menu_list">
                                             <li>
                                                 <a href=" ">
-                                                    <img src="assets/images/eramOrthodontics.svg" />
+                                                    <img src="/assets/images/eramOrthodontics.svg" />
                                                 </a>
                                             </li>
                                             <li>
