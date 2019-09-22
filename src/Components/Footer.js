@@ -11,7 +11,9 @@ class Footer extends Component {
         return ( 
         <div className="footer">
         <div className="menu-container">
+        <NavLink exact to="/">
             <img src="/assets/images/logo.svg"/>
+            </NavLink>
             <div className="footer-menu">
                 <ul className="footer-menu-list">
                     <li>
