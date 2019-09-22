@@ -4,6 +4,6 @@
     width: 60%;
     transform: translateY(0vh);
     opacity: 1;
-    position: absolute;
+    position: fixed;
     z-index: 999999999;
 }

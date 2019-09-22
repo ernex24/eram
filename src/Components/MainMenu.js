@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-
 import ModalContactUs from './ModalContactUs'
 
 class MainMenu extends Component {
@@ -54,7 +53,9 @@ class MainMenu extends Component {
                     
                 </ModalContactUs>
                 <div className={"menu_scroll" + classHide}>
+                         <NavLink exact to="/">
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
+                    </NavLink>
                     <ul className="menu_scroll_categories_items">
                         <li>
                             <NavLink exact to="/">Home</NavLink>
@@ -79,18 +80,18 @@ class MainMenu extends Component {
                         <ul className="main-menu_rigth">
                             <li>
                                 <a target="_blank" href="https://de-de.facebook.com/EramDentalHealth/">
-                                    <img src="assets/images/facebook.svg" />
+                                    <img src="/assets/images/facebook.svg" />
                                 </a>
                             </li>
                             <li>
                                 <a target="blank" href="https://www.instagram.com/eramdental/">
-                                    <img src="assets/images/iconfinder_instagram_.svg" />
+                                    <img src="/assets/images/iconfinder_instagram_.svg" />
                                 </a>
                             </li>
                             <li>
                                 <ul>
-                                    <div className="pill-link-black">
-                                        <a className="show-modal" href="#">Book an apointment</a>
+                                    <div className="pill-link-black" onClick={this.openModalHandler}>
+                                        <a className="show-modal" >Book an apointment</a>
                                     </div>
                                 </ul>
                             </li>
@@ -126,11 +127,11 @@ class MainMenu extends Component {
                         </ul>
                     </div>
                     <div className="second-menu_categories">
+                    <NavLink exact to="/">
                         <div className="second-menu_categories_logo">
-                            <a href="#">
                                 <div className="second-menu_categories_logo_pic"></div>
-                            </a>
                         </div>
+                        </NavLink>
                         <ul className="second-menu_categories_items">
                             <li>
                                 <NavLink exact to="/">Home</NavLink>

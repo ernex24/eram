@@ -63,10 +63,10 @@ const ModalContactUs = (props) => {
                             </div>
 
                             <div className="address-container">
-                                <img className="close" src="assets/images/close.svg" onClick={props.close} />
+                                <img className="close" src="/assets/images/close.svg" onClick={props.close} />
                                 <div className="address-group-container">
                                     <div className="icon">
-                                        <img src="assets/images/poi.svg" />
+                                        <img src="/assets/images/poi.svg" />
                                     </div>
                                     <ul className="address-list">
                                         <li className="address-street">{address.address ? address.address.street : ''} </li>
@@ -75,7 +75,7 @@ const ModalContactUs = (props) => {
                                 </div>
                                 <div className="address-group-container">
                                     <div className="icon">
-                                        <img src="assets/images/clock.svg" />
+                                        <img src="/assets/images/clock.svg" />
                                     </div>
                                     <ul className="address-list">
                                         <li className="address-monToFry">
@@ -88,19 +88,19 @@ const ModalContactUs = (props) => {
                                 </div>
                                 <div className="address-group-container">
                                     <div className="icon">
-                                        <img src="assets/images/old-typical-phone.svg" />
+                                        <img src="/assets/images/old-typical-phone.svg" />
                                     </div>
                                     <div className="address-telephone">{address.phone}</div>
                                 </div>
                                 <div className="address-group-container">
                                     <div className="icon">
-                                        <img src="assets/images/email-filled-closed-envelope.svg" />
+                                        <img src="/assets/images/email-filled-closed-envelope.svg" />
                                     </div>
                                     <div className="address-telephone">{address.mail}</div>
                                 </div>
                                 <div className="address-group-container">
-                                    <img className="icon-instagram" src="assets/images/instagram.svg" />
-                                    <img className="icon-facebook" src="assets/images/facebook-button.svg" />
+                                    <img className="icon-instagram" src="/assets/images/instagram.svg" />
+                                    <img className="icon-facebook" src="/assets/images/facebook-button.svg" />
                                 </div>
                             </div>
                         </div>
