@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 import Footer from './Footer';
 import ContactUs from './ContactUs';
 import OurValues from './OurValues';
+import { NavLink } from 'react-router-dom';
 
 class SectionOurTreatments extends Component {
   
@@ -10,6 +11,7 @@ class SectionOurTreatments extends Component {
         let title = this.props.title ? this.props.title : '' ;
         let treatments = this.props.treatments ? this.props.treatments : '';
         let image  = this.props.images.image_1 ? this.props.images.image_1 : '';
+        console.log(this.props)
         return (
 <React.Fragment>
 
@@ -20,10 +22,13 @@ class SectionOurTreatments extends Component {
             <div className="category-container">
 
                 {  Object.values(treatments).map((key, index) => {
-                 return <div key={index} className="treatment-container" style={{backgroundImage: `url(${key.image_1})`
-                 }}>
-                 <div className="treatment_title">{key.title}</div>
-                 <div className="treatment_description">{key.description}</div></div>
+                    
+                 return <NavLink key={index} to={`/treatment/treat/${key.link}`}>
+                            <div className="treatment-container" style={{backgroundImage: `url(${key.image_1})`}}>
+                                <div className="treatment_title">{key.title}</div>
+                                <div className="treatment_description">{key.description}</div>
+                            </div>
+                        </NavLink>
                 })
                 }
 

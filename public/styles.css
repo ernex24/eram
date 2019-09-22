@@ -151,11 +151,13 @@ hr {
   font-family: lato;
   font-size: 18px;
   cursor: pointer;
+  -webkit-transition: all 500ms;
   transition: all 500ms;
 }
 
 .pill-link:hover {
   background-color: #f8652f;
+  -webkit-transition: all 500ms;
   transition: all 500ms;
 }
 
@@ -376,6 +378,7 @@ button {
     font-family: lato;
     color: #ffffff;
     z-index: 5;
+    -webkit-transition: all 1s;
     transition: all 1s;
   
     padding: 15px 0 5px 0px;
@@ -386,12 +389,15 @@ button {
 }
 
 .menu:hover {
-
+  -webkit-transition: all 200ms;
   transition: all 200ms;
-  background-color: rgba(255,255,255,0.9); 
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
+  background-color: rgba(255,255,255,0.6); 
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), color-stop(0%, rgba(0,0,0,0)), color-stop(0%, rgba(182, 154, 154, 0)), color-stop(0%, transparent)); 
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(182, 154, 154, 0) 0%, transparent 0%);
-  filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.5));
+          filter: drop-shadow(0px 0px 20px rgba(0,0,0,0.5));
 }
 
 .menu:hover *{
@@ -2971,6 +2977,8 @@ item6 {
   width: 100vw;
   position: fixed;
   z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -3044,12 +3052,29 @@ background-color: rgba(0,0,0,0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 120px 0 120px 0;
+  width: 70%;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.textContent{
+  font-family: lato;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.textContentTitle{
+  text-align: left;
+  font-family: lato;
+  font-size: 42px;
+  line-height: 3;
 }
 
 .treatment-container{
@@ -3139,14 +3164,9 @@ background-color: rgba(0,0,0,0.3);
   -webkit-box-orient: vertical;
 }
 
-
 @media (max-width: 1350px) {
   .container-web {
     display: none;
   }
   
 }
-
-
-
-

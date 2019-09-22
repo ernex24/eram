@@ -55,7 +55,7 @@ class ContactUs extends Component {
                 <div className="address-container" data-aos="fade-left" data-aos-duration="1000">
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="assets/images/poi.svg" />
+                            <img src="/assets/images/poi.svg" />
                         </div>
                         <ul className="address-list">
                             <li className="address-street">Bleichwerg 33</li>
@@ -65,7 +65,7 @@ class ContactUs extends Component {
 
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="assets/images/clock.svg" />
+                            <img src="/assets/images/clock.svg" />
                         </div>
                         <ul className="address-list">
                             <li className="address-monToFry">
@@ -77,19 +77,19 @@ class ContactUs extends Component {
 
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="assets/images/old-typical-phone.svg" />
+                            <img src="/assets/images/old-typical-phone.svg" />
                         </div>
                         <div className="address-telephone">+41/222 21 11</div>
                     </div>
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="assets/images/email-filled-closed-envelope.svg" />
+                            <img src="/assets/images/email-filled-closed-envelope.svg" />
                         </div>
                         <div className="address-telephone">info@eram-dh.com</div>
                     </div>
                     <div className="address-group-container">
-                        <img className="icon-instagram" src="assets/images/instagram.svg" />
-                        <img className="icon-facebook" src="assets/images/facebook-button.svg" />
+                        <img className="icon-instagram" src="/assets/images/instagram.svg" />
+                        <img className="icon-facebook" src="/assets/images/facebook-button.svg" />
                     </div>
                 </div>
 

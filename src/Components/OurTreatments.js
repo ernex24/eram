@@ -34,7 +34,7 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramImplants.svg" />
                             </div>
 
-                            <Link to={`/treatment/implants`}>
+                            <Link to={`/treatment/care`}>
                             <div className="category-implants"></div>
                             </Link>
                         </div>
@@ -84,7 +84,7 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramSimileDesign.svg" />
                             </div>
 
-                              <Link to={`/treatment/care`}>
+                              <Link to={`/treatment/facial`}>
                             <div className="category-aesthetics"></div>
                             </Link>
 
