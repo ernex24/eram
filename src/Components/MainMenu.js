@@ -41,12 +41,17 @@ class MainMenu extends Component {
 
     render() {
         let classHide = this.state.isHide ? "scroll_show" : "  ";
+        const home = this.props.data.home ? this.props.data.home : '';
+        const address = home.address ? home.address : '';
+        console.log(address)
         return (
 
             <React.Fragment>
                 <ModalContactUs
                     show={this.state.isShowing}
-                    close={this.closeModalHandler}>
+                    close={this.closeModalHandler}
+                    data={home}>
+                    
                 </ModalContactUs>
                 <div className={"menu_scroll" + classHide}>
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
@@ -90,7 +95,7 @@ class MainMenu extends Component {
                                 </ul>
                             </li>
                         </ul>
-                        <div className="main-menu-rigth_adress"> Call us +41 / 222 21 11 Bleicherweg 33, 8002 Zurich</div>
+                        <div className="main-menu-rigth_adress"> Call us {address.phone} {address.address ? address.address.street : ''} {address.address ? address.address.city : ''}</div>
                     </div>
                 </div>
                 <div className="menu">
@@ -108,7 +113,7 @@ class MainMenu extends Component {
                             <li>
                                 <div className="pill-link-phone">
                                     <a href="#">
-                                        <span id="phone">Cal for a consultation <br /> +41 / 222 22 22</span>
+                                        <span id="phone">Call for a consultation <br /> {address.phone}</span>
                                     </a>
                                 </div>
                             </li>
@@ -116,7 +121,7 @@ class MainMenu extends Component {
                                 <div className="pill-link" onClick={this.openModalHandler}  >
                                     <a className="show-modal" >Book an apointment </a>
                                 </div>
-                                <span id="address">Bleicherweg 33, 8002 Zurich</span>
+                                <span id="address">{address.address ? address.address.street : ''} {address.address ? address.address.city : ''}</span>
                             </li>
                         </ul>
                     </div>

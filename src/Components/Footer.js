@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 
 class Footer extends Component {
-    state = {  }
     render() { 
+        const pro = this.props.data ? this.props.data  : '';
+        const home = pro.home ? pro.home : '';
+        const address = home.address ? home.address : '';
+        console.log(address)
         return ( 
         <div className="footer">
         <div className="menu-container">
@@ -47,13 +50,13 @@ class Footer extends Component {
 
             <div className="footer-phone">
                 <img src="/assets/images/old-typical-phone.svg"/>
-                <div className="footer-phone-number">+41442222111</div>
+                <div className="footer-phone-number">{address.phone}</div>
                 <img src="/assets/images/poi.svg"/>
-                <div className="footer-phone-number">Bleicherweg 33, 8002 Zurich</div>
+                <div className="footer-phone-number">{address.address ? address.address.street : ''} {address.address ? address.address.city : ''}</div>
                 <img src="/assets/images/clock.svg"/>
-                <div className="footer-phone-number"> Monday to Friday 8:00 - 20:00 Saturday: 8:00 - 20:00 </div>
+                <div className="footer-phone-number"> Monday to Friday: {address.address ? address.opening_time.mon_to_fri : ''} Saturday: {address.address ? address.opening_time.saturday : ''} </div>
                 <img src="/assets/images/email-filled-closed-envelope.svg"/>
-                <div className="footer-phone-number">info@eram-dh.com</div>
+                <div className="footer-phone-number">{address.mail}</div>
                 <img src="/assets/images/instagram.svg"/>
                 <img src="/assets/images/facebook-button.svg"/>
             </div>

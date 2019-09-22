@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 class ContactUs extends Component {
     state = {}
     render() {
+        const pro = this.props.data ? this.props.data  : '';
+        const home = pro.home ? pro.home : '';
+        const address = home.address ? home.address : '';
+        
+        console.log(address)
         return (
             <div id="contact" className="contactUs">
 
@@ -58,8 +63,8 @@ class ContactUs extends Component {
                             <img src="/assets/images/poi.svg" />
                         </div>
                         <ul className="address-list">
-                            <li className="address-street">Bleichwerg 33</li>
-                            <li className="address-country">8002 Zurich Switzerland</li>
+                            <li className="address-street">{address.address ? address.address.street : ''}</li>
+                            <li className="address-country">{address.address ? address.address.city : ''}</li>
                         </ul>
                     </div>
 
@@ -69,9 +74,9 @@ class ContactUs extends Component {
                         </div>
                         <ul className="address-list">
                             <li className="address-monToFry">
-                                <span>Monday to Friday:</span> 8:00 - 20:00</li>
+                                <span>Mon to Fri: </span>{address.address ? address.opening_time.mon_to_fri : ''}</li>
                             <li className="address-saturday">
-                                <span>Saturday:</span> 8:00 - 20:00</li>
+                                <span>Saturday: </span>{address.address ? address.opening_time.saturday : ''}</li>
                         </ul>
                     </div>
 
@@ -79,13 +84,13 @@ class ContactUs extends Component {
                         <div className="icon">
                             <img src="/assets/images/old-typical-phone.svg" />
                         </div>
-                        <div className="address-telephone">+41/222 21 11</div>
+                        <div className="address-telephone">{address.phone}</div>
                     </div>
                     <div className="address-group-container">
                         <div className="icon">
                             <img src="/assets/images/email-filled-closed-envelope.svg" />
                         </div>
-                        <div className="address-telephone">info@eram-dh.com</div>
+                        <div className="address-telephone">{address.mail}</div>
                     </div>
                     <div className="address-group-container">
                         <img className="icon-instagram" src="/assets/images/instagram.svg" />

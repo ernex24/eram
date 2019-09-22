@@ -8,6 +8,7 @@ import { NavLink } from 'react-router-dom';
 class SectionOurTreatments extends Component {
   
     render() {
+        let home = this.props.data ? this.props.data : '';
         let title = this.props.title ? this.props.title : '' ;
         let treatments = this.props.treatments ? this.props.treatments : '';
         let image  = this.props.images.image_1 ? this.props.images.image_1 : '';
@@ -33,9 +34,9 @@ class SectionOurTreatments extends Component {
                 }
 
             </div>
-            <OurValues/>
-            <ContactUs/>
-            <Footer/>
+            <OurValues data={home}/>
+            <ContactUs data={home}/>
+            <Footer data={home}/>
             </React.Fragment>
          );
     }

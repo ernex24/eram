@@ -8,11 +8,11 @@ import { NavLink } from 'react-router-dom';
 class SingleTreatment extends Component {
   
     render() {
+        let home = this.props.data ? this.props.data : '';
         let title = this.props.title ? this.props.title : '' ;
         let description = this.props.description ? this.props.description : '' ;
         let image  = this.props.image_1 ? this.props.image_1 : '';
         let menu  = this.props.menu ? this.props.menu : ''
-        console.log(this.props)
         
         function setDescription() {
             return {__html: description};
@@ -44,9 +44,9 @@ class SingleTreatment extends Component {
             </div>
 
 
-            <OurValues/>
-            <ContactUs/>
-            <Footer/>
+            <OurValues data={home}/>
+            <ContactUs data={home}/>
+            <Footer data={home}/>
             </React.Fragment>
          );
     }

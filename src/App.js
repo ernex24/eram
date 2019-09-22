@@ -51,6 +51,7 @@ class App extends Component {
   render() {
     
     const data = this.state.data.our_treatments ? this.state.data.our_treatments : '' ;
+    const home = this.state.data ? this.state.data : '';
     const treatment1 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment1.treatments : '';
     const treatment2 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment2.treatments : '';
     const treatment3 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment3.treatments : '';
@@ -60,16 +61,10 @@ class App extends Component {
     const treatment7 = this.state.data.our_treatments ? this.state.data.our_treatments.treatment7.treatments : '';
     let index = 0;
   
-   
-    Object.values(treatment3).map((item, index) => {console.log(item)});
-    // Object.values(data2).map((item, index) => {console.log(item.treatments.treatment_4.link)});
-    // Object.values(data2).map((item, index) => {console.log(item.treatments.treatment_5.link)});
-    // Object.values(data2).map((item, index) => {console.log(item.treatments.treatment_6.link)});
-    // Object.values(data2).map((item, index) => {console.log(item.treatments.treatment_7.link)});
     
   return (
     <div className="container-web ">
-  <MainMenu/>
+  <MainMenu data={this.state.data}/>
   <Route exact path="/" component={() => <Home data={this.state.data}/>} />
 
   {
@@ -82,6 +77,7 @@ class App extends Component {
                 title={key.section_title}
                 images={key.section_carousel}
                 treatments={key.treatments}
+                data={home}
         />} 
       />})
   }
@@ -98,6 +94,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment1.treatments}
+                  data={home}
                   />} 
               />})
   }
@@ -113,6 +110,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment2.treatments}
+                  data={home}
                   />} 
               />})
   }
@@ -128,6 +126,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment3.treatments}
+                  data={home}
                   />} 
               />})
   }
@@ -143,6 +142,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment4.treatments}
+                  data={home}
                   />} 
               />})
   }
@@ -158,6 +158,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment5.treatments}
+                  data={home}
                   />} 
               />})
   }
@@ -173,6 +174,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment6.treatments}
+                  data={home}
                   />} 
               />})
   }
@@ -188,6 +190,7 @@ class App extends Component {
                   image_2={key.image_2}
                   image_3={key.image_3}
                   menu={data.treatment7.treatments}
+                  data={home}
                   />} 
               />})
   }

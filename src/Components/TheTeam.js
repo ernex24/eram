@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 
 class TheTeam extends Component {
-    state = {  }
     render() { 
+        const home = this.props.data.home ? this.props.data.home : '';
+        const team_description = home.team_description ? home.team_description : '';
+        console.log(team_description)
+        function setDescription() {
+            return {__html: team_description};
+          }
         return (  <div className="theTeam">
         <div className="section-title" data-aos="fade-up" data-aos-duration="1000">
             <p>See who<br/><span>Create smiles</span></p>
@@ -10,10 +15,7 @@ class TheTeam extends Component {
         <div className="section-picture"></div>
         <div className="section-description">
             <div className="section-description_title" data-aos="fade-up" data-aos-duration="1000">The Team</div>
-            <div id="team_description" className="section-description_text" data-aos="fade-up" data-aos-duration="1000">
-                Lorem ipsum si amet Lorem ipsum si amet Lorem ipsum si amet Lorem ipsum si amet Lorem ipsum si amet Lorem ipsum si amet Lorem
-                ipsum si amet
-            </div>
+            <div id="team_description" className="section-description_text" data-aos="fade-up" data-aos-duration="1000" dangerouslySetInnerHTML={setDescription()}></div>
         </div>
         <div className="team-description_title" data-aos="fade-up" data-aos-duration="1000">Dentist</div>
         <div className="gallery-grid" data-aos="fade-up" data-aos-duration="1000">
