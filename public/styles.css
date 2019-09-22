@@ -567,6 +567,10 @@ button {
   margin: -70px 0 0 0;
 }
 
+.second-menu_categories > a {
+  z-index: 9999999999;
+}
+
 
 .second-menu_categories_items {
   display: -webkit-box;

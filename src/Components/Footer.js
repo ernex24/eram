@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 class Footer extends Component {
     render() { 
@@ -13,22 +15,23 @@ class Footer extends Component {
             <div className="footer-menu">
                 <ul className="footer-menu-list">
                     <li>
-                        <a href="#">Home</a>
+                        
+                    <NavLink exact to="/">Home</NavLink>
                     </li>
                     <li>
-                        <a href="#ourTreatments">Our treatments</a>
+                    <Link exact to="/#ourTreatments">Our treatments</Link>
                     </li>
                     <li>
-                        <a href="#aboutUs">About us</a>
+                    <Link exact to="/#aboutUs">About us</Link>
                     </li>
                     <li>
-                        <a href="#theclinic">The Clinic</a>
+                    <Link exact to="/#theclinic">The Clinic</Link>
                     </li>
                     <li>
-                        <a href="#testimonials">Testimonials</a>
+                    <Link exact to="/#testimonials">Testimonials</Link>
                     </li>
                     <li>
-                        <a href="#contact">Contact Us</a>
+                    <Link exact to="/#contact">Contact Us</Link>
                     </li>
                 </ul>
             </div>

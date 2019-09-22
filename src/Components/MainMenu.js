@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import ModalContactUs from './ModalContactUs'
 
 class MainMenu extends Component {
@@ -61,19 +62,19 @@ class MainMenu extends Component {
                             <NavLink exact to="/">Home</NavLink>
                         </li>
                         <li>
-                            <a href="#ourTreatments">Our treatments</a>
+                            <Link exact to="/#ourTreatments">Our treatments</Link>
                         </li>
                         <li>
-                            <a href="#aboutUs">About us</a>
+                        <Link exact to="/#aboutUs">About us</Link>
                         </li>
                         <li>
-                            <a href="#theclinic">The Clinic</a>
+                        <Link exact to="/#theclinic">The Clinic</Link>
                         </li>
                         <li>
-                            <a href="#testimonials">Testimonials</a>
+                        <Link exact to="/#testimonials">Testimonials</Link>
                         </li>
                         <li>
-                            <a href="#contact">Contact Us</a>
+                        <Link exact to="/#contact">Contact Us</Link>
                         </li>
                     </ul>
                     <div className="container-main-menu_rigth">
@@ -137,7 +138,7 @@ class MainMenu extends Component {
                                 <NavLink exact to="/">Home</NavLink>
                             </li>
                             <li id="dropDown">
-                                <a href="#ourTreatments">Our treatments</a>
+                            <Link exact to="/#ourTreatments">Our treatments</Link>
                                 <div id="drop-panel" className="dropDown-menu">
                                     <div className="dropDown-menu_wrapper">
                                         <ul className="dropDown-menu_list">
@@ -270,16 +271,20 @@ class MainMenu extends Component {
                                 </div>
                             </li>
                             <li>
-                                <a href="#aboutUs">About us</a>
+                            <Link exact to="/#aboutUs">About us</Link>
+                          
                             </li>
                             <li>
-                                <a href="#theclinic">The Clinic</a>
+                            <Link exact to="/#theclinic">The Clinic</Link>
+                              
                             </li>
                             <li>
-                                <a href="#testimonials">Testimonials</a>
+                            <Link exact to="/#testimonials">Testimonials</Link>
+                               
                             </li>
                             <li>
-                                <a href="#contact">Contact Us</a>
+                            <Link exact to="/#contact">Contact Us</Link>
+                    
                             </li>
                         </ul>
                     </div>
