@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+import 'lightbox-react/style.css';
 
 import Home from './Components/Home';
 import MainMenu from './Components/MainMenu';

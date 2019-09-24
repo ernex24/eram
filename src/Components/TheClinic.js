@@ -1,8 +1,30 @@
 import React, { Component } from 'react';
+import Lightbox from 'lightbox-react';
+
+const images = [
+    '/assets/images/eram_01.jpg',
+    '/assets/images/eram_02.jpg',
+    '/assets/images/eram_03.jpg',
+    '/assets/images/eram_04.jpg',
+    '/assets/images/eram_05.jpg',
+    '/assets/images/eram_06.jpg',
+    '/assets/images/eram_07.jpg',
+    '/assets/images/eram_08.jpg'
+  ];
 
 class TheClinic extends Component {
-    
+    constructor(props) {
+        super(props);
+     
+        this.state = {
+          photoIndex: 0,
+          isOpen: false,
+        };
+      }
+
     render() { 
+        const { photoIndex, isOpen } = this.state;
+
         const home = this.props.data.home ? this.props.data.home : '';
         const clinic_description = home.clinic_description ? home.clinic_description : '';
         const clinic_galery = home.clinic_galery ? home.clinic_galery : '';
@@ -24,32 +46,50 @@ class TheClinic extends Component {
         <div className="gallery-grid">
             <div className="grid-galery">
 
-                <div data-lightbox="image-1" className="gallery-item1" data-aos="fade-right" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item1})`}}>
+                <div data-lightbox="image-1" className="gallery-item1" data-aos="fade-right" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item1})`}} onClick={() => this.setState({ isOpen: true })} >
                     <a className="lightBox-gal1" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item2" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item2})`}}>
+                <div className="gallery-item2" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item2})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal2" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item3" data-aos="fade-left" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item3})`}}>
+                <div className="gallery-item3" data-aos="fade-left" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item3})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal3" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item4" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item4})`}}>
+                <div className="gallery-item4" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item4})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal4" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item5" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item5})`}}>
+                <div className="gallery-item5" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item5})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal5" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item6" data-aos="fade-right" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item6})`}}>
+                <div className="gallery-item6" data-aos="fade-right" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item6})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal6" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item7" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item7})`}}>
+                <div className="gallery-item7" data-aos="fade-up" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item7})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal7" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
-                <div className="gallery-item8" data-aos="fade-left" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item8})`}}>
+                <div className="gallery-item8" data-aos="fade-left" data-aos-duration="1000" style={{backgroundImage:`url(${clinic_galery.gallery_item8})`}}  onClick={() => this.setState({ isOpen: true })}>
                     <a className="lightBox-gal8" href="assets/images/eram_01.jpg" data-lightbox="image-1"></a>
                 </div>
             </div>
         </div>
+        {isOpen && (
+          <Lightbox
+            mainSrc={images[photoIndex]}
+            nextSrc={images[(photoIndex + 1) % images.length]}
+            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+            onCloseRequest={() => this.setState({ isOpen: false })}
+            onMovePrevRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + images.length - 1) % images.length,
+              })
+            }
+            onMoveNextRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + 1) % images.length,
+              })
+            }
+          />
+        )}
     </div> 
     );
     }
