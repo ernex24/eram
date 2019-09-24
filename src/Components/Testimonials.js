@@ -11,8 +11,15 @@ class Testimonials extends Component {
         }
         const previous =() => {
             this.slider.slickPrev();
-        }
-
+		}
+		
+		const home = this.props.data.home ? this.props.data.home : '';
+		const testimonials = home.testimonials ? home.testimonials : '';
+		const testimonial1 = testimonials.testimonial1 ? testimonials.testimonial1 : '';
+		const testimonial2 = testimonials.testimonial2 ? testimonials.testimonial2 : '';
+		const testimonial3 = testimonials.testimonial3 ? testimonials.testimonial3 : '';
+		console.log(testimonial1.testimonial_name ? testimonial1.testimonial_name : ''  )
+		
 
 		var settings = {
 			dots: false,
@@ -32,12 +39,11 @@ class Testimonials extends Component {
 					<Slider ref={c => (this.slider = c)} {...settings}>
 						<div>
 							<div className="testimonial-container">
-								<div className="testimonial-image testimonial-image1" />
+								<div className="testimonial-image testimonial-image1" style={{backgroundImage:`url(${testimonial1.testimonial_image ? testimonial1.testimonial_image : ''})`}} />
 								<div className="testimonial-text-container">
-									<div className="testimonial-title">Zahra Eram</div>
+									<div className="testimonial-title">{testimonial1.testimonial_name ? testimonial1.testimonial_name : '' }</div>
 									<div className="testimonial-description">
-										“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-										tempor invidunt ut labore et dolore magna aliquyam erat.”
+									{testimonial1.testimonial_description ? testimonial1.testimonial_description : '' }
 									</div>
 									<div className="testimonial-button">See the history</div>
 								</div>
@@ -46,12 +52,11 @@ class Testimonials extends Component {
 
 						<div>
 							<div className="testimonial-container">
-								<div className="testimonial-image testimonial-image2" />
+								<div className="testimonial-image testimonial-image2" style={{backgroundImage:`url(${testimonial2.testimonial_image ? testimonial2.testimonial_image : ''})`}} />
 								<div className="testimonial-text-container">
-									<div className="testimonial-title">Riccardo Meili</div>
+									<div className="testimonial-title">{testimonial2.testimonial_name ? testimonial2.testimonial_name : '' }</div>
 									<div className="testimonial-description">
-										“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam tempor
-										invidunt ut labore et dolore magna aliquyam erat.”
+									{testimonial2.testimonial_description ? testimonial2.testimonial_description : '' }
 									</div>
 									<div className="testimonial-button">See the history</div>
 								</div>
@@ -60,12 +65,11 @@ class Testimonials extends Component {
 
 						<div>
 							<div className="testimonial-container">
-								<div id="" className="testimonial-image testimonial-image3" />
+								<div id="" className="testimonial-image testimonial-image3" style={{backgroundImage:`url(${testimonial3.testimonial_image ? testimonial3.testimonial_image : ''})`}} />
 								<div className="testimonial-text-container">
-									<div className="testimonial-title">Sarah Villar</div>
+									<div className="testimonial-title">{testimonial3.testimonial_name ? testimonial3.testimonial_name : '' }</div>
 									<div className="testimonial-description">
-										“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-										tempor.”
+									{testimonial3.testimonial_description ? testimonial3.testimonial_description : '' }
 									</div>
 									<div className="testimonial-button">See the history</div>
 								</div>
