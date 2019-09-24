@@ -1108,10 +1108,8 @@ pointer-events: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1153,6 +1151,20 @@ pointer-events: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ad-list-wrapper::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #000000;
+  opacity: 0.4;
 }
 
 .banner-ad1::before {
@@ -1165,6 +1177,11 @@ pointer-events: none;
   opacity: 0.4;
 }
 
+.advertising_title{
+  font-size: 60px;
+    font-weight: 900;
+}
+
 .ad-description {
   font-size: 42px;
   display: -webkit-box;
@@ -1174,14 +1191,15 @@ pointer-events: none;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-left: 60px;
+  margin-left: 0;
   font-family: velinoBook;
   z-index: 1;
+  text-align: center;
+  line-height: 1.1;
 }
 
 .ad-price {
-  margin-top: 30px;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 600;
   font-family: Lato;
 }
