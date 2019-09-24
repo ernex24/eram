@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
+
 class Footer extends Component {
     render() { 
         const pro = this.props.data ? this.props.data  : '';

@@ -17,7 +17,7 @@ class HeroCarousel extends Component {
             adaptiveWidth: true,
             fade: true,
             autoplay: true,
-            autoplaySpeed: 3000
+            autoplaySpeed: 2000
         };
         return (
             <React.Fragment>

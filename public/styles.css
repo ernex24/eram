@@ -2531,7 +2531,8 @@ item6 {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center
+          justify-content: center;
+          pointer-events: none;
 }
 
 .testimonial-slider {
@@ -2666,9 +2667,10 @@ item6 {
   position: absolute;
   right: 17px;
   bottom: 0;
+  pointer-events: none;
 }
 
-.custom-navigation>a>img {
+.custom-navigation>span>img {
   max-height: 30px;
 }
 
@@ -2677,6 +2679,7 @@ item6 {
   padding: 15px;
   -webkit-transition: all 500ms;
   transition: all 500ms;
+  pointer-events: all;
 }
 
 .custom-navigation>.flex-prev:hover {
@@ -2688,6 +2691,7 @@ item6 {
   padding: 15px;
   -webkit-transition: all 500ms;
   transition: all 500ms;
+  pointer-events: all;
 }
 
 .custom-navigation>.flex-next:hover {
