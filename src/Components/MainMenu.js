@@ -223,7 +223,7 @@ class MainMenu extends Component {
                             <li>
                                 <ul>
                                     <div className="pill-link-black" onClick={this.openModalHandler}>
-                                        <a className="show-modal" >Book an apointment</a>
+                                        <a className="show-modal" >Book an appointment</a>
                                     </div>
                                 </ul>
                             </li>
@@ -252,7 +252,7 @@ class MainMenu extends Component {
                             </li>
                             <li>
                                 <div className="pill-link" onClick={this.openModalHandler}  >
-                                    <a className="show-modal" >Book an apointment </a>
+                                    <a className="show-modal" >Book an appointment </a>
                                 </div>
                                 <span id="address">{address.address ? address.address.street : ''} {address.address ? address.address.city : ''}</span>
                             </li>
