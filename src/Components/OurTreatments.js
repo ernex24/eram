@@ -34,7 +34,7 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramImplants.svg" />
                             </div>
 
-                            <Link to={`/treatment/care`}>
+                            <Link to={`/treatment/implants`}>
                             <div className="category-implants"></div>
                             </Link>
                         </div>
