@@ -2,12 +2,14 @@
   "name": "eram",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "engines": {
     "npm": "6.11.3",
     "node": "12.4.0"
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "axios": "^0.19.0",
     "babel-loader": "^8.0.6",
     "flexslider": "^2.7.2",
     "jquery": "^3.4.1",

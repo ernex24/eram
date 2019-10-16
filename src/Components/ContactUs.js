@@ -1,19 +1,72 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react';  
+import axios from "axios"; 
 
 class ContactUs extends Component {
-    state = {}
+    constructor(props) {
+        super(props);
+        this.state = { 
+            contactName: 'Ernesto',
+            contactEmail: '',
+            contactMessage: '',
+            mailSent: 'false',
+            error: 'null'
+         }
+         this.handleNameChange = this.handleNameChange.bind(this)
+         this.handleEmailChange = this.handleEmailChange.bind(this)
+         this.handleMessageChange = this.handleMessageChange.bind(this)
+         this.handleFormSubmit = this.handleFormSubmit.bind(this)
+    }
+
+    handleNameChange(event) {
+        this.setState({contactName: event.target.value});
+      }
+
+      handleEmailChange(event) {
+        this.setState({contactEmail: event.target.value});
+      }
+
+      handleMessageChange(event) {
+        this.setState({contactMessage: event.target.value});
+      }
+
+      handleFormSubmit(event) {
+      
+        event.preventDefault();
+        axios({
+            method: "post",
+            url: 'mailer.php',
+            headers: { "content-type": "application/json" },
+            name: this.state.contactName,
+            email: this.state.contactEmail,
+            message: this.state.contactMessage
+          })
+            .then(result => {
+              if (result.data.sent) {
+                this.setState({
+                  mailSent: result.data.sent
+                });
+                this.setState({ error: false });
+              } else {
+                this.setState({ error: true });
+              }
+            })
+            .catch(error => this.setState({ error: error.message }));
+        };
+
     render() {
+
         const pro = this.props.data ? this.props.data  : '';
         const home = pro.home ? pro.home : '';
         const address = home.address ? home.address : '';
         
-        console.log(address)
+       
         return (
             <div id="contact" className="contactUs">
 
                 <div className="contact-form" data-aos="fade-right" data-aos-duration="1000">
 
-                    <form className="category-contact-form_container">
+                    <form className="category-contact-form_container"
+                    method="POST" action="#" >
 
                         <div className="sectionTitle">
                             <p>Make an appointment</p>
@@ -31,7 +84,12 @@ class ContactUs extends Component {
 
                             <div className="form-element">
                                 <label>Name:</label>
-                                <input type="text" name="name" placeholder="What is your name?" />
+                                <input type="text" 
+                                name="name" 
+                                placeholder="What is your name?"
+                                value={this.state.contactName}
+                                onChange={this.handleNameChange}
+                                 />
                             </div>
                             
                         </div>
@@ -39,21 +97,35 @@ class ContactUs extends Component {
                         <div className="form-element-group">
                             <div className="form-element">
                                 <label>Email:</label>
-                                <input type="text" name="email" placeholder="What is your email" />
+                                <input type="text" 
+                                name="email"
+                                placeholder="What is your email"
+                                value={this.state.contactEmail}
+                                onChange={this.handleEmailChange}
+                                />
                             </div>
+
                             <div className="form-element">
                                 <label>Telephone number:</label>
-                                <input type="text" name="phone" placeholder="What is your your phone number" />
+                                <input type="text" name="phone" placeholder="What is your your phone number"/>
                             </div>
                         </div>
 
                         <div className="form-element">
                             <label>Message:</label>
-                            <textarea rows="4" cols="50" placeholder="Write here your message" name="message"></textarea>
+                            <textarea
+                            rows="4"
+                            cols="50"
+                            placeholder="Write here your message"
+                            name="message"
+                            value={this.state.contactMessage}
+                            onChange={this.handleMessageChange}></textarea>
                         </div>
                         <div className="form-element">
-                            <button>Send</button>
+                            <button type = "submit" onClick={e => this.handleFormSubmit(e)} value="Submit"  >Send</button>
                         </div>
+                        {this.state.mailSent && <div className="sucsess">Bien</div>}
+                    {this.state.error && <div className="error">Mal</div>}
                     </form>
                 </div>
 
@@ -96,6 +168,7 @@ class ContactUs extends Component {
                         <img className="icon-instagram" src="/assets/images/instagram.svg" />
                         <img className="icon-facebook" src="/assets/images/facebook-button.svg" />
                     </div>
+                   
                 </div>
 
             </div>
