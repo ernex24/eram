@@ -71,7 +71,7 @@ class OurTreatments extends Component {
                         </div>
                         <div className="item item6" data-aos="fade-left" data-aos-duration="1500">
                             <div className="category-logo">
-                                <img src="assets/images/eramSimileDesign.svg" />
+                                <img src="assets/images/eramCare.svg" />
                             </div>
 
                             <Link to={`/treatment/care`}>
@@ -81,7 +81,7 @@ class OurTreatments extends Component {
                         </div>
                         <div className="item item7" data-aos="fade-right" data-aos-duration="1000">
                             <div className="category-logo">
-                                <img src="assets/images/eramSimileDesign.svg" />
+                                <img src="assets/images/eramOralSurgery.svg" />
                             </div>
 
                               <Link to={`/treatment/facial`}>

@@ -51,8 +51,8 @@ class MainMenu extends Component {
                     show={this.state.isShowing}
                     close={this.closeModalHandler}
                     data={home}>
-                    
                 </ModalContactUs>
+
                 <div className={"menu_scroll" + classHide}>
                          <NavLink exact to="/">
                     <div className="menu_scroll_logo">Eram Health Dental Clinic</div>
@@ -67,7 +67,7 @@ class MainMenu extends Component {
                                     <div className="dropDown-menu_wrapper">
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <NavLink exact to="/ourtreatments">
+                                                <NavLink exact to="/treatment/smile_design">
                                                     <img src="/assets/images/eramSimileDesign.svg" />
                                                 </NavLink>
                                             </li>
@@ -92,40 +92,31 @@ class MainMenu extends Component {
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                                <NavLink exact to="/treatment/smile_design">
                                                     <img src="/assets/images/eramCare.svg" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Dental Implants</a>
+                                                </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Periodontics</a>
                                             </li>
                                             <li>
-                                                <a href=" ">Tooth Extraction</a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Single Dental Implant</a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Implant Retained Dentures</a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Prosthodontics</a>
-                                            </li>
-                                            <li>
                                                 <a href=" ">Endodontics</a>
                                             </li>
                                             <li>
-                                                <a href=" ">Dentist Check Up</a>
+                                                <a href=" ">Dentis Check Up</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Bruxism</a>
+                                            </li>
+                                            <li>
+                                                <a href=" "> Prosthodontics</a>
                                             </li>
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
-                                                    <img src="/assets/images/eramaesthetics.svg" />
-                                                </a>
+                                            <NavLink exact to="/treatment/smile_design">
+                                                    <img src="/assets/images/eramOralSurgery.svg" />
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Anti-Aging Treatment</a>
@@ -136,19 +127,31 @@ class MainMenu extends Component {
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/smile_design">
                                                     <img src="/assets/images/eramHygiene.svg" />
-                                                </a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Dental Hygiene</a>
                                             </li>
+                                            <li>
+                                                <a href=" ">Bleaching</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Air Flow</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Periodontics</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Halithosis</a>
+                                            </li>
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/smile_design">
                                                     <img src="/assets/images/eramKids.svg" />
-                                                </a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Prophylaxe</a>
@@ -180,9 +183,9 @@ class MainMenu extends Component {
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/smile_design">
                                                     <img src="/assets/images/eramOrthodontics.svg" />
-                                                </a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Invisalign</a>
@@ -191,9 +194,21 @@ class MainMenu extends Component {
                                                 <a href=" ">Orthodontic Treatment</a>
                                             </li>
                                         </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                            <NavLink exact to="/treatment/smile_design">
+                                                    <img src="/assets/images/eramImplants.svg" />
+                                                    </NavLink>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Dental Implants</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Implant Retained Dentures</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-                            
                         </li>
                         <li>
                         <Link exact to="/#aboutUs">About us</Link>
@@ -272,7 +287,7 @@ class MainMenu extends Component {
                             <Link exact to="/#ourTreatments">Our treatments</Link>
                                 <div id="drop-panel" className="dropDown-menu">
                                     <div className="dropDown-menu_wrapper">
-                                        <ul className="dropDown-menu_list">
+                                    <ul className="dropDown-menu_list">
                                             <li>
                                                 <NavLink exact to="/ourtreatments">
                                                     <img src="/assets/images/eramSimileDesign.svg" />
@@ -299,40 +314,31 @@ class MainMenu extends Component {
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/care">
                                                     <img src="/assets/images/eramCare.svg" />
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Dental Implants</a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Periodontics</a>
                                             </li>
                                             <li>
-                                                <a href=" ">Tooth Extraction</a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Single Dental Implant</a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Implant Retained Dentures</a>
-                                            </li>
-                                            <li>
-                                                <a href=" ">Prosthodontics</a>
-                                            </li>
-                                            <li>
                                                 <a href=" ">Endodontics</a>
                                             </li>
                                             <li>
-                                                <a href=" ">Dentist Check Up</a>
+                                                <a href=" ">Dentis Check Up</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Bruxism</a>
+                                            </li>
+                                            <li>
+                                                <a href=" "> Prosthodontics</a>
                                             </li>
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
-                                                    <img src="/assets/images/eramaesthetics.svg" />
-                                                </a>
+                                            <NavLink exact to="/treatment/facial">
+                                                    <img src="/assets/images/eramOralSurgery.svg" />
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Anti-Aging Treatment</a>
@@ -343,19 +349,31 @@ class MainMenu extends Component {
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/hygiene">
                                                     <img src="/assets/images/eramHygiene.svg" />
-                                                </a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Dental Hygiene</a>
                                             </li>
+                                            <li>
+                                                <a href=" ">Bleaching</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Air Flow</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Periodontics</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Halithosis</a>
+                                            </li>
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/kids">
                                                     <img src="/assets/images/eramKids.svg" />
-                                                </a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Prophylaxe</a>
@@ -387,15 +405,28 @@ class MainMenu extends Component {
                                         </ul>
                                         <ul className="dropDown-menu_list">
                                             <li>
-                                                <a href=" ">
+                                            <NavLink exact to="/treatment/orthodontics">
                                                     <img src="/assets/images/eramOrthodontics.svg" />
-                                                </a>
+                                                    </NavLink>
                                             </li>
                                             <li>
                                                 <a href=" ">Invisalign</a>
                                             </li>
                                             <li>
                                                 <a href=" ">Orthodontic Treatment</a>
+                                            </li>
+                                        </ul>
+                                        <ul className="dropDown-menu_list">
+                                            <li>
+                                            <NavLink exact to="/treatment/implants">
+                                                    <img src="/assets/images/eramImplants.svg" />
+                                                    </NavLink>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Dental Implants</a>
+                                            </li>
+                                            <li>
+                                                <a href=" ">Implant Retained Dentures</a>
                                             </li>
                                         </ul>
                                     </div>
