@@ -44,7 +44,7 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramHygiene.svg" />
                             </div>
 
-                            <Link to={`/treatment/hygiene`}>
+                            <Link to={`/treatment/dental_hygiene`}>
                             <div className="category-hygiene"></div>
                             </Link>
 
@@ -74,7 +74,7 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramCare.svg" />
                             </div>
 
-                            <Link to={`/treatment/care`}>
+                            <Link to={`/treatment/dental_care`}>
                             <div className="category-care"></div>
                             </Link>
 
@@ -84,7 +84,7 @@ class OurTreatments extends Component {
                                 <img src="assets/images/eramOralSurgery.svg" />
                             </div>
 
-                              <Link to={`/treatment/facial`}>
+                              <Link to={`/treatment/oral_surgery`}>
                             <div className="category-aesthetics"></div>
                             </Link>
 

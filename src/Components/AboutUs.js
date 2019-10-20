@@ -13,7 +13,7 @@ class AboutUs extends Component {
         <div className="zahra-eram" data-aos="fade-up" data-aos-duration="2000">
             <div className="zahra-text-area">
                 <div className="zahra-text-area_container">
-                    <h1>Eram Dental Health Clinic</h1>
+                    <span className="mainTitles">Eram Dental Health Clinic</span>
                     <br />
                     <h2>
                         <span id="zahra_text" dangerouslySetInnerHTML={setDescription()}></span>

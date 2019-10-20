@@ -38,17 +38,17 @@ class HeroCarousel extends Component {
                         </div>
                     </div>
                     <div>
-                        <div id="picture2" className="flexslider-hero-picture2">
+                        <div id="picture2" className="flexslider-hero-picture">
                             <img src={ slider? slider.picture1 : ''}/>
                         </div>
                     </div>
                     <div>
-                        <div id="picture3" className="flexslider-hero-picture3">
+                        <div id="picture3" className="flexslider-hero-picture">
                             <img src={ slider ? slider.picture2 : ''}/>
                         </div>
                     </div>
                     <div>
-                        <div id="picture4" className="flexslider-hero-picture4">
+                        <div id="picture4" className="flexslider-hero-picture">
                             <img src={ slider ? slider.picture3  : ''}/>
                         </div>
                     </div>
