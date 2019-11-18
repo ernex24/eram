@@ -18,7 +18,7 @@ class Testimonials extends Component {
 		const testimonial1 = testimonials.testimonial1 ? testimonials.testimonial1 : '';
 		const testimonial2 = testimonials.testimonial2 ? testimonials.testimonial2 : '';
 		const testimonial3 = testimonials.testimonial3 ? testimonials.testimonial3 : '';
-		console.log(testimonial1.testimonial_name ? testimonial1.testimonial_name : ''  )
+		const pageText = this.props.data.page_text ? this.props.data.page_text : '';
 		
 
 		var settings = {
@@ -45,7 +45,7 @@ class Testimonials extends Component {
 									<div className="testimonial-description">
 									{testimonial1.testimonial_description ? testimonial1.testimonial_description : '' }
 									</div>
-									<div className="testimonial-button">See the history</div>
+									<div className="testimonial-button">{pageText.testimonial_button}</div>
 								</div>
 							</div>
 						</div>
@@ -58,7 +58,7 @@ class Testimonials extends Component {
 									<div className="testimonial-description">
 									{testimonial2.testimonial_description ? testimonial2.testimonial_description : '' }
 									</div>
-									<div className="testimonial-button">See the history</div>
+									<div className="testimonial-button">{pageText.testimonial_button}</div>
 								</div>
 							</div>
 						</div>
@@ -71,7 +71,7 @@ class Testimonials extends Component {
 									<div className="testimonial-description">
 									{testimonial3.testimonial_description ? testimonial3.testimonial_description : '' }
 									</div>
-									<div className="testimonial-button">See the history</div>
+									<div className="testimonial-button">{pageText.testimonial_button}</div>
 								</div>
 							</div>
 						</div>

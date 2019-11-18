@@ -1,96 +1,90 @@
 import React, { Component } from 'react';
-import { NavLink, Link, BrowserRouter as Router, Route  } from 'react-router-dom';
-import ReactDOM from "react-dom";
+import { NavLink, Link, BrowserRouter as Router, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 import SectionOurtreatments from './SectionOurTreatments';
-
+import AppointmentWidget from './appointmentWidget';
 class OurTreatments extends Component {
+	render() {
+		const pageText = this.props.data.page_text ? this.props.data.page_text : '';
+		const sections = pageText.sections ? pageText.sections : '';
 
-    render() {
+        function setDescription() {
+            return {__html: sections.our_treatments};
+          }
 
-    
-        return (
-            <div id="ourTreatments" className="OurTreatments">
-                <div className="container_menu-grid">
-                    <div className="section-title" data-aos="fade-up"data-aos-duration="1000">
-                        <p>Our<br /><span>Treatments</span></p>
-                    </div>
-                    <div className="menu-grid">
+		return (
+			<div id="ourTreatments" className="OurTreatments">
+				<div className="container_menu-grid">
+				
+					<div className="section-title" data-aos="fade-up" data-aos-duration="1000" dangerouslySetInnerHTML={setDescription()}>
+						
+					</div>
+					<div className="menu-grid">
+						<div className="item item1" data-aos="fade-right" data-aos-duration="1000">
+							<div className="category-logo">
+								<img src="assets/images/eramSimileDesign.svg" />
+							</div>
 
-                        <div className="item item1" data-aos="fade-right" data-aos-duration="1000">
+							<NavLink to={`/treatment/smile_design`}>
+								<div className="category-smileDesign" />
+							</NavLink>
+						</div>
+						<div className="item item2" data-aos="fade-up" data-aos-duration="1000">
+							<div className="category-logo">
+								<img src="assets/images/eramImplants.svg" />
+							</div>
 
-                            <div className="category-logo">
-                                <img src="assets/images/eramSimileDesign.svg" />
-                            </div>
-                            
+							<Link to={`/treatment/implants`}>
+								<div className="category-implants" />
+							</Link>
+						</div>
+						<div className="item item3" data-aos="fade-left" data-aos-duration="1000">
+							<div className="category-logo">
+								<img src="assets/images/eramHygiene.svg" />
+							</div>
 
-                            <NavLink to={`/treatment/smile_design`}>
-                                <div className="category-smileDesign"></div>
-                            </NavLink>
+							<Link to={`/treatment/dental_hygiene`}>
+								<div className="category-hygiene" />
+							</Link>
+						</div>
+						<div className="item item4" data-aos="fade-up" data-aos-duration="1500">
+							<div className="category-logo">
+								<img src="assets/images/eramKids.svg" />
+							</div>
 
-                        </div>
-                        <div className="item item2" data-aos="fade-up" data-aos-duration="1000">
+							<Link to={`/treatment/kids`}>
+								<div className="category-kids" />
+							</Link>
+						</div>
+						<div className="item item5" data-aos="fade-left" data-aos-duration="1000">
+							<div className="category-logo">
+								<img src="assets/images/eramOrthodontics.svg" />
+							</div>
 
-                            <div className="category-logo">
-                                <img src="assets/images/eramImplants.svg" />
-                            </div>
+							<Link to={`/treatment/orthodontics`}>
+								<div className="category-orthodontics" />
+							</Link>
+						</div>
+						<div className="item item6" data-aos="fade-left" data-aos-duration="1500">
+							<div className="category-logo">
+								<img src="assets/images/eramCare.svg" />
+							</div>
 
-                            <Link to={`/treatment/implants`}>
-                            <div className="category-implants"></div>
-                            </Link>
-                        </div>
-                        <div className="item item3" data-aos="fade-left" data-aos-duration="1000">
+							<Link to={`/treatment/dental_care`}>
+								<div className="category-care" />
+							</Link>
+						</div>
+						<div className="item item7" data-aos="fade-right" data-aos-duration="1000">
+							<div className="category-logo">
+								<img src="assets/images/eramOralSurgery.svg" />
+							</div>
 
-                            <div className="category-logo">
-                                <img src="assets/images/eramHygiene.svg" />
-                            </div>
-
-                            <Link to={`/treatment/dental_hygiene`}>
-                            <div className="category-hygiene"></div>
-                            </Link>
-
-                        </div>
-                        <div className="item item4" data-aos="fade-up" data-aos-duration="1500">
-                            <div className="category-logo">
-                                <img src="assets/images/eramKids.svg" />
-                            </div>
-
-                            <Link to={`/treatment/kids`}>
-                            <div className="category-kids"></div>
-                            </Link>
-
-                        </div>
-                        <div className="item item5" data-aos="fade-left" data-aos-duration="1000">
-                            <div className="category-logo">
-                                <img src="assets/images/eramOrthodontics.svg" />
-                            </div>
-
-                            <Link to={`/treatment/orthodontics`}>
-                            <div className="category-orthodontics"></div>
-                            </Link>
-
-                        </div>
-                        <div className="item item6" data-aos="fade-left" data-aos-duration="1500">
-                            <div className="category-logo">
-                                <img src="assets/images/eramCare.svg" />
-                            </div>
-
-                            <Link to={`/treatment/dental_care`}>
-                            <div className="category-care"></div>
-                            </Link>
-
-                        </div>
-                        <div className="item item7" data-aos="fade-right" data-aos-duration="1000">
-                            <div className="category-logo">
-                                <img src="assets/images/eramOralSurgery.svg" />
-                            </div>
-
-                              <Link to={`/treatment/oral_surgery`}>
-                            <div className="category-aesthetics"></div>
-                            </Link>
-
-                        </div>
-                        <div className="item category-contact-form" data-aos="fade-left" data-aos-duration="1000">
-                            <form className="category-contact-form_container">
+							<Link to={`/treatment/oral_surgery`}>
+								<div className="category-aesthetics" />
+							</Link>
+						</div>
+						<div className="item category-contact-form" data-aos="fade-left" data-aos-duration="1000">
+							{/* <form className="category-contact-form_container">
                                 <div className="sectionTitle">
                                     <p>Make an appointment</p>
                                 </div>
@@ -127,15 +121,14 @@ class OurTreatments extends Component {
                                 <div className="form-element">
                                     <button>Send</button>
                                 </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        );
-    }
+                            </form> */}
+							<AppointmentWidget />
+						</div>
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
 
 export default OurTreatments;

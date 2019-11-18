@@ -6,8 +6,8 @@ import ModalContactUs from './ModalContactUs';
 class MainMenu extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { 
-			isHide: false, 
+		this.state = {
+			isHide: false,
 			isShowing: false
 		};
 	}
@@ -42,9 +42,16 @@ class MainMenu extends Component {
 	}
 
 	render() {
+		const handler = this.props.handler;
+
 		let classHide = this.state.isHide ? 'scroll_show' : '  ';
 
 		const data = this.props.data ? this.props.data : '';
+
+		const page_text = data.page_text ? data.page_text : '';
+
+		const menuItem = page_text.menu_items ? page_text.menu_items : '';
+
 		const treatment = this.props.data.our_treatments ? this.props.data.our_treatments : '';
 
 		const treatment1 = treatment.treatment1 ? treatment.treatment1 : '';
@@ -70,7 +77,7 @@ class MainMenu extends Component {
 
 		const home = this.props.data.home ? this.props.data.home : '';
 		const address = home.address ? home.address : '';
-		console.log(treatments1);
+
 		return (
 			<React.Fragment>
 				<ModalContactUs show={this.state.isShowing} close={this.closeModalHandler} data={home} />
@@ -81,13 +88,13 @@ class MainMenu extends Component {
 					</NavLink>
 					<ul className="menu_scroll_categories_items">
 						<li>
-							<NavLink exact to="/">
-								Home
-							</NavLink>
+							<Link exact to="/#home">
+								{menuItem.menu_1}
+							</Link>
 						</li>
 						<li id="dropDown2">
 							<Link exact to="/#ourTreatments">
-								Our treatments
+								{menuItem.menu_2}
 							</Link>
 							<div id="drop-panel" className="dropDown-menu2">
 								<div className="dropDown-menu_wrapper">
@@ -117,7 +124,12 @@ class MainMenu extends Component {
 										{Object.values(treatments2).map((key, index) => {
 											return (
 												<li>
-													<NavLink onClick={console.log("heu")} key={index} exact to={`/treatment/treat/${key.link}`}>
+													<NavLink
+														onClick={console.log('heu')}
+														key={index}
+														exact
+														to={`/treatment/treat/${key.link}`}
+													>
 														{key.title}
 													</NavLink>
 												</li>
@@ -210,23 +222,23 @@ class MainMenu extends Component {
 							</div>
 						</li>
 						<li>
-							<Link exact to="/#aboutUs">
-								About us
+							<Link exact to="/#theTeam">
+								{menuItem.menu_3}
 							</Link>
 						</li>
 						<li>
 							<Link exact to="/#theclinic">
-								The Clinic
+								{menuItem.menu_4}
 							</Link>
 						</li>
 						<li>
 							<Link exact to="/#testimonials">
-								Testimonials
+								{menuItem.menu_5}
 							</Link>
 						</li>
 						<li>
 							<Link exact to="/#contact">
-								Contact Us
+								{menuItem.menu_6}
 							</Link>
 						</li>
 					</ul>
@@ -235,20 +247,23 @@ class MainMenu extends Component {
 							<li>
 								<a className="myButton">
 									<img class="iconsMyButtonsEmergency" src="/assets/images/first-aid-kit.svg" />
-									Emergency
+									{page_text.emergency}
 									<img class="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
 								</a>
 							</li>
 							<li>
 								<ul>
 									<div className="" onClick={this.openModalHandler}>
-										<a className="myButton">Book an appointment</a>
+										<a className="myButton">{page_text.book_appointment}</a>
 									</div>
 								</ul>
 							</li>
 						</ul>
 						<div className="main-menu-rigth_adress">
-							<span id="phone"><img src="../../assets/images/phone_black.svg"></img>{address.phone}</span>
+							<span id="phone">
+								<img src="../../assets/images/phone_black.svg" />
+								{address.phone}
+							</span>
 						</div>
 					</div>
 				</div>
@@ -259,8 +274,19 @@ class MainMenu extends Component {
 								<li className="main-menu_left_emergency ">
 									<a className="myButton">
 										<img class="iconsMyButtonsEmergency" src="/assets/images/first-aid-kit.svg" />
-										Emergency
+										{page_text.emergency}
 										<img class="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
+									</a>
+								</li>
+								<li class="icon-facebook" target="_blank">
+									<a href={address.facebook}>
+										<img src="/assets/images/facebook.svg" />
+									</a>
+								</li>
+
+								<li class="icon-instagram">
+								<a href={address.instagram} target="_blank">
+										<img src="/assets/images/instagram_color.svg" />
 									</a>
 								</li>
 							</ul>
@@ -271,13 +297,45 @@ class MainMenu extends Component {
 									<a href="#">
 										<span id="phone">{address.phone}</span>
 									</a>
+									<ul class="flags">
+										<li>
+											<img
+												src="/assets/images/flag-english.svg"
+												onClick={() => handler('english')}
+											/>
+										</li>
+										<li>
+											<img
+												src="/assets/images/flag-germany.svg"
+												onClick={() => handler('german')}
+											/>
+										</li>
+										<li>
+											<img
+												src="/assets/images/flag-italy.svg"
+												onClick={() => handler('italian')}
+											/>
+										</li>
+										<li>
+											<img
+												src="/assets/images/flag-spain.svg"
+												onClick={() => handler('spanish')}
+											/>
+										</li>
+										<li>
+											<img
+												src="/assets/images/flag-france.svg"
+												onClick={() => handler('french')}
+											/>
+										</li>
+									</ul>
 								</div>
 							</li>
 							<li>
 								<div className="" onClick={this.openModalHandler}>
 									<a className="myButton">
 										<img class="iconsMyButtons" src="/assets/images/calendar.svg" />
-										Book an appointment
+										{page_text.book_appointment}
 										<img class="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
 									</a>
 								</div>
@@ -296,13 +354,13 @@ class MainMenu extends Component {
 						</NavLink>
 						<ul className="second-menu_categories_items">
 							<li>
-								<NavLink exact to="/">
-									Home
-								</NavLink>
+								<Link exact to="/#home">
+									{menuItem.menu_1}
+								</Link>
 							</li>
 							<li id="dropDown">
 								<Link exact to="/#ourTreatments">
-									Our treatments
+									{menuItem.menu_2}
 								</Link>
 								<div id="drop-panel" className="dropDown-menu">
 									<div className="dropDown-menu_wrapper">
@@ -427,23 +485,23 @@ class MainMenu extends Component {
 								</div>
 							</li>
 							<li>
-								<Link exact to="/#aboutUs">
-									About us
+								<Link exact to="/#theTeam">
+									{menuItem.menu_3}
 								</Link>
 							</li>
 							<li>
 								<Link exact to="/#theclinic">
-									The Clinic
+									{menuItem.menu_4}
 								</Link>
 							</li>
 							<li>
 								<Link exact to="/#testimonials">
-									Testimonials
+									{menuItem.menu_5}
 								</Link>
 							</li>
 							<li>
 								<Link exact to="/#contact">
-									Contact Us
+									{menuItem.menu_6}
 								</Link>
 							</li>
 						</ul>

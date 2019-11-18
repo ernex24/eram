@@ -10,7 +10,7 @@ class HeroCarousel extends Component {
         return (
             <React.Fragment>
                 <div id="maintitle" className="main_title" data-aos="fade-up" data-aos-duration="3000"></div>
-                <div id="#home" className="hero-background">
+                <div id="home" className="hero-background">
                     <div className="flexslider">
                         <ul className="slides">
                             <li>

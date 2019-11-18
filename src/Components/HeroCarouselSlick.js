@@ -22,7 +22,7 @@ class HeroCarousel extends Component {
         return (
             <React.Fragment>
                 <div id="maintitle" className="main_title" data-aos="fade-up" data-aos-duration="3000"><p>{ home ? home.maintitle : ''}</p></div>
-                <div id="#home" className="hero-background">
+                <div id="home" className="hero-background">
                 <Slider {...settings}>
                     <div>
                         <div>

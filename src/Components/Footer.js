@@ -8,7 +8,10 @@ class Footer extends Component {
         const pro = this.props.data ? this.props.data  : '';
         const home = pro.home ? pro.home : '';
         const address = home.address ? home.address : '';
-        console.log(address)
+        
+        const pageText = this.props.data.page_text ? this.props.data.page_text : '';
+        const menuItems = pageText.menu_items ? pageText.menu_items : '';
+
         return ( 
         <div className="footer">
         <div className="menu-container">
@@ -19,22 +22,22 @@ class Footer extends Component {
                 <ul className="footer-menu-list">
                     <li>
                         
-                    <NavLink exact to="/">Home</NavLink>
+                    <NavLink exact to="/">{menuItems.menu_1}</NavLink>
                     </li>
                     <li>
-                    <Link exact to="/#ourTreatments">Our treatments</Link>
+                    <Link exact to="/#ourTreatments">{menuItems.menu_2}</Link>
                     </li>
                     <li>
-                    <Link exact to="/#aboutUs">About us</Link>
+                    <Link exact to="/#aboutUs">{menuItems.menu_3}</Link>
                     </li>
                     <li>
-                    <Link exact to="/#theclinic">The Clinic</Link>
+                    <Link exact to="/#theclinic">{menuItems.menu_4}</Link>
                     </li>
                     <li>
-                    <Link exact to="/#testimonials">Testimonials</Link>
+                    <Link exact to="/#testimonials">{menuItems.menu_5}</Link>
                     </li>
                     <li>
-                    <Link exact to="/#contact">Contact Us</Link>
+                    <Link exact to="/#contact">{menuItems.menu_6}</Link>
                     </li>
                 </ul>
             </div>

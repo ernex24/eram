@@ -28,18 +28,25 @@ class TheClinic extends Component {
         const home = this.props.data.home ? this.props.data.home : '';
         const clinic_description = home.clinic_description ? home.clinic_description : '';
         const clinic_galery = home.clinic_galery ? home.clinic_galery : '';
-        console.log(clinic_description)
+
+        const pageText = this.props.data.page_text ? this.props.data.page_text : '';
+        const sections = pageText.sections ? pageText.sections : '';
+
+        function setDescription2() {
+            return {__html: sections.clinic_title};
+          }
+
         function setDescription() {
             return {__html: clinic_description};
           }
         return ( 
          <div id="theclinic" className="theClinic">
-        <div className="section-title" data-aos="fade-up" data-aos-duration="1000">
-            <p>See where we<br/><span>Create smiles</span></p>
+        <div className="section-title" data-aos="fade-up" data-aos-duration="1000" dangerouslySetInnerHTML={setDescription2()}>
+    
         </div>
         <div className="section-picture"></div>
         <div className="section-description">
-            <div className="section-description_title" data-aos="fade-up" data-aos-duration="1000">The Clinic</div>
+            <div className="section-description_title" data-aos="fade-up" data-aos-duration="1000"><p>{sections.clinic_subtitle}</p></div>
             <div id="clinic_description" className="section-description_text" data-aos="fade-up" data-aos-duration="1000" dangerouslySetInnerHTML={setDescription()}>
             </div>
         </div>

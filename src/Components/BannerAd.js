@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 
 class BannerAd extends Component {
 	render() {
-		const home = this.props.data.home ? this.props.data.home : '';
+        
+        const home = this.props.data.home ? this.props.data.home : '';
+
+        const pageText = this.props.data.page_text ? this.props.data.page_text : '';
+        const sections = pageText.sections ? pageText.sections : '';
+
         const advertising = home.advertising ? home.advertising : '';
         const adNumb = advertising.ads_number ? advertising.ads_number : '';
         const adN = Number(adNumb)
@@ -73,7 +78,7 @@ class BannerAd extends Component {
 		return (
 			<div className="banner-ad1" style={{ backgroundImage: `url(${advertising.advertising_image})` }}>
 				<div className="ad-wrapper">
-					<div className="ad-section-title">Eram Special Offers</div>
+					<div className="ad-section-title">{sections.advertising_title}</div>
                     <AdNumber ads={adN}/>
 				</div>
 			</div>

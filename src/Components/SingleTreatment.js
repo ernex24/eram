@@ -57,7 +57,7 @@ class SingleTreatment extends Component {
 					</Slider>
 				</div>
 
-				<BannerAd data={home} />
+				{/* <BannerAd data={home} /> */}
 
 				<div className="category-container-treatment">
 					<div className="wraperContent">

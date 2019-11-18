@@ -50,5 +50,8 @@
 <!-- scripts -->
 
 <script src="assets/js/jquery.js"></script>
+<script>
+  window.addEventListener("message", function (t) { var e = t.data["od-widget-id"], d = t.data["od-widget-height"], a = t.data["od-widget-ios"]; if (e) { var i = document.getElementById("od-widget-" + e); d && (i.style.height = d + "px"), !0 === a && (i.style.width = "100px", i.style["min-width"] = "100%", i.scrolling = "no") } }), window.addEventListener("load", function (t) { for (var e = document.querySelectorAll("iframe.od-widget"), d = 0; d < e.length; d++) { var a = e[d]; a.dataset && a.dataset.src && (a.src = a.dataset.src) } });
+</script>
   </body>
 </html>

@@ -6,13 +6,20 @@ class OurValues extends Component {
         const pro = this.props.data ? this.props.data  : '';
         const home = pro.home ? pro.home : '';
         const values = home.values ? home.values: ''
-        console.log(this.props.data)
+
+        const pageText = this.props.data.page_text ? this.props.data.page_text : '';
+        const sections = pageText.sections ? pageText.sections : '';
+
+        function setDescription3() {
+            return {__html: sections.values_title};
+          }
      
         return (
         <div className="our-values">
-            <div className="section-title" data-aos="fade-up" data-aos-duration="1000">
-                <p>Why do patients<br/><span>trust us?</span></p>
+
+            <div className="section-title_values" data-aos="fade-up" data-aos-duration="1000" dangerouslySetInnerHTML={setDescription3()}>
             </div>
+            
             <div className="values-lists">
 
                 <div className="value-list" data-aos="fade-up" data-aos-duration="1000">

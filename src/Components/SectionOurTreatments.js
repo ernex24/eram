@@ -63,11 +63,18 @@ class SectionOurTreatments extends Component {
                 <div className="category-container">
 
                     {Object.values(treatments).map((key, index) => {
+                        const html = key.description
+                        function stripHtml(html)
+                        {
+                           var tmp = document.createElement("DIV");
+                           tmp.innerHTML = html;
+                           return tmp.innerText;
+                        }
 
                         return <NavLink key={index} to={`/treatment/treat/${key.link}`}>
                             <div className="treatment-container" style={{ backgroundImage: `url(${key.image_1})` }}>
                                 <div className="treatment_title">{key.title}</div>
-                                <div className="treatment_description">{key.description}</div>
+                                <div className="treatment_description">{stripHtml(html)}</div>
                             </div>
                         </NavLink>
                     })

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';  
 import axios from "axios"; 
-
+import AppointmentWidget from './appointmentWidget';
 class ContactUs extends Component {
     constructor(props) {
         super(props);
@@ -65,7 +65,9 @@ class ContactUs extends Component {
 
                 <div className="contact-form" data-aos="fade-right" data-aos-duration="1000">
 
-                    <form className="category-contact-form_container"
+               <AppointmentWidget />
+
+                    {/* <form className="category-contact-form_container"
                     method="POST" action="#" >
 
                         <div className="sectionTitle">
@@ -126,10 +128,11 @@ class ContactUs extends Component {
                         </div>
                         {this.state.mailSent && <div className="sucsess">Bien</div>}
                     {this.state.error && <div className="error">Mal</div>}
-                    </form>
+                    </form> */}
+
                 </div>
 
-                <div className="address-container" data-aos="fade-left" data-aos-duration="1000">
+                 <div className="address-container" data-aos="fade-left" data-aos-duration="1000">
                     <div className="address-group-container">
                         <div className="icon">
                             <img src="/assets/images/poi.svg" />
@@ -169,7 +172,7 @@ class ContactUs extends Component {
                         <img className="icon-facebook" src="/assets/images/facebook-button.svg" />
                     </div>
                    
-                </div>
+                </div> 
 
             </div>
         );
