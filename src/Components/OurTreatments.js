@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link, BrowserRouter as Router, Route } from 'react-router-dom';
-import ReactDOM from 'react-dom';
-import SectionOurtreatments from './SectionOurTreatments';
+import { NavLink, Link } from 'react-router-dom';
 import AppointmentWidget from './appointmentWidget';
 class OurTreatments extends Component {
 	render() {
@@ -22,7 +20,7 @@ class OurTreatments extends Component {
 					<div className="menu-grid">
 						<div className="item item1" data-aos="fade-right" data-aos-duration="1000">
 							<div className="category-logo">
-								<img src="assets/images/eramSimileDesign.svg" />
+								<img alt="eram-dental" src="assets/images/eramSimileDesign.svg" />
 							</div>
 
 							<NavLink to={`/treatment/smile_design`}>
@@ -31,7 +29,7 @@ class OurTreatments extends Component {
 						</div>
 						<div className="item item2" data-aos="fade-up" data-aos-duration="1000">
 							<div className="category-logo">
-								<img src="assets/images/eramImplants.svg" />
+								<img alt="eram-dental" src="assets/images/eramImplants.svg" />
 							</div>
 
 							<Link to={`/treatment/implants`}>
@@ -40,7 +38,7 @@ class OurTreatments extends Component {
 						</div>
 						<div className="item item3" data-aos="fade-left" data-aos-duration="1000">
 							<div className="category-logo">
-								<img src="assets/images/eramHygiene.svg" />
+								<img alt="eram-dental" src="assets/images/eramHygiene.svg" />
 							</div>
 
 							<Link to={`/treatment/dental_hygiene`}>
@@ -49,7 +47,7 @@ class OurTreatments extends Component {
 						</div>
 						<div className="item item4" data-aos="fade-up" data-aos-duration="1500">
 							<div className="category-logo">
-								<img src="assets/images/eramKids.svg" />
+								<img alt="eram-dental" src="assets/images/eramKids.svg" />
 							</div>
 
 							<Link to={`/treatment/kids`}>
@@ -58,7 +56,7 @@ class OurTreatments extends Component {
 						</div>
 						<div className="item item5" data-aos="fade-left" data-aos-duration="1000">
 							<div className="category-logo">
-								<img src="assets/images/eramOrthodontics.svg" />
+								<img alt="eram-dental" src="assets/images/eramOrthodontics.svg" />
 							</div>
 
 							<Link to={`/treatment/orthodontics`}>
@@ -67,7 +65,7 @@ class OurTreatments extends Component {
 						</div>
 						<div className="item item6" data-aos="fade-left" data-aos-duration="1500">
 							<div className="category-logo">
-								<img src="assets/images/eramCare.svg" />
+								<img alt="eram-dental" src="assets/images/eramCare.svg" />
 							</div>
 
 							<Link to={`/treatment/dental_care`}>
@@ -76,7 +74,7 @@ class OurTreatments extends Component {
 						</div>
 						<div className="item item7" data-aos="fade-right" data-aos-duration="1000">
 							<div className="category-logo">
-								<img src="assets/images/eramOralSurgery.svg" />
+								<img alt="eram-dental" src="assets/images/eramOralSurgery.svg" />
 							</div>
 
 							<Link to={`/treatment/oral_surgery`}>

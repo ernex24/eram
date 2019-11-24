@@ -79,11 +79,11 @@ class Testimonials extends Component {
 
 					<div className="custom-navigation">
 						<span href="#" className="flex-prev" onClick={previous}>
-							<img src="assets/images/back.svg" />
+							<img alt="eram-dental" src="assets/images/back.svg" />
 						</span>
 						<div className="custom-controls-container" />
 						<span href="#" className="flex-next" onClick={next}>
-							<img src="assets/images/next.svg" />
+							<img alt="eram-dental" src="assets/images/next.svg" />
 						</span>
 					</div>
 				</div>

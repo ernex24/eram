@@ -135,7 +135,7 @@ class ContactUs extends Component {
                  <div className="address-container" data-aos="fade-left" data-aos-duration="1000">
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="/assets/images/poi.svg" />
+                            <img alt="eram-dental" src="/assets/images/poi.svg" />
                         </div>
                         <ul className="address-list">
                             <li className="address-street">{address.address ? address.address.street : ''}</li>
@@ -145,7 +145,7 @@ class ContactUs extends Component {
 
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="/assets/images/clock.svg" />
+                            <img alt="eram-dental" src="/assets/images/clock.svg" />
                         </div>
                         <ul className="address-list">
                             <li className="address-monToFry">
@@ -157,19 +157,19 @@ class ContactUs extends Component {
 
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="/assets/images/old-typical-phone.svg" />
+                            <img alt="eram-dental" src="/assets/images/old-typical-phone.svg" />
                         </div>
                         <div className="address-telephone">{address.phone}</div>
                     </div>
                     <div className="address-group-container">
                         <div className="icon">
-                            <img src="/assets/images/email-filled-closed-envelope.svg" />
+                            <img alt="eram-dental" src="/assets/images/email-filled-closed-envelope.svg" />
                         </div>
                         <div className="address-telephone">{address.mail}</div>
                     </div>
                     <div className="address-group-container">
-                        <img className="icon-instagram" src="/assets/images/instagram.svg" />
-                        <img className="icon-facebook" src="/assets/images/facebook-button.svg" />
+                        <img alt="eram-dental" className="icon-instagram" src="/assets/images/instagram.svg" />
+                        <img alt="eram-dental" className="icon-facebook" src="/assets/images/facebook-button.svg" />
                     </div>
                    
                 </div> 

@@ -11,14 +11,13 @@ class BannerAd extends Component {
         const advertising = home.advertising ? home.advertising : '';
         const adNumb = advertising.ads_number ? advertising.ads_number : '';
         const adN = Number(adNumb)
-        const num = 3;
 
         const Ad = (props) => {
             return <div className="ad-list-wrapper" data-aos="fade-up" data-aos-duration="1000" style={{ backgroundImage: `url(${props.image})` }}>
                 <ul className="ad-description">
                     <li className="advertising_title">{props.title}</li>
                     <li className="advertising_description">{props.description}</li>
-                    <li className="advertising_price" className="ad-price">{props.price}</li>
+                    <li className="advertising_price ad-price">{props.price}</li>
                 </ul>
             </div>
         }

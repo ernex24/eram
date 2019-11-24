@@ -39,17 +39,17 @@ class HeroCarousel extends Component {
                     </div>
                     <div>
                         <div id="picture2" className="flexslider-hero-picture">
-                            <img src={ slider? slider.picture1 : ''}/>
+                            <img alt="eram-dental" src={ slider? slider.picture1 : ''}/>
                         </div>
                     </div>
                     <div>
                         <div id="picture3" className="flexslider-hero-picture">
-                            <img src={ slider ? slider.picture2 : ''}/>
+                            <img alt="eram-dental" src={ slider ? slider.picture2 : ''}/>
                         </div>
                     </div>
                     <div>
                         <div id="picture4" className="flexslider-hero-picture">
-                            <img src={ slider ? slider.picture3  : ''}/>
+                            <img alt="eram-dental" src={ slider ? slider.picture3  : ''}/>
                         </div>
                     </div>
                 </Slider>
@@ -57,7 +57,7 @@ class HeroCarousel extends Component {
                 </div>
 
                 <div className="eram-finantial">
-                    <img src="assets/images/eram-finantial.png" />
+                    <img alt="eram-dental" src="assets/images/eram-finantial.png" />
                 </div>
             </React.Fragment>
         );

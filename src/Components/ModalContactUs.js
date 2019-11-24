@@ -6,7 +6,7 @@ import AppointmentWidget from './appointmentWidget';
 const ModalContactUs = (props) => {
 
         console.log(props)
-        const address = props.data.address ? props.data.address : '';
+     
     return (
         <React.Fragment>
             <div>
@@ -17,7 +17,7 @@ const ModalContactUs = (props) => {
                         opacity: props.show ? '1' : '0'
                     }}>
                     <div className="modal-contact" >
-                    <img className="close_schedule" src="/assets/images/close.svg" onClick={props.close}/>
+                    <img alt="eram-dental" className="close_schedule" src="/assets/images/close.svg" onClick={props.close}/>
                     <AppointmentWidget />
                     </div>
                 </div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
 import Footer from './Footer';
 import ContactUs from './ContactUs';
 import OurValues from './OurValues';
@@ -42,17 +41,17 @@ class SectionOurTreatments extends Component {
                     <Slider {...settings}>
                         <div>
                             <div>
-                                <img src={image1} />
+                                <img alt="eram-dental" src={image1} />
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src={image2} />
+                                <img alt="eram-dental" src={image2} />
                             </div>
                         </div>
                         <div>
                             <div>
-                                <img src={image3} />
+                                <img alt="eram-dental" src={image3} />
                             </div>
                         </div>
                     </Slider>

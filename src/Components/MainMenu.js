@@ -83,32 +83,32 @@ class MainMenu extends Component {
 				<ModalContactUs show={this.state.isShowing} close={this.closeModalHandler} data={home} />
 
 				<div className={'menu_scroll' + classHide}>
-					<NavLink exact to="/">
+					<NavLink exact={true} to="/">
 						<div className="menu_scroll_logo">Eram Health Dental Clinic</div>
 					</NavLink>
 					<ul className="menu_scroll_categories_items">
 						<li>
-							<Link exact to="/#home">
+							<Link exact={true.toString()} to="/#home">
 								{menuItem.menu_1}
 							</Link>
 						</li>
 						<li id="dropDown2">
-							<Link exact to="/#ourTreatments">
+							<Link exact={true.toString()} to="/#ourTreatments">
 								{menuItem.menu_2}
 							</Link>
 							<div id="drop-panel" className="dropDown-menu2">
 								<div className="dropDown-menu_wrapper">
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramSimileDesign.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramSimileDesign.svg" />
 											</NavLink>
 										</li>
 
 										{Object.values(treatments1).map((key, index) => {
 											return (
-												<li>
-													<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+												<li key={index.toString()}>
+													<NavLink key={index.toString()} exact={true} to={`/treatment/treat/${key.link}`}>
 														{key.title}
 													</NavLink>
 												</li>
@@ -117,17 +117,17 @@ class MainMenu extends Component {
 									</ul>
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramCare.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramCare.svg" />
 											</NavLink>
 										</li>
 										{Object.values(treatments2).map((key, index) => {
 											return (
-												<li>
+												<li key={index.toString()}> 
 													<NavLink
 														onClick={console.log('heu')}
 														key={index}
-														exact
+														exact={true}
 														to={`/treatment/treat/${key.link}`}
 													>
 														{key.title}
@@ -138,15 +138,15 @@ class MainMenu extends Component {
 									</ul>
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramOralSurgery.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramOralSurgery.svg" />
 											</NavLink>
 										</li>
 
 										{Object.values(treatments3).map((key, index) => {
 											return (
-												<li>
-													<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+												<li key={index.toString()}>
+													<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 														{key.title}
 													</NavLink>
 												</li>
@@ -155,14 +155,14 @@ class MainMenu extends Component {
 									</ul>
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramHygiene.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramHygiene.svg" />
 											</NavLink>
 										</li>
 										{Object.values(treatments4).map((key, index) => {
 											return (
-												<li>
-													<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+												<li key={index.toString()}>
+													<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 														{key.title}
 													</NavLink>
 												</li>
@@ -171,14 +171,14 @@ class MainMenu extends Component {
 									</ul>
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramKids.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramKids.svg" />
 											</NavLink>
 										</li>
 										{Object.values(treatments5).map((key, index) => {
 											return (
-												<li>
-													<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+												<li key={index.toString()}>
+													<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 														{key.title}
 													</NavLink>
 												</li>
@@ -187,14 +187,14 @@ class MainMenu extends Component {
 									</ul>
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramOrthodontics.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramOrthodontics.svg" />
 											</NavLink>
 										</li>
 										{Object.values(treatments6).map((key, index) => {
 											return (
-												<li>
-													<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+												<li key={index.toString()}>
+													<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 														{key.title}
 													</NavLink>
 												</li>
@@ -203,15 +203,15 @@ class MainMenu extends Component {
 									</ul>
 									<ul className="dropDown-menu_list">
 										<li>
-											<NavLink exact to="/treatment/smile_design">
-												<img src="/assets/images/eramImplants.svg" />
+											<NavLink exact={true} to="/treatment/smile_design">
+												<img alt="eram-dental" src="/assets/images/eramImplants.svg" />
 											</NavLink>
 										</li>
 
 										{Object.values(treatments7).map((key, index) => {
 											return (
-												<li>
-													<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+												<li key={index.toString()}>
+													<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 														{key.title}
 													</NavLink>
 												</li>
@@ -222,22 +222,22 @@ class MainMenu extends Component {
 							</div>
 						</li>
 						<li>
-							<Link exact to="/#theTeam">
+							<Link exact={true.toString()} to="/#theTeam">
 								{menuItem.menu_3}
 							</Link>
 						</li>
 						<li>
-							<Link exact to="/#theclinic">
+							<Link exact={true.toString()} to="/#theclinic">
 								{menuItem.menu_4}
 							</Link>
 						</li>
 						<li>
-							<Link exact to="/#testimonials">
+							<Link exact={true.toString()} to="/#testimonials">
 								{menuItem.menu_5}
 							</Link>
 						</li>
 						<li>
-							<Link exact to="/#contact">
+							<Link exact={true.toString()} to="/#contact">
 								{menuItem.menu_6}
 							</Link>
 						</li>
@@ -246,9 +246,9 @@ class MainMenu extends Component {
 						<ul className="main-menu_rigth_scroll">
 							<li>
 								<a className="myButton">
-									<img class="iconsMyButtonsEmergency" src="/assets/images/first-aid-kit.svg" />
+									<img alt="eram-dental" className="iconsMyButtonsEmergency" src="/assets/images/first-aid-kit.svg" />
 									{page_text.emergency}
-									<img class="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
+									<img alt="eram-dental" className="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
 								</a>
 							</li>
 							<li>
@@ -261,7 +261,7 @@ class MainMenu extends Component {
 						</ul>
 						<div className="main-menu-rigth_adress">
 							<span id="phone">
-								<img src="../../assets/images/phone_black.svg" />
+								<img alt="eram-dental" src="../../assets/images/phone_black.svg" />
 								{address.phone}
 							</span>
 						</div>
@@ -273,20 +273,20 @@ class MainMenu extends Component {
 							<ul className="main-menu_left_telephone">
 								<li className="main-menu_left_emergency ">
 									<a className="myButton">
-										<img class="iconsMyButtonsEmergency" src="/assets/images/first-aid-kit.svg" />
+										<img alt="eram-dental" className="iconsMyButtonsEmergency" src="/assets/images/first-aid-kit.svg" />
 										{page_text.emergency}
-										<img class="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
+										<img alt="eram-dental" className="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
 									</a>
 								</li>
-								<li class="icon-facebook" target="_blank">
+								<li className="icon-facebook" target="_blank">
 									<a href={address.facebook}>
-										<img src="/assets/images/facebook.svg" />
+										<img alt="eram-dental" src="/assets/images/facebook.svg" />
 									</a>
 								</li>
 
-								<li class="icon-instagram">
-								<a href={address.instagram} target="_blank">
-										<img src="/assets/images/instagram_color.svg" />
+								<li className="icon-instagram">
+								<a href={address.instagram} target="_blank" rel="noopener noreferrer">
+										<img alt="eram-dental" src="/assets/images/instagram_color.svg" />
 									</a>
 								</li>
 							</ul>
@@ -297,33 +297,33 @@ class MainMenu extends Component {
 									<a href="#">
 										<span id="phone">{address.phone}</span>
 									</a>
-									<ul class="flags">
+									<ul className="flags">
 										<li>
-											<img
+											<img alt="eram-dental"
 												src="/assets/images/flag-english.svg"
 												onClick={() => handler('english')}
 											/>
 										</li>
 										<li>
-											<img
+											<img alt="eram-dental"
 												src="/assets/images/flag-germany.svg"
 												onClick={() => handler('german')}
 											/>
 										</li>
 										<li>
-											<img
+											<img alt="eram-dental"
 												src="/assets/images/flag-italy.svg"
 												onClick={() => handler('italian')}
 											/>
 										</li>
 										<li>
-											<img
+											<img alt="eram-dental"
 												src="/assets/images/flag-spain.svg"
 												onClick={() => handler('spanish')}
 											/>
 										</li>
 										<li>
-											<img
+											<img alt="eram-dental"
 												src="/assets/images/flag-france.svg"
 												onClick={() => handler('french')}
 											/>
@@ -334,9 +334,9 @@ class MainMenu extends Component {
 							<li>
 								<div className="" onClick={this.openModalHandler}>
 									<a className="myButton">
-										<img class="iconsMyButtons" src="/assets/images/calendar.svg" />
+										<img alt="eram-dental" className="iconsMyButtons" src="/assets/images/calendar.svg" />
 										{page_text.book_appointment}
-										<img class="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
+										<img alt="eram-dental" className="iconsMyButtonsArrow" src="/assets/images/play-button.svg" />
 									</a>
 								</div>
 								<span id="address">
@@ -347,34 +347,34 @@ class MainMenu extends Component {
 						</ul>
 					</div>
 					<div className="second-menu_categories">
-						<NavLink exact to="/">
+						<NavLink exact={true} to="/">
 							<div className="second-menu_categories_logo">
 								<div className="second-menu_categories_logo_pic" />
 							</div>
 						</NavLink>
 						<ul className="second-menu_categories_items">
 							<li>
-								<Link exact to="/#home">
+								<Link exact={true.toString()} to="/#home">
 									{menuItem.menu_1}
 								</Link>
 							</li>
 							<li id="dropDown">
-								<Link exact to="/#ourTreatments">
+								<Link exact={true.toString()} to="/#ourTreatments">
 									{menuItem.menu_2}
 								</Link>
 								<div id="drop-panel" className="dropDown-menu">
 									<div className="dropDown-menu_wrapper">
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/ourtreatments">
-													<img src="/assets/images/eramSimileDesign.svg" />
+												<NavLink exact={true} to="/ourtreatments">
+													<img alt="eram-dental" src="/assets/images/eramSimileDesign.svg" />
 												</NavLink>
 											</li>
 
 											{Object.values(treatments1).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -383,15 +383,15 @@ class MainMenu extends Component {
 										</ul>
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/treatment/care">
-													<img src="/assets/images/eramCare.svg" />
+												<NavLink exact={true} to="/treatment/care">
+													<img alt="eram-dental" src="/assets/images/eramCare.svg" />
 												</NavLink>
 											</li>
 
 											{Object.values(treatments2).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -400,14 +400,14 @@ class MainMenu extends Component {
 										</ul>
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/treatment/facial">
-													<img src="/assets/images/eramOralSurgery.svg" />
+												<NavLink exact={true} to="/treatment/facial">
+													<img alt="eram-dental" src="/assets/images/eramOralSurgery.svg" />
 												</NavLink>
 											</li>
 											{Object.values(treatments3).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -416,15 +416,15 @@ class MainMenu extends Component {
 										</ul>
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/treatment/hygiene">
-													<img src="/assets/images/eramHygiene.svg" />
+												<NavLink exact={true} to="/treatment/hygiene">
+													<img alt="eram-dental" src="/assets/images/eramHygiene.svg" />
 												</NavLink>
 											</li>
 
 											{Object.values(treatments4).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -433,15 +433,15 @@ class MainMenu extends Component {
 										</ul>
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/treatment/kids">
-													<img src="/assets/images/eramKids.svg" />
+												<NavLink exact={true} to="/treatment/kids">
+													<img alt="eram-dental" src="/assets/images/eramKids.svg" />
 												</NavLink>
 											</li>
 
 											{Object.values(treatments5).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -450,15 +450,15 @@ class MainMenu extends Component {
 										</ul>
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/treatment/orthodontics">
-													<img src="/assets/images/eramOrthodontics.svg" />
+												<NavLink exact={true} to="/treatment/orthodontics">
+													<img alt="eram-dental" src="/assets/images/eramOrthodontics.svg" />
 												</NavLink>
 											</li>
 
 											{Object.values(treatments6).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -467,14 +467,14 @@ class MainMenu extends Component {
 										</ul>
 										<ul className="dropDown-menu_list">
 											<li>
-												<NavLink exact to="/treatment/implants">
-													<img src="/assets/images/eramImplants.svg" />
+												<NavLink exact={true} to="/treatment/implants">
+													<img alt="eram-dental" src="/assets/images/eramImplants.svg" />
 												</NavLink>
 											</li>
 											{Object.values(treatments7).map((key, index) => {
 												return (
-													<li>
-														<NavLink key={index} exact to={`/treatment/treat/${key.link}`}>
+													<li key={index.toString()}>
+														<NavLink key={index} exact={true} to={`/treatment/treat/${key.link}`}>
 															{key.title}
 														</NavLink>
 													</li>
@@ -485,22 +485,22 @@ class MainMenu extends Component {
 								</div>
 							</li>
 							<li>
-								<Link exact to="/#theTeam">
+								<Link exact={true.toString()} to="/#theTeam">
 									{menuItem.menu_3}
 								</Link>
 							</li>
 							<li>
-								<Link exact to="/#theclinic">
+								<Link exact={true.toString()} to="/#theclinic">
 									{menuItem.menu_4}
 								</Link>
 							</li>
 							<li>
-								<Link exact to="/#testimonials">
+								<Link exact={true.toString()} to="/#testimonials">
 									{menuItem.menu_5}
 								</Link>
 							</li>
 							<li>
-								<Link exact to="/#contact">
+								<Link exact={true.toString()} to="/#contact">
 									{menuItem.menu_6}
 								</Link>
 							</li>

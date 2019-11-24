@@ -18,7 +18,7 @@ class AboutUs extends Component {
                     <h2>
                         <span id="zahra_text" dangerouslySetInnerHTML={setDescription()}></span>
                     </h2>
-                    <img src="/assets/images/signature.png" />
+                    <img alt="eram-dental" src="/assets/images/signature.png" />
                     <div className="caption-signaure">
                         Zahra Eram
                         <br /> CEO
