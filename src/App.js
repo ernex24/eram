@@ -38,7 +38,7 @@ class App extends Component {
 
 	componentDidMount() {
 		const german = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3704';
-		const english = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3660';
+		const english = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3915';
 		const italian = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3704';
 		const spanish = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3738';
 		const french = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3704';
@@ -51,7 +51,7 @@ class App extends Component {
     if(prevState.languajeSel !== this.state.languajeSel) {
 
 			const german = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3704';
-			const english = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3660';
+			const english = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3915';
 			const italian = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3742';
 			const spanish = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3738';
 			const french = 'https://www.eram-dh.com/wp-json/wp/v2/posts/3747';

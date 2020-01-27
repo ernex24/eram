@@ -1,0 +1,580 @@
+
+{
+    "id": 3704,
+    "date": "2019-10-29T11:22:19",
+    "date_gmt": "2019-10-29T10:22:19",
+    "guid": {
+      "rendered": "https://www.eram-dh.com/?p=3704"
+    },
+    "modified": "2020-01-17T15:53:27",
+    "modified_gmt": "2020-01-17T14:53:27",
+    "slug": "api-eram-german",
+    "status": "publish",
+    "type": "post",
+    "link": "https://www.eram-dh.com/api-eram-german/",
+    "title": {
+      "rendered": "api-eram &#8211; German"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": [
+      
+    ],
+    "categories": [
+      1
+    ],
+    "tags": [
+      
+    ],
+    "acf": {
+      "home": {
+        "address": {
+          "phone": "+41 / 44 222 21 11 ",
+          "address": {
+            "street": "Bleicherweg 33",
+            "city": "- 8002 Zurich"
+          },
+          "mail": " info@eram-dh.com",
+          "opening_time": {
+            "mon_to_fri": "8:00 - 20:00 ",
+            "saturday": "9:00 - 14:00"
+          },
+          "facebook": "https://www.facebook.com/EramDentalHealth/",
+          "instagram": "https://www.eram-dh.com/team/"
+        },
+        "maintitle": "Für strahlend schöne Zähne ",
+        "main_slider": {
+          "mainVideo": "https://www.eram-dh.com/wp-content/uploads/2019/10/eram.mp4",
+          "picture1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+          "picture2": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+          "picture3": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg"
+        },
+        "advertising": {
+          "ads_number": "2",
+          "ads_1": {
+            "ad_title_1": "ad title 1",
+            "ad_description_1": "ad description 1",
+            "ad_price_1": "400.-",
+            "ad_image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg"
+          },
+          "ads_2": {
+            "ad_title_1": "Bleaching",
+            "ad_description_1": "Zoom Power Bleaching",
+            "ad_price_1": "CHF 399.-",
+            "ad_image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_06.jpg",
+            "ad_title_2": "Check Up",
+            "ad_description_2": "Zahnarzt Untersuch inkl. 2 Röntgenbilder",
+            "ad_price_2": "CHF 120.-",
+            "ad_image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_04.jpg"
+          },
+          "ads_3": {
+            "ad_title_1": "ad title 1",
+            "ad_description_1": "ad description 1",
+            "ad_price_1": "400.-",
+            "ad_image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_08.jpg",
+            "ad_title_2": "ad title 2",
+            "ad_description_2": "ad description 2",
+            "ad_price_2": "200.-",
+            "ad_image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_14.jpg",
+            "ad_title_3": "ad title 3",
+            "ad_price_3": "ad price 3",
+            "ad_description_3": "ad description 3",
+            "ad_image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg"
+          },
+          "advertising_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+          "advertising_title": "Zahnarzt Untersuch inkl. 2 Röntgenbilder",
+          "advertising_price": "CHF 120.-",
+          "advertising_description": "This is the description of the advertising"
+        },
+        "zahra_text": "<div>\n<div><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span class=\"tlid-translation translation\" lang=\"de\"><span class=\"\" title=\"\">Im Herzen von Zürich gelegen, ausgestattet mit den modernsten Geräten und Instrumenten der Zahnmedizin, heisst Sie unser hochrangiges Team von Zahnärzten und Spezialisten, herzlich willkommen.<br />\n</span></span></span></span></span></span></div>\n</div>\n",
+        "values": {
+          "values1_title": "Erfahrung ",
+          "values1_subtitle": "Über 20 Jahre Erfahrung in Zahnmedizin ",
+          "values1_content": "Wir bieten Ihnen beste zahnmedizinische Behandlungen und schaffen ein unvergessliches Erlebnis in unserer einzigartigen Praxis.",
+          "values2_title": "Zugänglichkeit",
+          "values2_subtitle": "Öffnungszeiten für unsere Patienten ",
+          "values2_content": "Wir passen uns Ihrer Agenda an und versuchen Ihnen jeden Terminwunsch zu ermöglichen.",
+          "values3_title": "Preis / Leistung",
+          "values3_subtitle": "Wir bieten Ihnen faire Behandlungskosten und höchste Behandlungsqualität. ",
+          "values3_content": "Unsere Patienten können die Behandlungskosten bequem in Raten bezahlen. "
+        },
+        "clinic_description": "<p><span class=\"&quot;ILfuVd&quot;\"><span class=\"&quot;e24Kjd&quot;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Die Gesundheit Ihrer Zähne beeinflusst Ihr Wohlbefinden stark. Durch eine Kombination von modernster Technik der Zahnmedizin, den besten präventiven, kosmetischen und chirurgischen zahnärztlichen Behandlungen, wird Ihr Zahnarztbesuch bei Eram Dental Health Clinic eine angenehme Erfahrung. Neben den neuesten Entwicklungen der Zahnmedizin, werden Sie in den Genuss unseres einmaligen Wohlfühlambiente kommen.</span></span></span></span></p>\n",
+        "team_description": "Unser Team, bestehend aus erfahrenen Spezialisten in deren Fachgebiet, garantiert Ihnen erfolgreiche zahnärztliche Behandlungen und dass Sie sich wohl fühlen während Ihres Auftenhaltes bei Eram Dental Health Clinic. Für strahlend schöne und gesunde Zähne auf die Sie stolz sein dürfen",
+        "clinic_galery": {
+          "gallery_item1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_01.jpg",
+          "gallery_item2": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_02.jpg",
+          "gallery_item3": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_04.jpg",
+          "gallery_item4": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_06.jpg",
+          "gallery_item5": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_07.jpg",
+          "gallery_item6": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_08.jpg",
+          "gallery_item7": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_14.jpg",
+          "gallery_item8": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg"
+        },
+        "dentist": {
+          "foto_1": false,
+          "foto_texto_1": "Dr.med.dent. Oliver Sginca ",
+          "foto_2": false,
+          "foto_texto_2": "Prof.Dr.Dr. Stefan Schermer",
+          "foto_3": false,
+          "foto_texto_3": "Dr.med.dent. Efthymios Mastrokostas",
+          "foto_4": false,
+          "foto_texto_4": "Dr.med.dent. Fatma Yildiz ",
+          "foto_5": false,
+          "foto_texto_5": "Dr.med.dent. Stefano Troiani",
+          "foto_6": false,
+          "foto_texto_6": "Dr.med.dent. Bernadette Grimaldi "
+        },
+        "message_clicnic": "Wir verfügen über die besten Zahnärzte und wir arbeiten ausschliesslich mit Schweizer Technologie und Zahntechnik. ",
+        "testimonials": {
+          "testimonial1": {
+            "testimonial_name": "Diana Weber",
+            "testimonial_description": "Super Zahnarztpraxis mit sehr kompetenten Zahnärzten. Das ganze Team ist immer super freundlich.  Sehr schöne Praxis, tolles Ambiente, faire Preise und man merkt, dass mit Herz und Seele gearbeitet wird.",
+            "testimonial_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg"
+          },
+          "testimonial2": {
+            "testimonial_name": "Amir Hanna",
+            "testimonial_description": "Bin sehr zufrieden und fühle mich in guten und kompetenten Händen bei Eram Dental! Netter Empfang, hohe Qualität der Behandlung und sehr gute Erklärungen während der Behandlung. Stimmt alles für mich! Immer wieder gerne :-)",
+            "testimonial_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg"
+          },
+          "testimonial3": {
+            "testimonial_name": "Kim Gammeltoft",
+            "testimonial_description": "Ich habe Eram Dental Health Clinic jetzt schon ein paar Mal benutzt und ich liebe es. Zahra und ihr Team sind absolut professionell und ihre Arbeit ist die beste, die ich je erlebt habe. Ich werde auf jeden Fall bald wiederkommen.",
+            "testimonial_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_02.jpg"
+          }
+        }
+      },
+      "our_treatments": {
+        "treatment1": {
+          "link": "smile_design",
+          "section_title": "Eram Smile Design",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+            "image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+            "image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg"
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Bleaching ",
+              "description": "<p><strong>Strahlend weisse Zähne mit Zoom Power Bleaching</strong></p>\n<p>Ein schönes Lächeln unterstützt Ihre positive Ausstrahlung. Ob für einen speziellen Anlass oder einfach nur für ein strahlendes Lächeln für den Alltag, täglich lassen sich unsere Patienten von einem <a href=\"https://www.eram-dh.com/html/zahnbleaching-zuerich.html\">Zahnbleaching</a> bei Eram Dental Health Clinic überzeugen.</p>\n<p>Die Zahnarztpraxis Eram Dental ist darauf spezialisiert, Ihre Zähne schonend, sicher und langanhaltend aufzuhellen.  Wir sind die führende Zahnarzpraxis in Zürich für Zahnbleachings und versprechen Ihnen strahlend schöne, weisse und gesunde Zähne.</p>\n<p>Unser sicheres Bleaching-Verfahren, welches durch unser zahnmedizinisches Fachpersonal durchgeführt wird, können Sie problemlos 2 Mal pro Jahr durchführen lassen. Dank dem Zoom Power Bleaching werden Ihre Zähne 6-8 Nuancen heller.</p>\n<p>Nebst dem Zoom Power Bleaching, bieten wir Ihnen zusätzlich auch ein Bleachingverfahren an, welches Sie bequem zu Hause durchführen können. Home Bleaching ist die ideale Ergänzung zum In-Office Bleaching welches bei uns in der Praxis durchgeführt wird. In nur einem Besuch bei uns in der Praxis, fertigen wir zusammen mit unserem Zahntechniklabor Ihre massgefertigten Home-Bleaching-Schienen an. Das passende Gel für die Anwendung können Sie ebenfalls bei uns kaufen. Das Homebleaching können Sie jederzeit zu Hause wiederholen und ist eine sichere und schonende Alternative zum In-Office Bleaching. Zusammen mit der Abgabe Ihrer Schienen, werden wir Sie detailliert über die Anwendung aufklären.</p>\n<p>&nbsp;</p>\n<h5><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Rufen Sie uns heute noch unter +41/44 222 21 11 an und erhalten auch Sie ein strahlend weisses Lächeln.</span></span></h5>\n<p><iframe title=\"ZOOM Power Bleaching\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/djWPa65QnEo?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+              "image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+              "image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+              "link": "theet_whitenings"
+            },
+            "treatment_2": {
+              "title": "Invisalign",
+              "description": "<div id=\"KnM9nf\">\n<div class=\"DHcWmd\">\n<div id=\"tw-target\">\n<div id=\"kAz1tf\" class=\"g9WsWb\">\n<div id=\"tw-target-text-container\" class=\"tw-ta-container tw-nfl\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><strong><span lang=\"de\" tabindex=\"0\">Nahezu unsichtbar und herausnehmbar, erhalten Sie mit der \r\nkieferorthopädischen Invisalign-Behandlung ein perfektes Lächeln.</span></strong></pre>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p><strong><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></strong></p>\n<p><img class=\"alignnone wp-image-3648\" src=\"https://www.eram-dh.com/wp-content/uploads/2019/09/invisalign_logo_2010-converted.png\" alt=\"\" width=\"151\" height=\"151\" srcset=\"https://www.eram-dh.com/wp-content/uploads/2019/09/invisalign_logo_2010-converted.png 195w, https://www.eram-dh.com/wp-content/uploads/2019/09/invisalign_logo_2010-converted-150x150.png 150w\" sizes=\"(max-width: 151px) 100vw, 151px\" /></p>\n<p><strong><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Eram Dental Health Clinic I Premium Provider Invisalign</span></span></span></span></span></span></strong></p>\n<div class=\"oSioSc\">\n<div id=\"tw-target\">\n<div id=\"kAz1tf\" class=\"g9WsWb\">\n<div id=\"tw-target-text-container\" class=\"tw-ta-container tw-nfl\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Invisalign: \r\nEine diskrete, kieferorthopädische Behandlung, welche \r\nsowohl ästhetische als auch funktionelle kieferorthopädische Probleme \r\nbehandelt. \r\n\r\nInvisalign wurde für Patienten entwickelt, die nach einer diskreten Möglichkeit \r\nsuchen, ihre Zahnstellung zu verbessern.\r\nDie durchsichtige Zahnspange (Aligners) ist komfortabler als die klassische Zahnspange\r\nund Sie können sie zum Essen und Trinken herausnehmen, was sich nur minimal auf Ihr tägliches Leben auswirkt.</span></pre>\n</div>\n</div>\n</div>\n</div>\n<h3><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Invisalign Vorteile<br />\n</span></span></span></span></span></span></h3>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Wir bieten unseren Patienten folgende Vorteile mit Invisalign Zahnspange an.<br />\n</span></span></span></span></span></span></p>\n<ul>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Geeignet für Kinder, Jugendliche und Erwachsene<br />\n</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Transparente Alingers &#8211; kaum sichtbar.</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Effiziente und schnelle Zahnkorrektur.</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Weltweit benutzt mit nachgewiesenen Ergebnisse.<br />\n</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Patienten können das Behandlungsergebnis vor dem Beginn der Zahnkorrektur mittels einmaliger Technologie sehen.<br />\n</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Eine Zahnkorrektur soll kein finanzielles Hindernis sein. Wir bieten Ihnen faire Ratenzahlungen an.<br />\n</span></span></li>\n</ul>\n<h3><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Die Invisalign Behandlung<br />\n</span></span></h3>\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Die Behandlung erfolgt durch eine Reihe transparenter Aligner. Die Invisalign Aligners werden alle zwei Wochen gewechselt. Jeder Aligner wurde entwickelt, um die progressive Bewegung Ihrer Zähne in die Endposition zu fördern und Ihnen zu einem schönen Lächeln verhelfen.\r\n\r\nEin weiterer großer Vorteil von Invisalign ist, dass die Patienten die möglichen Ergebnisse vor Beginn der Behandlung sehen können. Mit der Clincheck-Technologie von Invisalign sehen Sie, wie Ihre Zahnstellung sein wird, wenn Sie sich für die kieferorthopädische Behandlung von Invsialign entscheiden. So gewinnen Sie mehr Vertrauen und Sicherheit für Ihr zukünftiges neues Lächeln.\r\n\r\nNach Abschluss der Behandlung erhalten Sie einen Retainer, um die neue Position Ihrer Zähne beizubehalten.</span></pre>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><iframe title=\"Invisalign 3D Animation\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/Of8F46gnohA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n<div class=\"margin\">\n<div class=\"left\">\n<div class=\"treatin-wrapp\">\n<h3 class=\"entry-title\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Was ist der Clin-Check?</span></span></h3>\n<div class=\"entry-content\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Clincheck ist Invisaligns eigener 3D-animierter Behandlungsplan, der nach Ihrer vollständigen Konsultation erstellt wird.\r\n\r\nNach dem Besuch bei Eram Dental Health Clinic werden Ihre Zahnmodelle an das Invisalign-Labor geschickt, wo sie in einem speziellen Scan-Gerät gescannt werden, \r\num ein 3D-Modell Ihrer Zähne zu erstellen.</span></pre>\n</div>\n<div class=\"margin\">\n<div class=\"left\">\n<div class=\"treatin-wrapp\">\n<div class=\"entry-content\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Von dort aus erstellt unser Kieferorthopäde Dr. Stefano Troiani gemeinsam mit dem Team von Invisalign Ihr maßgeschneiderten Behandlungsplan.\r\n\r\nBitte klicken Sie hier oder rufen Sie +41/44 222 21 11 an, um einen Termin zu vereinbaren.</span></pre>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p>&nbsp;</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "invisalign"
+            },
+            "treatment_3": {
+              "title": "Kieferorthopädie",
+              "description": "<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Eram Dental Health Clinic bietet Ihnen kieferorthopädische Behandlungen für Kinder und Erwachsene an.\r\n\r\nMit mehr als 8000 dokumentierten Behandlungen ist Eram Dental Health Clinic schweizweit führend in kieferorthopädischen Behandlungen. Das Know How unserer Fachärzte ist weltweit an diversen \r\nKonferenzen gefragt. \r\n\r\nDank unserer Spezialisten für Kieferorthopädie, können unsere Patienten von einem enormen Fachwissen profitieren. Wir \r\nbieten unsere Patienten verschieden kieferortohopädische Behandlungen wie: traditionelle Metallbrackets, Keramikbracketste, Invisalign, Lingual- und Deamonsysteme an.</span></pre>\n<h3><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Vorteile einer kieferorthopädischen Behandlung.<br />\n</span></span></span></span></span></span></h3>\n<ul>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Schönes und symeterisches Lächeln.<br />\n</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Verbessert die Zahn-und Kaufunktion.</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Effiziente und nachhaltige Zahnkorrektur.</span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Entwickelt für maximalen Komfort Ihrer Zähne<br />\n</span></span></span></span></span></span></li>\n<li>Eine Zahnkorrektur soll kein finanzielles Hindernis sein. Wir bieten Ihnen faire Ratenzahlungen an.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Kieferorthopädie für Kinder<br />\n</span></span></span></span></strong></p>\n<div class=\"oSioSc\">\n<div id=\"tw-target\">\n<div id=\"kAz1tf\" class=\"g9WsWb\">\n<div id=\"tw-target-text-container\" class=\"tw-ta-container tw-nfl\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">\r\nAbnehmbare Geräte: Diese können auf ein oder zwei Bögen gestellt werden und zielen auf die richtige Entwicklung der Kieferknochen des Kindes ab.\r\n\r\nBrackets: Metallbrackets werden normalerweise verwendet, wenn die Zähne überfüllt sind oder um Platz zu schaffen, damit neue Zähne sich korrekt entwickeln können.</span></pre>\n</div>\n</div>\n</div>\n</div>\n<p dir=\"ltr\" data-placeholder=\"Traducción\"><strong><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Kieferorthopädie für Erwachsene </span></span></strong></p>\n<div class=\"QmZWSe\">\n<div class=\"DHcWmd\"><span lang=\"de\" tabindex=\"0\">Die Möglichkeit von Brackets &#8211; ob aus Metall oder Keramik &#8211; ist auch bei erwachsenen Patienten sehr effizient.<br />\n</span></div>\n</div>\n<div></div>\n<div>\n<p>Die beliebteste Option der Zahnkorrektur bei unseren Erwachsenen Patienten ist die Behandlung mit Invisalign. Die durchsichtige Zahnspange passt sich ideal an den beruflichen wie auch privaten Alltag der Patienten an.</p>\n<div id=\"kAz1tf\" class=\"g9WsWb\">\n<div id=\"tw-target-text-container\" class=\"tw-ta-container tw-nfl\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Durch unsere jahrelange Erfahrung in Kieferorthopädie, können wir bei Eram Dental Health Clinic \r\nsämtliche kieferorthopädischen Behandlungen für Kinder, Jugendliche und Erwachsene anbieten.\r\n\r\nGerne nehmen wir Ihre Terminanfrage unter +41/44 222 21 11 entgegen. \r\n</span></pre>\n</div>\n</div>\n</div>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "orthodontic_treatment"
+            },
+            "treatment_4": {
+              "title": "Smile Makeover",
+              "description": "<div id=\"tw-target-text-container\" class=\"tw-ta-container tw-nfl\">\n<pre id=\"tw-target-text\" class=\"tw-data-text tw-text-large tw-ta\" dir=\"ltr\" data-placeholder=\"Übersetzung\"><span lang=\"de\" tabindex=\"0\">Ein Smile Makeover kann Ihr Selbstvertrauen und Ihr Auftreten komplett verändern und stärken. \r\n\r\nEram Dental Health Clinic ist absolut Marktführen im Bereich der ästhetischen Rekonstruktion Ihrer Zähne. \r\nEram Dental Health Clinic sorgt für ein einzigartiges und individuelles Lächeln auf das unsere Patienten ein Leben lang \r\nStolz sein können. \r\n\r\nViele Patienten äußern sich unzufrieden mit ihrem Lächeln. Ob der Farbe, der Form, oder die Ausrichtung Zähne, \r\nIn der Zahnarztpraxis Eram Dental verhelfen wir unseren Patienten zu einem verbesserten Erscheinungsbild und\r\nzu dem Lächeln, welches sie sich immer gewünscht haben. \r\n</span></pre>\n</div>\n<div class=\"margin\">\n<div class=\"left\">\n<div class=\"treatin-wrapp\">\n<h3><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Ihre Vorteile eines Smile Make Over bei Eram Dental Health Clinic.</span></span></span></span></span></span></span></span></h3>\n<ul>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Unsere Fachärzte nehmen sich Zeit für Ihre Bedürfnisse.<br />\n</span></span></span></span></span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Wir können Ihnen ein Lächeln individuell und nach Ihren Vorstellungen und Wünschen kreieren.<br />\n</span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Unsere Zahnärzte verfügen über jahrelange Erfahrung in Oral Smile Design.<br />\n</span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">In Kooperation mit unserem eigenen Zahntechnik Labor, erfüllen wir alle Wünsche unserer Patienten und garantieren ein individuelles und wunderschönes Lächeln.<br />\n</span></span></span></span></li>\n<li><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Wir bieten Ihnen unverbindliche Beratungen im Bereich Smile Make Over an.<br />\n</span></span></span></span></li>\n</ul>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Unsere Dienstleistungen im Bereich der kosmetischen Zahnmedizin sind darauf ausgerichtet, die Einzigartigkeit Ihres Lächelns zu erhalten. Wir möchten Sie beraten, wie Sie Ihre Zähne verschönern können und einen individuellen Behandlungsplan erstellen, der Ihren Bedürfnissen und Wünschen entspricht.</span></span></span><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><br />\n</span></span></span></span></p>\n<p><strong>Wir bieten unseren Patienten die folgenden Lösungen für die kosmetische Zahnmedizin an:</strong></p>\n<p>Zahnaufhellung, Bleaching: zur Beseitigung von Verfärbungen Ihrer Zähne.<br />\nVeneers: um das Aussehen Ihrer Zähne vollständig und ganz nach Ihren Vorstellungen und Wünschen zu verändern.<br />\nWeiße Füllungen: Sehr effiziente Behandlung für kleinere Korrekturen der Zähne.<br />\nKieferorthopädische Zahnkorrektur: zur Verbesserung der Ausrichtung Ihrer Zähne</p>\n<p>Wir freuen uns, unseren Patienten eine Vielzahl von finanziellen Möglichkeiten anbieten zu können. Das bedeutet, dass Sie die Behandlungen in Raten über einen bestimmten Zeitraum bezahlen können, was dazu beitragen kann, die Belastung durch eine einmalige Zahlung zu verringern.</p>\n<p>Klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "smile_makeover"
+            },
+            "treatment_5": {
+              "title": "Veneers",
+              "description": "<p><strong>Strahlend schöne Zähne. Wir verhelfen Ihnen zu wunder schönen und gesunden</strong><strong> Zähnen, auf die Sie ein Leben lang stolz sein dürfen.</strong></p>\n<p>Wünschen Sie sich auch ein strahlend weisses Lächeln mit makellosen Zähnen?</p>\n<p>Mit Veneers haben Sie die Möglichkeit, das Lächeln zu erhalten welches Sie sich schon immer gewünscht haben. Ob Form, Stellung oder Farbe der Zähne – Veeners ermöglichen Ihnen eine perfekte ästhetische Korrektur Ihre Zähne welche sich auf Ihr gesamtes Selbstbewusstsein und somit auch auf Ihre Lebensqualität auswirkt.</p>\n<p>So zeigt das natürliche Gebiss von Menschen häufig Abweichungen wie Risse und Absplitterungen an einzelnen Zähnen oder Schiefstellungen sowie Verfärbungen der Zähne. Zahnverfärbungen werden unter anderem durch den natürlichen Reifungsprozess sowie durch bestimmte Genuss- und Lebensmittel gefördert.</p>\n<p>Mittels einem individuelles Mock Up, erhalten Sie eine exakte Vorschau über die künftige Optik Ihre Zähne. Dies ermöglicht uns, von Ihnen gewünschte Korrekturen vorzunehmen um Ihnen letztendlich ein perfektes und zufriedenstellendes Ergebnis zu garantieren.</p>\n<p>Wir freuen uns, unseren Patienten eine Vielzahl von finanziellen Möglichkeiten anbieten zu können. Das bedeutet, dass Sie die Behandlungen in Raten über einen bestimmten Zeitraum bezahlen können, was dazu beitragen kann, die Belastung durch eine einmalige Zahlung zu verringern.</p>\n<p>Klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>&nbsp;</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "veneers"
+            },
+            "treatment_6": {
+              "title": "White Fillings",
+              "description": "<p>Kleinste Korrekturen mit High Tech Komposit Füllungen</p>\n<p>Komposit ist im Vergleich zum <a href=\"https://zahnarztzentrum.ch/blog/2015/12/10/eine-krone-in-einer-sitzung/\">Amalgam</a> ein ästhetischer, zahnfarbener Werkstoff. Amalgam-Füllungen enthalten Quecksilber – ein Grund für uns, diese nicht anzubieten um Ihnen zu einem gesunden und schönen Lächeln zu verhelfen.</p>\n<p>Ein weiterer Vorteil ist, dass Komposit unabhängig von der Defektform verwendet werden kann. Das heisst, dass für die Behandlung eines Zahndefektes mit einer Komposit-Füllung der Zahn nicht in eine bestimmte Form geschliffen werden muss. Somit wird ein Maximum an Zahnsubstanz geschont. Mit Komposit lassen sich entsprechend auch sehr kleine Defekte füllen, ohne dass diese zusätzlich vergrössert werden müssen.</p>\n<p>Mit Komposit wird der Defekt in mehreren Schichten durch unsere Zahnärzte in Handarbeit remodelliert. Zum Schluss folgt eine Politur, um eine glatte und porenfreie Oberfläche zu erhalten. Die Behandlung ist in der Regel in einer Sitzung abgeschlossen. Die Füllung ist sofort belastbar.</p>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Buchen Sie Ihren Termin hier oder rufen Sie einfach an, unter </span></span></span></span></span></span></span></span><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">+41/44 222 21 11.<br />\n</span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "white_fillings"
+            }
+          }
+        },
+        "treatment2": {
+          "link": "kids",
+          "section_title": "Eram Kids",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids1.jpeg",
+            "image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids11.jpeg",
+            "image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids8.jpeg"
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Prophylaxe",
+              "description": "<p><strong>Ihre Kinder &#8211; in Besten Händen bei Eram Dental Health Clinic.</strong></p>\n<p><span class=\"txt-01-initial\">W</span>ir tun alles dafür, dass Karies und Baktus im Mund Ihres Kindes keine Chance haben. Doch das häusliche Zähneputzen allein reicht oft nicht aus. Prophylaxe, sprich Vorsorge, ist ein Zusammenspiel aus gesunder, zuckerarmer Ernährung, dem richtigen Zahnputz- und Pflegeverhalten sowie einer ergänzenden professionellen Zahnreinigung und regelmäßigen Kontrolluntersuchung durch den Kinderzahnarzt. Je nach Alter Ihres Kindes und Zustand der Zähne erstellen wir ein individuelles Prophylaxekonzept, das für gesunde und starke Zähne sorgt und Zahnkrankheiten effektiv vorbeugt.</p>\n<p><span class=\"gruen\">Unser Praxisteam steht Ihnen gern für weitere Informationen zu unserem Prophylaxeprogramm zur Verfügung</span>.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids8.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "prophylaxe"
+            },
+            "treatment_2": {
+              "title": "Fluoridierung",
+              "description": "<p>Auch die sogenannte Fluoridierung gehört zu einer vollständigen Vorsorge gesunder Kinderzähne. Eine Fluoridierung sorgt für den Schutz des Zahnschmelzes, dem äußeren Teil der Zähne, vor Karies. In der Nahrung enthaltene Säuren greifen den Zahnschmelz täglich an. Er wird porös, wodurch sich Bakterien an der angegriffenen Stelle leicht einnisten und verbreiten können. Schnell kann bei ungenügender Zahnpflege Karies entstehen. Eine ausreichende Fluoridzufuhr sowie die regelmäßige zahnärztliche Zahnfluoridierung als Teil unseres Prophylaxeprogramms sorgen für ausreichenden Schutz der Zähne gegen diese schädlichen Säuren.</p>\n<p>Je nach Kariesanfälligkeit Ihres Kindes entscheiden wir, in welchen zeitlichen Abständen eine Fluoridierung sinnvoll und notwendig ist. Auch das Zähneputzen mit fluoridhaltiger Zahnpasta oder die Verwendung von fluoridiertem Speisesalz kann zum Schutz der Zähne beitragen.</p>\n<p>Allerdings sollten Sie auch auf eine übermäßige Fluoridzufuhr Acht geben, denn diese kann zu einer Verfärbung der Zähne führen.</p>\n<p><span class=\"gruen\">Lassen Sie sich gern von uns individuell beraten, in welchem Maße Sie Ihrem Kind Fluorid zuführen sollen</span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids6.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "fluoridation"
+            },
+            "treatment_3": {
+              "title": "Versiegelung der Zähne",
+              "description": "<p>Alle Zähne mit einer durch Furchen und Grübchen durchzogenen Oberfläche, sind durch diese Schmutznischen besonders kariesanfällig. Dort sammeln sich Bakterien und Speisereste, die selbst mit der Zahnbürste nicht erreicht werden können.</p>\n<p>Wir, Ihr Kinderzahnarzt in Zürich, versorgen die Zähne Ihres Kindes mit professionellen Versiegelungen, die für viele Jahre eine wirksame Kariesprävention bieten.  Die Spalten im Zahn werden so geschlossen, dass sich Zahnbeläge (Plaque) nicht mehr ansiedeln können.</p>\n<p>Bevor wir eine Zahnversiegelung vornehmen, erheben wir den gesundheitlichen Zustand der Zähne, den sogenannten Zahnstatus. Sollte sich bereits Karies an den Zähnen befinden, wird diese sanft entfernt. Der entstandene Defekt wird anschließend mit einem Kunststoff versiegelt. Bei gesunden Zähnen können wir eine Versiegelung ohne weitere Behandlungsschritte vornehmen. Eine Zahnversiegelung, bei gesunden Zähnen ist hier auch von einer präventiven Fissurenversiegelung die Rede, ist in wenigen Minuten erledigt. Wird jedoch ein größerer Zahndefekt entdeckt, muss das Loch im Zahn erst mittels Füllungstherapie therapiert werden. Anschließend kann eine sogenannte therapeutische Fissurenversiegelung erfolgen.</p>\n<p>Obwohl eine Versiegelung bei uns sorgfältig verarbeitet wird, können Teile der Versiegelung mit der Zeit durch Abnutzung verloren gehen. Bei jedem Kontrollbesuch prüfen wir den Zustand der Versiegelung und nehmen gegebenenfalls eine Erneuerung bzw. Ergänzung der vorhandenen Versiegelung vor.</p>\n<p><span class=\"gruen\">Eine Versiegelung ist zum nachhaltigen Schutz der Zähne Ihres Kindes vor Karies unbedingt zu empfehlen.</span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids12.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "sealing_from_the_1st_tooth"
+            },
+            "treatment_4": {
+              "title": "Füllungstherapie",
+              "description": "<p><span class=\"txt-01-initial\">Eram Dental Health Clinic ist</span> prophylaxeorientiert und legt großen Wert auf eine gründliche Zahnvorsorge. Dennoch kann es immer passieren, dass bei Ihrem Kind ein oder mehrere Zähne erkranken. Bei einer regelmäßigen Kontrolluntersuchung können wir dem frühzeitig entgegenwirken bzw. den Schaden durch eine Karieserkrankung eingrenzen, sodass wir Ihnen als Eltern nochmals ans Herz legen wollen, den regelmäßigen Besuch Ihres Kindes beim Zahnarzt wahrzunehmen.</p>\n<p>Ist ein Kinderzahn erkrankt, so sind die Entfernung der Karies und eine anschließende Füllung der betroffenen Stelle unerlässlich. Belässt man kariöse Zähne, breiten sich die Kariesbakterien immer weiter aus und können auch die bleibenden Zähne anstecken. Bei der Entfernung der erkrankten Zahnsubstanz gehen wir besonders sanft und schonend vor, um möglichst viel gesunde Zahnsubstanz zu erhalten. Anschließend restaurieren wir den geschädigten Zahn mit Hilfe von Füllungsmaterialien. Hierbei bieten wir sowohl Zementfüllungen als auch Füllungen aus Kunststoff an, um Ihren optischen Wünschen nachzukommen.</p>\n<p>Ihr Kind muss keine Angst vor dem Eingriff haben, denn unsere empathischen Zahnärzte sorgen dafür, dass es möglichst wenig von der Behandlung spürt. Gerne spielen wir während der Behandlung den Lieblingsfilm oder die Lieblingsmusik Ihres Kindes ab – so kann Ihr Kind ein wenig entspannen und der Eingriff ist schneller vorbei als gedacht. Auch für Patienten mit großer Zahnarztangst finden wir als Ihr Kinderzahnarzt in Zürich eine passende Behandlungslösung und sorgen mit unserem geschulten Team für eine einfühlsame und besonders sanfte Betreuung.</p>\n<p>So ermöglichen Behandlungen unter Einfluss von Lachgas, unter Sedierung oder Vollnarkose ein nahezu angstfreies und schmerzarmes Zahnarzterlebnis.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids11.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "cavities"
+            },
+            "treatment_5": {
+              "title": "Zähneknirschen",
+              "description": "<p><span class=\"txt-01-initial\">N</span>ächtliches Zähneknirschen, Zungen- und Wangenbeißen oder festes Aufeinanderpressen der Zähne kann sowohl bei Erwachsenen als auch bei Kindern auftreten. Am häufigsten sind diese Erscheinungen mit dem Durchbruch der ersten Zähne zu beobachten. Betroffene Kinder und Jugendliche beklagen Kieferschmerzen, Muskelverspannungen oder Unwohlsein. Neben diesen schmerzhaften Symptomen führt das Zähneknirschen früher oder später zum Verlust wertvoller Zahnsubstanz.</p>\n<p>Sollte Ihnen bekannt sein, dass Ihr Kind unter Zähneknirschen leidet, so raten wir Ihnen, Ihren Kinderzahnarzt heranzuziehen. Als Ihr Kinderzahnarzt München untersuchen wir die Zähne Ihres Kindes auf bereits abgeknirschte Zahnsubstanz und schauen nach Verspannungen der Muskulatur. Eine durchsichtige Kunststoffschiene, die wir Ihrem Kind individuell anfertigen, kann nachts getragen werden und verhindern, dass weitere gesunde Zahnsubstanz abgerieben wird.</p>\n<p>Zudem untersuchen wir die Ursache für das nächtliche Knirschen – oftmals steckt eine Fehlstellung der Zähne dahinter. Auch Stress und äußerer Druck können Zähneknirschen verursachen.</p>\n<p><span class=\"gruen\">Mit unseren präventiven und therapeutischen Maßnahmen gegen Zähneknirschen können wir das Wohlbefinden Ihres Kindes wieder herstellen!</span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids3.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "teeth_grinding"
+            },
+            "treatment_6": {
+              "title": "Narkosebehandlungen ",
+              "description": "<p><span class=\"txt-01-initial\">B</span>ei sehr kleinen Kindern, größeren Eingriffen, sehr ängstlichen oder schon traumatisierten Kindern haben wir die Möglichkeit, eine vollständige Zahnsanierung in Allgemeinanästhesie (Narkose) durchzuführen. Die Indikation dazu wird gründlich erwogen – wir, Ihr Kinderzahnarzt München, klären Sie als Eltern genauestens auf und legen mit Ihnen das weitere Vorgehen fest.</p>\n<p>Vor einer Narkosebehandlung informieren unsere Anästhesisten Sie ausführlich in einem Vorgespräch über den genauen Ablauf der Behandlung. Gern möchten wir mögliche Fragen klären und Sie in Ihrer Entscheidungsfindung als Ihr Kinderzahnarzt in Zürich bestmöglich unterstützen.</p>\n<p>Bei einer Behandlung in Narkose werden grundsätzlich alle Zähne in einer Sitzung optimal versorgt. Ihr Kind steht während der gesamten Behandlung unter ständiger Kontrolle der Anästhesisten.</p>\n<p><span class=\"gruen\">Nach der Behandlung kann Ihr Kind wieder unbeschwert lächeln!</span></p>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids9.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "anesthesia_treatments"
+            },
+            "treatment_7": {
+              "title": "Zahn Extraktionen",
+              "description": "<p>Ist ein Milchbackenzahn so sehr zerstört, dass er nicht mehr erhalten werden kann, muss der Zahn entfernt werden. Eine unzureichende oder falsche Behandlung (z.B. Aufbohren und / oder Belassen des Zahnes) kann zu längerfristigen Schäden führen, die wir, Ihr Kinderzahnarzt in Zürich, Ihrem Kind gerne ersparen möchten.</p>\n<p>Durch die Entfernung des Milchzahns entsteht eine Lücke. Diese muss geschlossen werden, um die Funktion und Entwicklung des Kauorgans zu erhalten. Anders als bei Erwachsenen darf die Lücke jedoch nicht durch einen endgültigen Zahnersatz geschlossen werden. Dafür bieten sogenannte Platzhalter eine optimale Lösung für Ihr Kind.</p>\n<p><span class=\"gruen\">Ob ein festsitzender oder abnehmbarer Platzhalter zu bevorzugen ist, entscheiden wir im Einzelfall. Sprechen Sie uns gerne an – wir zeigen Ihnen gerne Platzhalter für das Milch- und Wechselgebiss.</span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids2.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "tooth_extractions"
+            },
+            "treatment_8": {
+              "title": "Kieferorthopädie / Schulzahnarzt ",
+              "description": "<p>Eram Dental Health Clinic bietet sämtliche kieferorthopädischen Behandlungen für Ihre Kinder an. Mit über 8.000 dokumentierten kieferorthopädischen Behandlungsfällen verfügen wir über eine außergewöhnliche Erfahrung in der kieferorthopädischen Behandlung von Kindern.</p>\n<p><strong>Abnehmbare Zahnspangen</strong></p>\n<p>Abnehmbare Zahnspangen, sogenannte Platten, werden meist bei Kindern verwendet, bei denen einige Milchzähne vorhanden sind.</p>\n<p>Funktionelle kieferorthopädische Geräte wie Bionator, Aktivator oder Twin Block beeinflussen das Kieferwachstum mit dem Ziel eines normalen Bisses und normalisieren gleichzeitig muskuläre Dysbalancen im Mund.</p>\n<p>Um eine erfolgreiche Behandlung zu erreichen, müssen die Tragezeiten eingehalten werden. Diese betragen täglich zwischen 14 und 22 Stunden. Da die Behandlungsmöglichkeiten bei einer losen Zahnspange begrenzt sind, folgt in vielen Fällen eine Behandlung mit einer festen Zahnspange.</p>\n<p><strong>Feste Zahnspangen</strong></p>\n<p>Die feste Zahnspange, umgangssprachlich &#8222;Plättlispange&#8220; oder &#8222;Gartenhag&#8220; genannt, wird am häufigsten bei kieferorthopädischen Korrekturen verwendet. Es wird normalerweise verwendet, wenn alle bleibenden Zähne durchbrochen sind. Mit ausreichendem Kieferknochen können die Zähne in jedem Alter gerichtet werden.</p>\n<p><strong>&#8220; Unsichtbare&#8220; Zahnspangen</strong></p>\n<p>Heute gibt es verschiedene Möglichkeiten, die Fehlstellung fast unsichtbar zu korrigieren. Gerne beraten wir Sie, welche Behandlung für Sie die Beste ist.</p>\n<p><strong>Keramikbrackets</strong></p>\n<p>Die zahnfarbenen Keramikbrackets werden auf die Außenseite der Zähne geklebt. Sie sind ästhetischer als Metallbügel, weil sie aufgrund ihrer Transparenz kaum auffallen. Aus diesem Grund sind sie sowohl bei Jugendlichen als auch bei Erwachsenen beliebt.</p>\n<p><strong>Lingualtechnik</strong></p>\n<p>Bei der Lingualtechnik sind die festsitzenden Zahnspangen an der Innenseite der Zähne so befestigt, dass sie von außen völlig unsichtbar sind. Da die Innenseite des Zahnes nicht so anfällig für Entmineralisierungen / Entkalkungen ist, ist diese Schiene besonders zahnschonend.</p>\n<p><strong>Unsichtbare Zahnspangen &#8211; Incognito<br />\n</strong></p>\n<p>Ein weit verbreitetes Behandlungssystem ist Incognito ™, das individuelle Brackets und Bögen für jeden Patienten herstellt. Weitere Informationen erhalten Sie in einem unverbindlichen Beratungsgespräch mit unseren Fachärzten für Kieferorthopädie.</p>\n<p><strong>Ausrichtgeräte</strong></p>\n<p>Ausrichter sind abnehmbare und fast unsichtbare Kunststoffschienen. Sie können zur Behandlung von Fehlstellungen ohne den Einsatz von Metallwinkeln und Drähten eingesetzt werden.</p>\n<p><strong>Invisalign</strong></p>\n<p>Aligner können auch bei Jugendlichen eingesetzt werden, sofern alle bleibenden Zähne durchbrochen sind. Dies ist in der Regel ab dem Alter von 12 Jahren der Fall.</p>\n<p>Diese ästhetischen Schienen sind für einfache bis mittlere Zahnfehlstellungen geeignet. Komplexe Deformationen werden besser mit einer festen Zahnspange behandelt.</p>\n<p><strong>Retainer</strong></p>\n<p>Leider bleiben die Zähne nach der kieferorthopädischen Behandlung nicht in ihrer neuen, geraden Position. Mittels einem Retainer bleiben Ihre Zähne in der gewünschten Position bestehen.</p>\n<p>Wir freuen uns, Sie unverbindlich über eine kieferorthopädische Behandlung Ihres Kindes zu beraten.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids7.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "treatment_orthodontics"
+            },
+            "treatment_9": {
+              "title": "Sport Mundschutz",
+              "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span class=\"tlid-translation translation\" lang=\"en\"><span class=\"\" title=\"\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span class=\"txt-01-initial\">V</span>erletzungen an den Zähnen treten bei einigen Sportarten und Freizeitaktivitäten gehäuft auf. Besonders gefährdet sind die mittleren oberen Schneidezähne. Die Verletzungen können zu Zahnfrakturen und Zahnlockerungen bis hin zum Zahnverlust führen. Oft sind langwierige Nachbehandlungen die Folge, bei denen im schlimmsten Fall der Zahn ersetzt werden muss. Um einem Zahnunfall vorzubeugen, gibt es wirksame Schutzmaßnahmen, ohne dass Ihrem Kind der Spaß am Sport vergehen muss. Einen gängigen und effektiven Schutz bietet der auf die persönlichen Kieferverhältnisse angepasste Sportmundschutz.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids1.jpeg",
+              "image_2": false,
+              "image_3": false,
+              "link": "sport_mouthguard"
+            }
+          }
+        },
+        "treatment3": {
+          "link": "dental_care",
+          "section_title": " Eram Advanced Dental Care",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Parodontitis",
+              "description": "<p>Parodontitis ist eine schwere Form der Zahnfleischerkrankung und erfordert die Aufmerksamkeit unserer Zahnärzte.</p>\n<p>Für den Schutz der Zähne ist es unerlässlich, das Zahnfleisch gesund zu halten. In der Eram Dental Health Clinic kümmern wir uns immer um Ihr Zahnfleisch und behandeln Anzeichen von Zahnfleischerkrankungen.</p>\n<p>Das Zahnfleisch stützt Ihre Zähne, hält sie an Ort und Stelle und wirkt als Barriere gegen Bakterien. Ein gesundes Zahnfleisch ist rosa und fest. Rauchen, eine zuckerhaltige Ernährung, überlappende Zähne, Krankheiten wie Diabetes und bestimmte Medikamente können ebenfalls Zahnfleischerkrankungen verursachen.</p>\n<p>Das erste Stadium einer Zahnfleischerkrankung ist die Gingivitis. Zu den Symptomen gehören Zahnfleischbluten, Entzündungen und Wundsein. Es kann sogar zu einer Infektion des Zahnfleisches kommen. Wenn Sie eine Parodontitis entwickeln, können Sie schwerwiegendere Symptome wie Abszesse und tiefe Zahnfleischtaschen verspüren &#8211; dort ist die Zahnfleischversiegelung betroffen und entwickelt sich ein tiefer Raum, in dem sich Bakterien, Plaque und Zahnstein ansiedeln und weitere Schäden verursachen können.</p>\n<p>Die Parodontose betrifft den Kieferknochen und kann dazu führen, dass sich die Zähne lösen oder Sie diese sogar verlieren.</p>\n<p>Es ist sehr wichtig, die frühen Anzeichen einer Zahnfleischerkrankung zu behandeln. Wenn Sie zum Beispiel nach dem Putzen oder Reinigen mit Zahnseide Blutungen haben, zögern Sie nicht und kontaktieren Sie uns, um Erkrankungen Ihres Zahnfleisches frühzeitig zu erkennen.</p>\n<p>Warten Sie nicht und vereinbaren Sie Ihren Termin unter +41/44 222 21 11</p>\n<p>&nbsp;</p>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "periodontics"
+            },
+            "treatment_2": {
+              "title": "Endodontie",
+              "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n<div class=\"margin\">\n<div class=\"left\">\n<div class=\"treatin-wrapp\">\n<h3><img class=\"alignright size-medium wp-image-372\" src=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/endodontics-broseley-1-300x279.jpg\" sizes=\"(max-width: 300px) 100vw, 300px\" srcset=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/endodontics-broseley-1-300x279.jpg 300w, https://www.broseleydental.co.uk/wp-content/uploads/2018/01/endodontics-broseley-1.jpg 380w\" alt=\"\" width=\"300\" height=\"279\" /></h3>\n<p>&nbsp;</p>\n<p>Wir bieten unseren Patienten die beste und sicherste, endodontische Behandlung an.</p>\n<p>Die Wurzelkanalbehandlung ist die häufigste Form der endodontischen Therapie, und in der Eram Dental Health Clinic, Ihrer Zahnarztpraxis in Zürich, können wir dieses hoch qualifizierte und empfindliche Verfahren anbieten, um die Schmerzen und Schwellungen zu lindern, die durch diese Art von Infektion entstehen können.</p>\n<p>Das Weichgewebe oder die Zahnpulpa im Inneren eines Zahnes wird anfällig für Infektionen, wenn die äußeren Schichten gerissen oder beschädigt sind.</p>\n<p>Das Verfahren</p>\n<p>Unsere Spezialisten werden sich vor Beginn der Behandlung vergewissern, dass der zu behandelnde Bereich mit Lokalanästhesie betäubt wurde.</p>\n<p>Sie entfernen dann die Oberseite Ihres Zahnes, um auf das innere Gewebe zuzugreifen, und reinigen die Infektion vom Weichgewebe mit Feilen und Desinfektionsmittel. Um den Rest Ihres natürlichen Zahnes zu stärken und schützen, wird die Behandlung mit einer Überkronung des Zahnes abgeschlossen.</p>\n<p>Selbst Probleme mit dem Zugang zur Zahnwurzel oder zur Infektionsstelle, sind für unsere Spezialisten Routinebehandlungen.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>&nbsp;</p>\n</div>\n</div>\n</div>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "endodontics"
+            },
+            "treatment_3": {
+              "title": "Zahnarzt Untersuchung ",
+              "description": "<p>Die Zahnarztpraxis Eram Dental möchte auch Ihnen zu gesunden, schönen und langlebigen Zähne verhelfen.</p>\n<p>Regelmäßige Zahnuntersuchungen sind wichtig, um die Gesundheit Ihrer Zähne und Ihres Zahnfleisches zu erhalten. Der Check-up bei unserem Zahnarzt hilft Ihnen, einen wichtigen Beitrag zur Mundhygiene und Gesundheit Ihrer Zähen zu leisten.</p>\n<p><strong>Kinder</strong></p>\n<p>Es ist sinnvoll, einen jährlichen Check mit unserem Zahnarzt durchzuführen. Diese Untersuchung betrifft nicht die Früherkennung von Kariesschäden. Ist mit Platzmangel zu rechnen? Ist ein molarer Molar vorzeitig entstanden? Eram Dental hilft damit unseren jüngsten Patienten zu gesunden Zähnen.</p>\n<p><strong>Teenager</strong></p>\n<p>Nach der Pflichtschule beginnen für viele junge Erwachsene viele hektische Zeiten. Berufsausbildung, Trennung vom Heimatland, Wehrdienst und Selbständigkeit stehen noch aus. Die Zähne spielen dabei eine untergeordnete Rolle. Häufige Änderung der Essgewohnheiten, so dass manchmal massive Schäden in kurzer Zeit.</p>\n<p>Um mögliche Zahnschäden frühzeitig zu erkennen, wird eine jährliche Kontrolle mit Röntgenaufnahmen inkl. Dentalhygiene empfohlen.</p>\n<p><strong>Erwachsene</strong></p>\n<p>Die zahnärztliche Untersuchung bei erwachsenen Personen ist in der Regel kurz und verschiebt sich von der Karies zu einem stabilen Verhältnis der parodontalen, oralen Gesundheit und ästhetischen Probleme. Ebenso bedarf es oft der Beratung junger Eltern bei der zahnärztlichen Versorgung und Ernährung ihrer Nachkommen.</p>\n<p>Wir von der Zahnarztpraxis Eram Dental wollen Ihr zuverlässiger Partner für Ihre Zähne sein.</p>\n<p>Senioren</p>\n<p>Immer mehr Menschen werden älter und haben immer mehr Zähne. Die manuelle Geschicklichkeit kann abnehmen oder die Passivität gerät außer Kontrolle. Oftmals verschiedene Medikamente mit einer Vielzahl von Nebenwirkungen, zum Teil die zu nehmende Mundhöhle. Oft wird in dieser Lebensphase eine intensivere Zahnpflege angekündigt, die vor allem auf die langfristige Erhaltung der Kaufunktion abzielt.</p>\n<p>Die zahnärztliche Kontrolle sollten je nach Bedarf 3-4 mal jährlich festgelegt werden.</p>\n<p>Wir freuen uns auf Ihre Terminbuchung hier.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "dentist_check_up"
+            },
+            "treatment_4": {
+              "title": "Bruxismus",
+              "description": "<p>Zähneknirschen und Zähnepressen ist unter dem Fachbegriff Bruxismus bekannt und hat zur Folge, dass bei Nichtbehandlung unangenehme Schmerzen und Zahnschäden entstehen können.</p>\n<p>Die Zahnarztpraxis Eram Dental bietet Ihnen eine einfache und sehr effektive Aufbiss Schiene für stressfreie Nächte und unangenehme Folgenschäden oder Schmerzen.</p>\n<p>Beugen auch Sie vor und profitieren Sie von einer Aufbiss Schiene für eine effiziente und effektive Langzeitlösung.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "bruxism"
+            },
+            "treatment_5": {
+              "title": "Prothetik",
+              "description": "<p>Zahnprothetische Behandlungen werden benötigt, wenn Sie Zähne verloren haben oder Ihre natürlichen Zähne durch Karies oder Trauma beschädigt wurden. Die Prothetik befasst sich mit der Wiederherstellung und Revitalisierung Ihrer Zähne zur Verbesserung des Aussehens und der Zahnfunktion.</p>\n<p>In der Eram Dental Health Clinic sind wir uns der Notwendigkeit von langlebigen und zuverlässigen Zahnersatzes bewusst. Der Verlust der Zähne kann sich beunruhigend anfühlen und Probleme beim Essen und bei der Interaktion mit anderen verursachen.</p>\n<p>Wir bieten eine Reihe von prothetischen Behandlungen an.</p>\n<ul>\n<li>Kronen</li>\n<li>Zahnbrücken</li>\n<li>Zahnersatz oder implantatgetragener Zahnersatz</li>\n<li>Einzelzahnimplantat</li>\n<li>Kosmetische Zahnmedizin</li>\n<li>Teil-oder Vollprothesen</li>\n<li>Implantat getragene Prothesen</li>\n</ul>\n<p>Wir bieten unseren Patienten einen maßgeschneiderten und bedürfnisgerechten Behandlungsplan für Zahnprothetische Behandlungen an.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>&nbsp;</p>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "prosthodontics"
+            }
+          }
+        },
+        "treatment4": {
+          "link": "oral_surgery",
+          "section_title": "Eram Oral Chirurgie",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Oral Chirurgie",
+              "description": "<p>Wir verhelfen Ihnen zu strahlen schönen und gesunden Zähnen.</p>\n<p>Über die Jahre ist Eram Dental Health Clinic zu einer der führende Zahnkliniken für Oralchirurgie in Zürich geworden.</p>\n<p>Zu unseren Kernkompetenzen in der Oralchirurgie gehören die folgenden Behandlungen.</p>\n<ul>\n<li>Weisheitszähne ziehen (Weisheitszahnentfernung) auch in komplexen Situationen</li>\n<li>Knochenaufbauten im Bereich der Kieferhöhlen</li>\n<li>Sinuslift (intern und extern), Bennex-Methode</li>\n<li>Entfernung und Behandlung von Zysten im Kieferbereich: Zystektomie / Zystostomie / Marupialisierung / Marupialisierung</li>\n<li>Zahnimplantate auch in höchst komplexen Situationen</li>\n<li>Behandlung von zurückgehaltenen, versetzten Zähne im Rahmen der kieferorthopädischen Behandlung</li>\n<li>Zahntransplantationen</li>\n<li>Gingivatransplantate / Weichteiltransplantate</li>\n<li>Rezessionsabdeckungen für freiliegende Zahnhälse oder Wurzeloberflächen</li>\n<li>Knochenaufbauten (mit Membrantechnik oder Selbstknochen)</li>\n<li>Wurzelspitzenresektionen</li>\n<li>Entfernung einzelner Zahnwurzeln im Rahmen einer Zahnfleischtherapie</li>\n<li>Wurzelamputation</li>\n<li>Kronenverlängerungen</li>\n<li>Knochenblockabruf zum Aufbau größerer knöcherner Defekte</li>\n<li>Biopsie (in Zusammenarbeit mit dem Institut für Pathologie)</li>\n<li>Mundschleimhautbehandlungen</li>\n</ul>\n<p>Aufgrund unserer langjährigen Erfahrung auf diesem Gebiet ist eine kurze Operationsdauer die Regel. Auf Wunsch kann der Eingriff in Vollnarkose durchgeführt werden.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "treatment_oral_surgery"
+            },
+            "treatment_2": {
+              "title": "Weisheitszahn ",
+              "description": "<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n<div class=\"margin\">\n<div class=\"left\">\n<div class=\"treatin-wrapp\">\n<h3><img class=\"alignright size-medium wp-image-368\" src=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/tooth-extraction-broseley-1-300x279.jpg\" sizes=\"(max-width: 300px) 100vw, 300px\" srcset=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/tooth-extraction-broseley-1-300x279.jpg 300w, https://www.broseleydental.co.uk/wp-content/uploads/2018/01/tooth-extraction-broseley-1.jpg 380w\" alt=\"\" width=\"300\" height=\"279\" /></h3>\n<p>Die Zahnextraktion bei Eram Dental Health Clinic wird durch langjährig erfahrene Oralchirurgen durchgeführt.</p>\n<p>Wir tun alles für die Gesundheit der Zähne unserer Patienten um diese zu erhalten. Leider ist manchmal die Extraktion die einzige Möglichkeit. So kann beispielsweise ein Zahn entfernt werden, wenn er durch einen Unfall oder ein Trauma irreparabel beschädigt, durch Karies geschwächt oder durch eine innere Wurzelinfektion gestorben ist. Auch die Entfernung von betroffenen Weisheitszähnen oder die Entfernung von Zähnen vor der kieferorthopädischen Behandlung gehören bei Eram Dental Health Clinic zu Routinebehandlungen.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n</div>\n</div>\n</div>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "wisdom_tooth"
+            }
+          }
+        },
+        "treatment5": {
+          "link": "dental_hygiene",
+          "section_title": "Eram Dental Hygiene",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Dental Hygiene",
+              "description": "<p>Die professionelle Zahnreinigung und Zahnhygiene ist ein wesentlicher Bestandteil der Zahnprophylaxe. Die Zahnarztpraxis Eram Dental ist darauf spezialisiert, die Mängel der täglichen Mundhygiene zu beseitigen. Durch unseren Fokus auf höchste Präzision, Sauberkeit und Sensibilität wird die Zahnhygiene zu einem angenehmen und schmerzfreien Erlebnis. Unser gesamtes Prophylaxe-Team legt Wert auf eine vertrauensvolle und langfristige Beziehung zu unseren Patienten.</p>\n<p>Dank der regelmäßigen Zahnpflege in der Eram Dental Health Clinic leisten Sie einen wichtigen Beitrag zur Erhaltung Ihrer natürlichen Zähne. Darüber hinaus führt die zyklische Zahnhygiene zu einer angenehmen Mundhygiene und verhindert Karies und Parodontose.</p>\n<p>Unser Team aus erfahrenen Dentalhygienikern und Prophylaxeassistenten freut sich darauf, Sie in der Praxis Eram Dental Dental begrüßen zu dürfen.</p>\n<p>Ihre Zahnhygiene / Zahnreinigung bei Eram Dental Health Clinic</p>\n<p>Jede Behandlung wird individuell auf Ihre Bedürfnisse und Ihr Leben zugeschnitten. Eine Zahnreinigung muss individuell auf Sie zugeschnitten sein. Gemeinsam mit Ihnen erstellen wir einen Behandlungsplan, der optimal auf Ihren Alltag und Ihre Krankengeschichte abgestimmt ist. Vor jeder Behandlung werden Sie genau über das Verfahren informiert. Das schafft ein angenehmes und vertrauensvolles Gefühl und hilft Ihnen, Ängste abzubauen. Unser wichtigster Aspekt ist, dass wir uns auf eine gründliche und schmerzfreie Zahnreinigung konzentrieren. Dazu verwenden wir Handinstrumente, Airflow- oder Ultraschallgeräte. Die Interdentalräume werden sanft mit Zahnseide versorgt. Eine Behandlung dauert ca. 60 Minuten.</p>\n<p>Jeder unserer Dentalhygieniker und Prophylaxeassistenten verfügt über mindestens 10 Jahre Erfahrung.</p>\n<p>Ihre Zähne sind uns auch nach der Behandlung wichtig. Um Ihre Mundgesundheit zu erhalten, geben wir Ihnen individuelle und wertvolle Tipps für zu Hause.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "treatment_dental_hygiene"
+            },
+            "treatment_2": {
+              "title": "Power Bleaching",
+              "description": "<p><strong>Zoom Power Bleaching</strong></p>\n<p>Ein schönes Lächeln unterstützt Ihre positive Ausstrahlung. Ob für einen speziellen Anlass oder einfach nur für ein strahlendes Lächeln für den Alltag, täglich lassen sich unsere Patienten von einem <a href=\"https://www.eram-dh.com/html/zahnbleaching-zuerich.html\">Zahnbleaching</a> bei Eram Dental Health Clinic überzeugen.</p>\n<p><strong>In-Office Power Bleaching</strong></p>\n<p>Das Zoom Power Bleaching ist das professionelle Bleachingverfahren schlechthin.</p>\n<p>Das auf Ihre Zähne aufgetragene Gel, wird mittels Zoom LED Lampe 3-4 Mal je 15 Minuten beleuchtet. Dies sorgt für die Aktivierung und Wirkung des Zahnaufhellungsgels. Dank dem Zoom Power Bleaching, werden auch hartnäckige Verfärbungen effektiv und nachhaltig entfernt. Dieses sichere Verfahren, welches durch unser zahnmedizinisches Fachpersonal durchgeführt wird, können Sie problemlos 2 Mal pro Jahr durchführen lassen. Danke dem Zoom Power Bleaching werden Ihre Zähne 6-8 Nuancen heller.</p>\n<p><strong>Home Bleaching</strong></p>\n<p>Nebst dem Zoom Power Bleaching, bieten wir Ihnen zusätzlich auch ein Bleachingverfahren an, welches Sie bequem zu Hause durchführen können. Home Bleaching ist die ideale Ergänzung zum In-Office Bleaching welches bei uns in der Praxis durchgeführt wird. In nur einem Besuch bei uns in der Praxis, werden Ihre massgefertigten Home-Bleaching-Schienen erstellt. Das passende Gel für die Anwendung können Sie ebenfalls bei uns kaufen. Das Homebleaching können Sie jederzeit zu Hause wiederholen und ist eine sichere und schonende Alternative zum In-Office Bleaching. Zusammen mit der Abgabe Ihrer Schienen, werden wir Sie detailliert über die Anwendung aufklären.</p>\n<p>Wir freuen uns auf Ihren Anruf unter +41/44 222 21 11.</p>\n",
+              "image_1": 2855,
+              "image_2": false,
+              "image_3": false,
+              "link": "bleaching"
+            },
+            "treatment_3": {
+              "title": "Air Flow",
+              "description": "<p><strong>Airflow &#8211; Das Beste für Ihre Zähne. Entfernt Beläge und Verfärbungen effektiv &amp; zuverlässig.<br />\n</strong></p>\n<p>Als eine der wenigen Zahnarzt Praxen in Zürich, bietet Eram Dental Health Clinic seinen Patienten die Airflow Zahnreinigung an. Dank ausgefeilter Produkte und Techniken lassen sich störende Verfärbungen und mikrobielle Zahnbeläge schonend und vollständig beseitigen. Mit einem Gemisch aus Luft, den entsprechenden Pulvern und Wasser werden Zähne, Implantate, Kronen, Veneers und Weichgewebe effektiv und zugleich schonend professionell gereinigt. Der Biofilm, bestehend aus Bakterien und anderen Mikroorganismen, wird so ohne den Einsatz von chemischen Hilfsmitteln entfernt.</p>\n<div class=\"t3-wrapper\">\n<div id=\"mainbody\" class=\"t3-mainbody\">\n<div class=\"container\">\n<div class=\"row\">\n<div id=\"t3-content\" class=\"t3-content col-xs-12\">\n<div class=\"item-page\">\n<div>\n<p><span id=\"dockid_3917_C_ctl01_lblBody\">Dieser Behandlungsvorgang mit Airflow geht weit über das einfache Zahnsteinentfernen hinaus.</span></p>\n<h3>Ihre Vorteile mit einer Airflow Zahnreinigung</h3>\n<p>Das Air-Flow-System dient sowohl der Prophylaxe, der Ästhetik als auch der Wiederherstellung der Zahngesundheit.</p>\n<ul>\n<li>Zuverlässige Entfernung harter und weicher Zahnbeläge</li>\n<li>Beseitigung hartnäckiger Verfärbungen der Zähne</li>\n<li>Prophylaxe parodontaler Erkrankungen (Gingivitis, Parodontitis, Periimplantitis)</li>\n<li>Reinigung schwer zugänglicher Bereiche</li>\n<li>Fissurreinigung und -öffnung (Versiegelung)</li>\n<li>Angenehme Behandlung (Lärmfreiheit, keine Kürettenanwendung)</li>\n<li>Keine Beschädigung von Epithelien bzw. angrenzendem Gewebe</li>\n<li>Vermeidung zerkratzter Zahnoberflächen</li>\n<li>Sanftes Verfahren mit Anwendung biokinetischer Energie</li>\n<li>Kombination mit Piezon Scaling möglich</li>\n<li>Spezielle Produkte für Patienten mit empfindlichem Zahnfleisch</li>\n</ul>\n<p>Mittel Airflow verhelfen wir Ihnen zu einem komplett neuen Gefühl von Sauberkeit Ihrer Zähne. Wir freuen uns auf Ihren Anruf und Besuch bei uns.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<div id=\"mep_0\" class=\"mejs-container wp-video-shortcode mejs-video\" tabindex=\"0\" role=\"application\" aria-label=\"Video player\">\n<div class=\"mejs-inner\">\n<div class=\"mejs-mediaelement\">\n<div id=\"video-800-1-iframe-overlay\" class=\"mejs-iframe-overlay\"></div>\n<p><iframe id=\"video-800-1_youtube_iframe\" title=\"YouTube video player\" src=\"https://www.youtube.com/embed/jfwIl3yRlCk?controls=0&amp;rel=0&amp;disablekb=1&amp;showinfo=0&amp;modestbranding=0&amp;html5=1&amp;iv_load_policy=3&amp;autoplay=0&amp;end=0&amp;loop=0&amp;playsinline=0&amp;start=0&amp;nocookie=false&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fwww.eram-dh.com&amp;widgetid=1\" width=\"680\" height=\"382.5\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></p>\n</div>\n</div>\n</div>\n",
+              "image_1": 2855,
+              "image_2": false,
+              "image_3": false,
+              "link": "air_flow"
+            },
+            "treatment_4": {
+              "title": "Periodontics",
+              "description": "<p>Parodontose ist eine schwere Form der Zahnfleischerkrankung und erfordert die Aufmerksamkeit unserer Zahnärzte. Für den Schutz der Zähne ist es unerlässlich, das Zahnfleisch gesund zu halten. Wir sind Ihre Zahnarztpraxis für Zahnfleischentzündungen und behandeln Anzeichen von Zahnfleischerkrankungen effektiv.</p>\n<p>Das Zahnfleisch stützt Ihre Zähne, hält sie an Ort und Stelle und wirkt als Barriere gegen Bakterien. Ein gesundes Zahnfleisch ist rosa und fest. Rauchen, eine zuckerhaltige Ernährung, überlappende Zähne, Krankheiten wie Diabetes und bestimmte Medikamente können ebenfalls Zahnfleischerkrankungen verursachen.</p>\n<p>Das erste Stadium der Zahnfleischerkrankung ist die Gingivitis. Zu den Symptomen gehören Zahnfleischbluten, Entzündungen und Wundsein. Es kann sogar zu einer Infektion des Zahnfleisches kommen. Wenn sich eine Parodontitis entwickeln, können schwerwiegendere Symptome wie Abszesse und tiefe Zahnfleischtaschen entstehen &#8211; dort ist die Zahnfleischversiegelung betroffen und entwickelt sich ein tiefer Raum, in dem sich Bakterien, Plaque und Zahnstein ansiedeln und weitere Schäden verursachen können.</p>\n<p>Die Parodontose betrifft den Kieferknochen und kann dazu führen, dass sich die Zähne lockern oder sogar verloren gehen.</p>\n<p>Es ist sehr wichtig, die frühen Anzeichen einer Zahnfleischerkrankung zu behandeln.</p>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Buchen Sie Ihren Termin noch heute hier oder rufen Sie uns an, unter </span></span></span></span><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">+41/44 222 21 11.<br />\n</span></span></span></span></p>\n<p>&nbsp;</p>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n",
+              "image_1": 2855,
+              "image_2": false,
+              "image_3": false,
+              "link": "periodontics"
+            },
+            "treatment_5": {
+              "title": "Halithosis",
+              "description": "<div class=\"tlid-language-bar ls-wrap\">\n<div class=\"tl-wrap\">\n<div class=\"result-shield-container tlid-copy-target\" tabindex=\"0\">\n<h4>Eine individuelle Ursachenanalyse ist essentiell um Mundgeruch zu bekämpfen.</h4>\n<p>Schlechter Atem ist ein unangenehmes und vielfach unterschätztes Problem welches schnell zu einem ernsthaften Mangel an Selbstbewusstsein führen kann.</p>\n<p>Mundgeruch, bekannt auch unter dem Fachbegriff Halitosis oder Foetor ex ore, kann mehrere Ursachen haben und sich negativ auf Ihr soziales sowie auch Ihr berufliches Umfeld auswirken. Zudem ist Halitosis leider oftmals eine Thematik die aufgrund des Schamgefühls nicht gerne angesprochen wird und somit unbehandelt bleibt.  Die regelmässige und professionelle Dentalhygiene mit den entsprechenden Mundhygiene-Instruktionen, verhilft in den meisten Fällen bereits zu einer deutlichen Verbesserung.</p>\n<p>Es gibt zahlreiche Gründe die einen schlechten Atem verursachen. Die Ursachen sind oftmals relativ problemlos gefunden und können mit einfachen Mitteln besiegt werden. In den meisten Fällen bei denen Patienten mit Mundgeruch zur Zahnarztpraxis Eram Dental gelangen, wurden leider falsche oder ungenaue Diagnosen erstellt und das Problem bleibt somit unbehandelt. Wir legen Wert auf eine exakte und individuelle Beratung und Betreuung von Patienten die unter Halitosis leiden und möchten unseren Patienten zurück zu einem angenehmen Gefühl und Selbstbewusstsein verhelfen.</p>\n<p>Die Zahnarztpraxis Eram Dental ist Ihr kompetenter Ansprechpartner zur Analyse und Bekämpfung von Mundgeruch.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n</div>\n</div>\n</div>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "halithosis"
+            }
+          }
+        },
+        "treatment6": {
+          "link": "orthodontics",
+          "section_title": "Ortodontics",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_02.jpg",
+            "image_2": false,
+            "image_3": false
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Invisalign",
+              "description": "<p><strong>Entecken Sie eine neue Lebensqualität mit einem strahlend schönem Lächeln durch Invisalign Zahnspange.  </strong></p>\n<p>Praktisch unsichtbar und abnehmbar, können Sie mit der kieferorthopädischen Behandlung Invisalign ein strahlend schönes Lächeln genießen.</p>\n<p>Invisalign &#8211; eine diskrete kieferorthopädische Behandlung, die sowohl ästhetische als auch funktionelle kieferorthopädische Probleme behandeln kann.</p>\n<p>Invisalign wurde für Patienten entwickelt, die eine diskrete Möglichkeit zur Verbesserung ihrer Zähne suchen. Invisalign sind durchsichtige und abnehmbare Schienen, welche für das Auge unsichtbar sind.</p>\n<p>Die Schienen sind bequemer als eine feste Zahnspange und Sie können diese zum Essen und Trinken abnehmen &#8211; so haben Sie einen minimalen Einfluss auf Ihr tägliches Leben.</p>\n<p>&nbsp;</p>\n<div class=\"margin\">\n<div class=\"left\">\n<div class=\"treatin-wrapp\">\n<p><img class=\"alignleft wp-image-595 size-full\" title=\"Invisalign Aligners in Telford &amp; Bridgnorth\" src=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/02/Invislaign-photo.jpg\" sizes=\"(max-width: 767px) 89vw, (max-width: 1000px) 54vw, (max-width: 1071px) 543px, 580px\" srcset=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/02/Invislaign-photo.jpg 1701w, https://www.broseleydental.co.uk/wp-content/uploads/2018/02/Invislaign-photo-300x225.jpg 300w, https://www.broseleydental.co.uk/wp-content/uploads/2018/02/Invislaign-photo-768x576.jpg 768w, https://www.broseleydental.co.uk/wp-content/uploads/2018/02/Invislaign-photo-1024x768.jpg 1024w\" alt=\"Invisalign Aligners in Telford &amp; Bridgnorth\" width=\"1701\" height=\"1276\" /></p>\n<p><strong>Vorteile von Invisalign</strong></p>\n<ul>\n<li>Geeignet für Kinder und Erwachsene</li>\n<li>Kaum wahrnehmbare, transparente Aligners</li>\n<li>Schnelle und effiziente Behandlung</li>\n<li>Weltweit im Einsatz mit bewährten Ergebnissen</li>\n<li>Die Patienten können die Endergebnisse vor der Behandlung mit unserer fortschrittlichen Technologie sehen.</li>\n<li>Wir bieten hilfreiche Finanzierungspläne für die Behandlungskosten.</li>\n</ul>\n<h3><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Die Behandlung<br />\n</span></span></h3>\n<p>Die Behandlung erfolgt durch eine Reihe von transparenten Algingers (Schienen). Die Invisalign Aligners werden alle zwei Wochen gewechselt. Jeder Aligner wurde entwickelt, um die progressive Bewegung Ihrer Zähne in die Endposition zu fördern und Ihnen ein schönes Lächeln zu schenken, damit Sie sich sicherer und glücklicher fühlen.</p>\n<p>Ein weiterer großer Vorteil von Invisalign ist, dass Patienten die möglichen Ergebnisse vor Beginn der Behandlung sehen können. Mit der Clincheck-Technologie von Invisalign werden Sie sehen, wie Ihre Zähne nach der kieferorthopädischen Behandlung mit Invsialign aussehen werden.</p>\n<p><iframe src=\"https://www.youtube.com/embed/Of8F46gnohA?rel=0&amp;showinfo=0\" width=\"100%\" height=\"400\" frameborder=\"0\" data-mce-fragment=\"1\">&lt;/p&gt;<br />\n&lt;header<br />\nclass=&#8220;entry-header&#8220;&gt;lscreen=&amp;#8221;allowfullscreen&amp;#8221;&amp;gt;&lt;/header&gt;<br />\n&lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;</iframe></p>\n<h3 class=\"entry-title\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Was ist der Clincheck?</span></span></h3>\n<div class=\"entry-content\">\n<p>Clincheck ist ein eigener 3D-animierter Behandlungsplan welches Ihnen ermöglicht, das Endresultat vor Beginn der Invisalign Behandlung zu sehen.</p>\n<p>&nbsp;</p>\n<div class=\"videoWrapper\"><iframe src=\"https://www.youtube.com/embed/CymLSRBOfzc?rel=0&amp;showinfo=0\" width=\"100%\" height=\"400\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></div>\n<div></div>\n<p>Bitte klicken Sie hier oder rufen Sie uns an, unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>Wir freuen uns auf Ihren Besuch bei Eram Dental Health Clinic.</p>\n</div>\n</div>\n</div>\n</div>\n<p><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"> </span></span></span></span></span></span></span></span></p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "invisalign"
+            },
+            "treatment_2": {
+              "title": "Kieferorthopädie",
+              "description": "<p>Entecken Sie eine neue Lebensqualität mit einem strahlend schönen und gesunden Lächeln.</p>\n<p>Nicht jeder hat von Natur aus schöne, gerade Zähne. Oftmals ist im Mund nicht genügend Platz für die Zähne, die sich noch im Kiefer befinden oder bereits herausgewachsen sind. Dies führt nicht nur zu einer unschönen und unangenehmen Optik  der Zähne, sondern kann auch zu gesundheitlichen Problemen wie verminderter Kaufunktion oder Karies führen.</p>\n<p>Eram Dental Health Clinic bietet Ihnen Kieferothopädische Behandlungen an, welche ausschliesslich durch Fachärzte mit langjähriger Erfahrung durchgeführt werden.</p>\n<p>Durch die langjährige Erfahrung hat sich Eram Dental Health Clinic als führende Zahnarztpraxis für Kieferorthopädische Behandlungen in Zürich etabliert.</p>\n<p>Egal ob Kinder, Jugendliche oder Erwachsene, wir sind Ihre Zahnarztpraxis für Kieferorthopädie.</p>\n<p>Foglende, kieferorthopädische Behandlugnen bieten wir bei Eram Dental Health Clinic an.</p>\n<ul>\n<li><strong><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\"><span style=\"vertical-align: inherit;\">Invisalign</span></span></span></span></strong></li>\n<li><strong>Damon System</strong></li>\n<li><strong>Incognito Lingual System</strong></li>\n<li><strong>Klassische Zahnspangen (Metall und Keramik)</strong></li>\n</ul>\n<p>Bitte klicken Sie hier oder rufen Sie uns an, unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>Wir freuen uns auf Ihren Besuch bei Eram Dental Health Clinic.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "orthodontic_treatment"
+            }
+          }
+        },
+        "treatment7": {
+          "link": "implants",
+          "section_title": "Eram Implantologie",
+          "section_carousel": {
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false
+          },
+          "treatments": {
+            "treatment_1": {
+              "title": "Zahn Implantologie",
+              "description": "<p>Schöne, gesunde und feste Zähne, auf die Sie ein Leben lang stolz sein können.</p>\n<p>Verschiedene Gründe können dazu führen, dass Menschen ihre Zähne verlieren. Ob durch einen Unfall oder eine Erkrankung des Zahnhalteapparates, mit einem Zahn Implantat ermöglichen wir eine vollständige und langfristige Wiederherstellung der Kaufunktion und Ihres schönen und gesunden Lächelns.</p>\n<p><strong>Vorteile von Zahnimplantaten</strong></p>\n<p>&#8211; Zahn Implantate ist die sicherste und bewährteste Lösung für Zahnersatz<br />\n&#8211; Zahn Implantate gehören bei Eram Dental Health Clinic zur Routine und machen diese Behandlung sehr erfolgreich und vertrauenswürdig.<br />\n&#8211; Langfristige Lösung für fehlende Zähne<br />\n&#8211; Durch den Einsatz von Zahn Implantate, wird die volle Zahnfunktion im Mund wiederhergestellt.<br />\n&#8211; Wir bieten Ihnen optimale Finanzierungslösungen an, damit Sie die Kosten der Zahn Implantate auch in Raten bezahlen können.</p>\n<p><iframe title=\"Dental Implant Animation by Digimax Dental\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/61hFre2CNik?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>Ob es sich um die Schließung einer einzelnen Zahnlücke oder die Behandlung eines völlig zahnlosen Kiefers handelt, die Zahn Implantatlösungen in der Zahnarztpraxis Eram Dental garantieren Ihnen Sicherheit und Zuverlässigkeit in jeder Lebenssituation. Unser Ziel ist es, Ihnen einen perfekten ästhetischen und funktionellen Zahnersatz zu bieten, basierend auf fundiertem Fachwissen unserer Fachärzte, langjähriger Kompetenz und hochwertigsten Materialien.</p>\n<p>Zahn Implantate sind Teil unserer Routineeingriffe &#8211; sicher und bewährt.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an, unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>Wir freuen uns auf Ihren Besuch bei Eram Dental Health Clinic.</p>\n<p>&nbsp;</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_01.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "dental_Implants "
+            },
+            "treatment_2": {
+              "title": "Implant Prothesen",
+              "description": "<p>Implantat getragene Zahnprothese</p>\n<p><img class=\"alignright size-medium wp-image-370\" src=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/implant-retained-denture-broseley-1-300x279.jpg\" sizes=\"(max-width: 300px) 100vw, 300px\" srcset=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/implant-retained-denture-broseley-1-300x279.jpg 300w, https://www.broseleydental.co.uk/wp-content/uploads/2018/01/implant-retained-denture-broseley-1.jpg 380w\" alt=\"\" width=\"300\" height=\"279\" /></p>\n<p>Wenn Sie eine Prothese tragen oder eine Prothesenversorgung in Betracht ziehen um Ihr Lächeln wiederherzustellen und fehlende Zähne zu ersetzen, können wir Ihnen eine Implantat getragene Prothesenversorgung anbieten.</p>\n<p>Eine Implantat getragene Prothese bietet Ihnen ein stabiles und solides Fundament für einen langjährigen, festen und gesunden Biss.</p>\n<p>Vorteile eines Implantat getragenen Zahnersatzes.</p>\n<ul>\n<li>Verringert die Wahrscheinlichkeit des Verrutschens einer Prothese</li>\n<li>An der Prothese werden Metallflügel oder Klammern befestigt, die von den Implantaten sicher an Ort und Stelle gehalten werden</li>\n<li>Vertrauen in den Genuss der Lebensmittel, die Sie genießen.</li>\n<li>Erhöhter Komfort beim Tragen Ihrer Prothese</li>\n</ul>\n<p>Eram Dental Health Clinic bietet Ihnen langjähriges Fachwissen und die Erfahrung die erforderlich sind für Implantat getragene Prothesen.</p>\n<p>Bitte klicken Sie hier oder rufen Sie uns an, unter +41/44 222 21 11, um Ihren Termin zu vereinbaren.</p>\n<p>Wir freuen uns auf Ihren Besuch bei Eram Dental Health Clinic.</p>\n",
+              "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_07.jpg",
+              "image_2": false,
+              "image_3": false,
+              "link": "implant_retained_dentures"
+            }
+          }
+        }
+      },
+      "page_text": {
+        "emergency": " Notfall",
+        "book_appointment": "Terminbuchung hier",
+        "menu_items": {
+          "menu_1": "Zuhause",
+          "menu_2": "Behandlungen",
+          "menu_3": "Über uns",
+          "menu_4": "Die Klinik",
+          "menu_5": "Referenzen",
+          "menu_6": "Kontakt"
+        },
+        "sections": {
+          "advertising_title": "ERAM AKTIONEN",
+          "our_treatments": "<p>Unsere<br />\n<span>Behandlungen</span></p>\n",
+          "values_title": "<p>Warum Vertrauen <br /> <span>uns Patienten</span></p>\n",
+          "clinic_title": "<p>Eram Smile <br /><span>Design Center</span></p>\n<p>\n",
+          "clinic_subtitle": "Die Klinik",
+          "team_title": "<p>Ihre Zahnärzte und Spezialisten <span>für gesunde Zähne</span></p>\n<p>\n",
+          "team_subtitle": "Das Team",
+          "team_1": "Zahnarzt",
+          "team_2": " Zahnhygiene / Prophylaxe",
+          "team_3": "  Zahnarzt",
+          "team_4": " Anästhesie-Team",
+          "team_5": " Zahntechnik ",
+          "team_6": "Management"
+        },
+        "testimonial_button": "Sehen Sie die Geschichte"
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/posts/3704"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/users/2"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/comments?post=3704"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 78,
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/posts/3704/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 3895,
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/posts/3704/revisions/3895"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/media?parent=3704"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/categories?post=3704"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://www.eram-dh.com/wp-json/wp/v2/tags?post=3704"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }

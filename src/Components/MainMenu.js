@@ -222,23 +222,28 @@ class MainMenu extends Component {
 							</div>
 						</li>
 						<li>
-							<Link exact={true.toString()} to="/#theTeam">
+							<Link exact={true.toString()} to="">
 								{menuItem.menu_3}
 							</Link>
 						</li>
 						<li>
-							<Link exact={true.toString()} to="/#theclinic">
+							<Link exact={true.toString()} to="/#theTeam">
 								{menuItem.menu_4}
 							</Link>
 						</li>
 						<li>
-							<Link exact={true.toString()} to="/#testimonials">
+							<Link exact={true.toString()} to="/#theclinic">
 								{menuItem.menu_5}
 							</Link>
 						</li>
 						<li>
-							<Link exact={true.toString()} to="/#contact">
+							<Link exact={true.toString()} to="/#testimonials">
 								{menuItem.menu_6}
+							</Link>
+						</li>
+						<li>
+							<Link exact={true.toString()} to="/#contact">
+								{menuItem.menu_7}
 							</Link>
 						</li>
 					</ul>
@@ -485,23 +490,28 @@ class MainMenu extends Component {
 								</div>
 							</li>
 							<li>
-								<Link exact={true.toString()} to="/#theTeam">
+								<Link exact={true.toString()} to="">
 									{menuItem.menu_3}
 								</Link>
 							</li>
 							<li>
-								<Link exact={true.toString()} to="/#theclinic">
+								<Link exact={true.toString()} to="/#theTeam">
 									{menuItem.menu_4}
 								</Link>
 							</li>
 							<li>
-								<Link exact={true.toString()} to="/#testimonials">
+								<Link exact={true.toString()} to="/#theclinic">
 									{menuItem.menu_5}
 								</Link>
 							</li>
 							<li>
-								<Link exact={true.toString()} to="/#contact">
+								<Link exact={true.toString()} to="/#testimonials">
 									{menuItem.menu_6}
+								</Link>
+							</li>
+							<li>
+								<Link exact={true.toString()} to="/#contact">
+									{menuItem.menu_7}
 								</Link>
 							</li>
 						</ul>

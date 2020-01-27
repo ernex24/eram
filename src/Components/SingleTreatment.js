@@ -4,6 +4,7 @@ import ContactUs from './ContactUs';
 import OurValues from './OurValues';
 import { NavLink } from 'react-router-dom';
 import Slider from 'react-slick';
+import AppointmentWidget from './appointmentWidget';
 
 class SingleTreatment extends Component {
 	render() {
@@ -73,6 +74,7 @@ class SingleTreatment extends Component {
 								);
 							})}
 						</ul>
+						<AppointmentWidget/>
 					</div>
 				</div>
 

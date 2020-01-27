@@ -3251,7 +3251,11 @@ item6 {
 	font-family: lato;
 	font-size: 22px;
 	line-height: 2;
-	padding: 30px;
+	padding: 20px 0 0 20px;
+}
+
+.lateralMenu  > ul {
+	padding: 0 0 0 20px 0;
 }
 
 @media (max-width: 1350px) {
@@ -3357,11 +3361,11 @@ item6 {
 	font-size: 24px;
 }
 
-.textContent * ul {
-	list-style-type: circle;
-	list-style-position: outside;
-	list-style-image: none;
-	margin: 30px 0;
+.textContent > ul {
+	list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: none;
+    margin: 0;
 }
 
 .textContent * p {

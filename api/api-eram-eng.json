@@ -1,0 +1,582 @@
+// 20200127194537
+// https://www.eram-dh.com/wp-json/wp/v2/posts/3915
+
+{
+  "id": 3915,
+  "date": "2020-01-27T15:37:45",
+  "date_gmt": "2020-01-27T14:37:45",
+  "guid": {
+    "rendered": "https://www.eram-dh.com/?p=3915"
+  },
+  "modified": "2020-01-27T19:43:47",
+  "modified_gmt": "2020-01-27T18:43:47",
+  "slug": "api-eram-english-backup",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.eram-dh.com/en/api-eram-english-backup/",
+  "title": {
+    "rendered": "api-eram English &#8211; backup"
+  },
+  "content": {
+    "rendered": "",
+    "protected": false
+  },
+  "excerpt": {
+    "rendered": "",
+    "protected": false
+  },
+  "author": 2,
+  "featured_media": 0,
+  "comment_status": "closed",
+  "ping_status": "closed",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": [
+    
+  ],
+  "categories": [
+    1
+  ],
+  "tags": [
+    
+  ],
+  "acf": {
+    "home": {
+      "address": {
+        "phone": "+41 / 44 222 21 11 ",
+        "address": {
+          "street": "Bleicherweg 33",
+          "city": "8002 Zurich"
+        },
+        "mail": " info@eram-dh.com",
+        "opening_time": {
+          "mon_to_fri": "8:00 - 20:00 ",
+          "saturday": "9:00 - 14:00"
+        },
+        "facebook": "https://www.facebook.com/EramDentalHealth/",
+        "instagram": "https://www.instagram.com/eramdental/"
+      },
+      "maintitle": "We create your perfect smile",
+      "main_slider": {
+        "mainVideo": "https://www.eram-dh.com/wp-content/uploads/2019/09/video.mp4",
+        "picture1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+        "picture2": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+        "picture3": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg"
+      },
+      "advertising": {
+        "ads_number": "2",
+        "ads_1": {
+          "ad_title_1": "ad title 1",
+          "ad_description_1": "ad description 1",
+          "ad_price_1": "400.-",
+          "ad_image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg"
+        },
+        "ads_2": {
+          "ad_title_1": "Bleaching",
+          "ad_description_1": "Zoom Power Bleaching",
+          "ad_price_1": "CHF 399.-",
+          "ad_image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_06.jpg",
+          "ad_title_2": "Check Up",
+          "ad_description_2": "Dentist Check incl. 2 X-Ray",
+          "ad_price_2": "CHF 120.-",
+          "ad_image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_04.jpg"
+        },
+        "ads_3": {
+          "ad_title_1": "ad title 1",
+          "ad_description_1": "ad description 1",
+          "ad_price_1": "400.-",
+          "ad_image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_08.jpg",
+          "ad_title_2": "ad title 2",
+          "ad_description_2": "ad description 2",
+          "ad_price_2": "200.-",
+          "ad_image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_14.jpg",
+          "ad_title_3": "ad title 3",
+          "ad_price_3": "ad price 3",
+          "ad_description_3": "ad description 3",
+          "ad_image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg"
+        },
+        "advertising_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+        "advertising_title": "Dentist Check-Up incl. 2 X-Ray",
+        "advertising_price": "CHF 120.-",
+        "advertising_description": "This is the description of the advertising"
+      },
+      "zahra_text": "<p>Located in the heart of Zurich, it is trusted to be the highest quality dentist in a state-of-the-art environment by a high-level team with over 15 years of experience.</p>\n",
+      "values": {
+        "values1_title": "Experience  ",
+        "values1_subtitle": "“To passionately provide advanced Dentistry and unmatched quality of hospitality.”",
+        "values1_content": "We offer you the best medical treatment, creating an unforgettable experience in our unique environment",
+        "values2_title": "Accesability",
+        "values2_subtitle": "Opening Hours for our Patients",
+        "values2_content": "We adapt to your agenda and try to make any appointment wish possible.",
+        "values3_title": "Fair ",
+        "values3_subtitle": "We offer fair prices for highest quality",
+        "values3_content": "We offer our patients fair treatments cost and the possibility to pay in installments. "
+      },
+      "clinic_description": "<p>Eram Dental Health Clinic is an individually designed dental clinic that warmly welcomes you. The pleasant atmosphere of our treatment centers almost makes you forget that dentistry is a clinical procedure.</p>\n",
+      "team_description": "Our Team of Doctors and Specialists with over 15 Years experience. ",
+      "clinic_galery": {
+        "gallery_item1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_01.jpg",
+        "gallery_item2": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_02.jpg",
+        "gallery_item3": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_04.jpg",
+        "gallery_item4": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_06.jpg",
+        "gallery_item5": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_07.jpg",
+        "gallery_item6": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_08.jpg",
+        "gallery_item7": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_14.jpg",
+        "gallery_item8": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg"
+      },
+      "dentist": {
+        "foto_1": false,
+        "foto_texto_1": "Dr.med.dent. Oliver Sginca ",
+        "foto_2": false,
+        "foto_texto_2": "Prof.Dr.Dr. Stefan Schermer",
+        "foto_3": false,
+        "foto_texto_3": "Dr.med.dent. Efthymios Mastrokostas",
+        "foto_4": false,
+        "foto_texto_4": "Dr.med.dent. Fatma Yildiz ",
+        "foto_5": false,
+        "foto_texto_5": "Dr.med.dent. Stefano Troiani",
+        "foto_6": false,
+        "foto_texto_6": "Dr.med.dent. Bernadette Grimaldi "
+      },
+      "message_clicnic": "We have the best doctors in Switzerland and we work only with Swiss Technology",
+      "testimonials": {
+        "testimonial1": {
+          "testimonial_name": "Zahra Eram",
+          "testimonial_description": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.”",
+          "testimonial_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg"
+        },
+        "testimonial2": {
+          "testimonial_name": "Ricardo Meili",
+          "testimonial_description": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.”",
+          "testimonial_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg"
+        },
+        "testimonial3": {
+          "testimonial_name": "Sarah Villar",
+          "testimonial_description": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.”",
+          "testimonial_image": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_02.jpg"
+        }
+      }
+    },
+    "our_treatments": {
+      "treatment1": {
+        "link": "smile_design",
+        "section_title": "Eram Smile Design",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+          "image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+          "image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg"
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Teeth Whitening",
+            "description": "<p><strong>Lighten your teeth with Zoom Power Bleaching at Eram Dental Health Clinic</strong></p>\n<p>&nbsp;</p>\n<p>Whiter, brighter teeth are a quick and effective way to transform your smile and boost your appearance</p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic we offer only the most effective teeth whitening system, which is proven to lighten your teeth by several shades.</p>\n<p>&nbsp;</p>\n<p>Many patients complain of discoloured, stained or dull teeth. This change in color may be due to a number of reasons such as age, smoking, certain food and drink, and various medications.</p>\n<p>&nbsp;</p>\n<p>Teeth whitening treatment restores the brightness to your teeth and is a perfectly safe and proven method of improving your smile. This is a fantastic and easy way to enhance your smile.</p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic, we offer two different teeth whitening systems. Philips Zoom Power Bleaching The most advanced, professional in-practice whitening system.</p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic, the teeth whitening is carried out completely by our dental professionals. We guarantee our patients the highest quality standards and amazing results. The result is more intense and can be achieved in just 1h to 1 1/2 hours. The Zoom Power Bleaching is designed to be harmless to your teeth and gums.</p>\n<p>&nbsp;</p>\n<p>The specially developed blue LED light optimally supports the decolorization of color molecules, so you can enjoy your most beautiful smile.</p>\n<p>&nbsp;</p>\n<p><strong>Home Bleaching Kit</strong><br />\nWe offer patients tray-based whitening kits which you can use at your convenience. When you attend Eram Dental Health Clinic, we want to take your teeth into account so we can create your whitening trays. We want to show you how to apply the whitening gel to the tray and how long you want to wear the trays.</p>\n<p>&nbsp;</p>\n<p>Following treatment, we will arrange a follow-up appointment so that we can ensure you are happy with the results.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment for your beautiful, white smile.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+            "image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+            "image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+            "link": "theet_whitenings"
+          },
+          "treatment_2": {
+            "title": "Invisalign",
+            "description": "<p><strong>Virtually invisible and removable, you can enjoy a smile with the Invisalign orthodontic treatment</strong></p>\n<p><img class=\"alignnone wp-image-3648\" src=\"https://www.eram-dh.com/wp-content/uploads/2019/09/invisalign_logo_2010-converted.png\" alt=\"\" width=\"151\" height=\"151\" srcset=\"https://www.eram-dh.com/wp-content/uploads/2019/09/invisalign_logo_2010-converted.png 195w, https://www.eram-dh.com/wp-content/uploads/2019/09/invisalign_logo_2010-converted-150x150.png 150w\" sizes=\"(max-width: 151px) 100vw, 151px\" /></p>\n<p><strong>Eram Dental Health Clinic, 1 Premium Provider Invisalign</strong></p>\n<p>Invisalign: a discrete orthodontic appliance that can treat both aesthetic and functional orthodontic problems. Invisalign is a removable transparent clamp system that is almost invisible to the eye.</p>\n<p>The aligners are more comfortable than a fixed orthopedic device and you can remove them for eating and drinking, which has a minimal impact on your daily life.</p>\n<p>&nbsp;</p>\n<p><strong>Invisalign benefits:</strong></p>\n<p><strong>We offer our patients the following cosmetic dentistry solutions:</strong></p>\n<ul>\n<li>Suitable for patients over 16 years.</li>\n<li>Transparent aligners barely noticeable</li>\n<li>Fast and efficient treatment.</li>\n<li>Used worldwide with proven results.</li>\n<li>Patients can see the final results before treatment with our advanced technology.</li>\n<li>We offer helpful finance plans so you can spread the cost of treatment</li>\n</ul>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>The treatment</strong></p>\n<p>Treatment is provided through a series of transparent aligners (which are similar to mouth guards).</p>\n<p>The Invisalign aligner is changed every two weeks.<br />\nEach aligner has been designed to encourage the progressive movement of your teeth into the end position to give you a great-looking smile, making you feel more confident and happy.</p>\n<p>Another great advantage of Invisalign is that patients can see the potential results before starting treatment.</p>\n<p>With Invisalign&#8217;s Clincheck technology you will see how your teeth are likely to look like if you choose Invisalign orthodontic treatment &#8211; giving you more confidence and reassurance about your future new smile.</p>\n<p>Invisalign aligners are created specifically for you by our laboratory and once you have completed treatment we can provide a retainer which you will wear to maintain the new position of your teeth.</p>\n<p>&nbsp;</p>\n<p><iframe title=\"Invisalign 3D Animation\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/Of8F46gnohA?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p><strong>What is clincheck?</strong></p>\n<p>Clincheck is Invisalign&#8217;s own 3D animated treatment plan that is created following your full consultation or Invisalign records visit. Following your Invisalign records visit, the molds we take of your teeth are shipped to the Invisalign laboratory where they are scanned into a special scanning machine to create a 3D model of your teeth.</p>\n<p>&nbsp;</p>\n<p><iframe src=\"https://www.youtube.com/embed/CymLSRBOfzc?rel=0&amp;showinfo=0\" width=\"100%\" height=\"400\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" data-mce-fragment=\"1\"></iframe></p>\n<p>&nbsp;</p>\n<p>From there, our Orthodontic Specialist, Dr. Stefano Troiani, will work alongside the team at Invisalign to create the custom 3D animation of your treatment plan.</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image2.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "invisalign"
+          },
+          "treatment_3": {
+            "title": "Orthodontic Treatment",
+            "description": "<p><strong>Eram Dental Health Clinic offers orthodontic treatments for children and adults.</strong></p>\n<p>&nbsp;</p>\n<p>With more than 8,000 documented treatments, Eram Dental Health Clinic is leading in orthodontic treatments in Switzerland. Our cases are used for various conferences worldwide.</p>\n<p>Thanks to our specialists in orthodontics, Eram Dental Health Clinic offers a variety of different treatments, such as traditional metal appliances, ceramic appliances, aesthetic appliances, lingual system and deamon system.</p>\n<p>&nbsp;</p>\n<p><strong>Benefits of orthodontic treatment.</strong></p>\n<ul>\n<li>Serve straighter and a more uniform smile.</li>\n<li>Improves dental function and bite problems.</li>\n<li>Treatment time faster than traditional devices.</li>\n<li>Designed for comfort and ease of use.</li>\n<li>We offer financial plans so you can distribute the cost of treatment.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Children&#8217;s Orthodontics</strong><br />\nRemovable appliances: these can be placed on one or two arches and are aimed at the proper development of the child&#8217;s jawbones.</p>\n<p>&nbsp;</p>\n<p><strong>Brackets</strong>:</p>\n<p>metal brackets are usually used when teeth are crowded or to make space</p>\n<p>&nbsp;</p>\n<p><strong>Adult Orthodontics</strong><br />\nThus, the option of brackets &#8211; whether metal or aesthetic &#8211; aesthetically  patients, although it is the most convenient and aesthetic option.</p>\n<p>&nbsp;</p>\n<p>Therefore, at Eram Dental Health Clinic we can offer all kind of orthodontic treatments for Kids, Teenagers and Adults.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image1.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "orthodontic_treatment"
+          },
+          "treatment_4": {
+            "title": "Smile Makeover",
+            "description": "<p><strong>A smile makeover can help you improve your confidence, help you to smile and communicate more openly.</strong></p>\n<p>&nbsp;</p>\n<p>Over the years, Eram Dental Health Clinic became the leading dental clinic for Smile&#8217;s makeover. Eram Dental Health Clinic get you a unique and individual smile.</p>\n<p>&nbsp;</p>\n<p>Many patients express dissatisfaction with their smile, whether this is due to the colour or shape of their teeth, the alignment or protrusion. At Eram Dental Health Clinic we offer a range of cosmetic dentistry procedures to rejuvenate your teeth and improve your appearance.</p>\n<p>&nbsp;</p>\n<p>A Smile Makeover is your first step towards achieving the smile you have always wanted</p>\n<p>&nbsp;</p>\n<p>Benefits of a smile make-up at Eram Dental Health Clinic</p>\n<p>&nbsp;</p>\n<p>We offer our patients the following cosmetic/aesthetic dentistry solutions:</p>\n<ul>\n<li>Our smile make-up experts stop taking their time to discuss their concerns.</li>\n<li>We can re-design your smile and will support you to choose a cosmetic dental treatment.</li>\n<li>Our dentists are highly trained and experienced in cosmetic dentistry.</li>\n<li>Our own dental technician full-fills all wishes from the patients the guarantee your individual Art Work Smile.</li>\n<li>You can attend an initial consultation without any obligation to proceed to treatment</li>\n</ul>\n<p>&nbsp;</p>\n<p>Our cosmetic dentistry services are designed to retain the uniqueness of your smile whilst improving the appearance of your teeth. We will advise which procedures can rejuvenate your teeth and create an individualised treatment plan to suit your dental needs and meet your aspirations.</p>\n<p>&nbsp;</p>\n<p>We offer our patients the following cosmetic dentistry solutions:</p>\n<ul>\n<li>Teeth Whitening &#8211; to remove discolouration and target dullness</li>\n<li>Veneers : to completely transform the appearance of your teeth</li>\n<li>White fillings : so you can receive an essential treatment without the worry of being seen by others</li>\n<li>Orthodontic treatment : to improve the alignment of your teeth</li>\n</ul>\n<p>&nbsp;</p>\n<p>We are pleased to offer our patients a variety of financial options. This means that you can pay for the treatments in instalments, over a period of time, which can help ease the burden of a single payment.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "smile_makeover"
+          },
+          "treatment_5": {
+            "title": "Veneers",
+            "description": "<p><strong>Dental veneers can transform your smile. They are used on the front teeth to make your smile more symmetrical and much brighter than before. This cosmetic dentistry treatment creates a lasting impact and is hugely popular.</strong></p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic, as well as making sure your teeth and gums are as healthy as possible, we want our patients to feel happy and confident when they smile. That’s why veneers are a great option for people who are unhappy with the appearance of their teeth and want to avoid multiple treatments.</p>\n<p>&nbsp;</p>\n<p>A dental veneer acts as a ‘cap’ or cover for the front teeth. Each veneer is individually manufactured by our expert laboratory team.</p>\n<p>&nbsp;</p>\n<p>Dental veneers are made of porcelain and can be used to restore the appearance of teeth that have been damaged, are heavily stained or discoloured and to restore wide gaps in the teeth. They can be used on a single tooth or multiple teeth depending on your dental needs.</p>\n<p>&nbsp;</p>\n<p><strong>The procedure.</strong></p>\n<p>You can leave Eram Dental Health Clinic with a new set of veneers in just two visits.</p>\n<p>&nbsp;</p>\n<p>Once you have chosen this cosmetic procedure, we will prepare your front teeth by removing a thin layer of dental enamel to create the ideal bonding surface for the veneer.</p>\n<p>&nbsp;</p>\n<p>We will take impressions of your teeth and help you to choose the exact shade of veneer for your new teeth. We will send the impressions and information to our laboratory who will start the building process.</p>\n<p>&nbsp;</p>\n<p>At the next visit, your dentist will first show you how the veneers look. Once you are happy with their appearance, the veneers will be bonded into place. These are long-lasting and durable cosmetic enhancements and we will show you how to care for them.</p>\n<p>We are pleased to offer our patients a range of finance options. This means that you can pay for treatments in instalments, over a period of time, which can help to ease the burden of a one-off payment</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/image3.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "veneers"
+          },
+          "treatment_6": {
+            "title": "White Fillings",
+            "description": "<p><strong>White fillings gives you the option of receiving an essential treatment without noticeable or visible to others.</strong></p>\n<p>&nbsp;</p>\n<p>Most adults will need at least one, if not more, fillers at some time or another, and with white fillings you can feel confident.</p>\n<p>Decomposition corrodes healthy enamel and causes decay or holes. If the cavity is not treated, it can become vulnerable to infection. Therefore, you may feel more sensitive than usual.</p>\n<p>At Eram Dental Health Clinic, we offer patients white fillings of composite resin or porcelain. White fillings are barely visible, so many of our patients prefer this option to traditional metal fillings.</p>\n<p>&nbsp;</p>\n<p><strong>The procedure</strong></p>\n<p>If you need a fill, we will consider the best option for you and the next appointment.</p>\n<p>The affected server wants to be cleaned and the damaged enamel removed. The white fill then wants to use the cavity and avoid further damage to the natural serve.</p>\n<p>Our dental team will be happy to advise you on cleaning techniques and how to avoid the need for more fillings.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "white_fillings"
+          }
+        }
+      },
+      "treatment2": {
+        "link": "kids",
+        "section_title": "Eram Kids",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids1.jpeg",
+          "image_2": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids11.jpeg",
+          "image_3": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids8.jpeg"
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Prophylaxe",
+            "description": "<p>We do not have any chance to make that decay and bactus into your child&#8217;s mouth. But domestic brushing alone is often not enough. Prophylaxis, meaning prevention, is a combination of healthy, low-sugar diet, the correct toothbrushing and care behavior as well as a complementary check-up by our pediatric dentist. Depending on the teeth and condition of the teeth, we create an individual and prevent it.</p>\n<p>&nbsp;</p>\n<p><strong>Infants</strong></p>\n<p>Even very small children should be given an awareness of clean teeth. Thus, healthy oral hygiene and caries can be avoided early enough. In addition, the small patients get used to a prophylaxis equal to noises and the &#8222;taste&#8220; of the dentist and a possible upcoming treatment is much easier.</p>\n<p>&nbsp;</p>\n<p>As long as your child can not brush their teeth by themselves, as a parent you should take care of the teeth cleaning and care yourself. Therefore, it is important that you too are attentive in the prophylactic appointment and learn together with us the right cleaning technique and use of care products. As soon as your child is old enough to brush his teeth by himself &#8211; this should be the case at the age of six at the latest &#8211; you should nevertheless accompany your child during daily brushing.</p>\n<p>&nbsp;</p>\n<p>Playful and age-appropriate, our hypnotically trained helpers and the pediatric dentist will guide your little ones to the dentist&#8217;s visit to lay the foundation for healthy teeth from an early age.</p>\n<p>&nbsp;</p>\n<p><strong>School Kids</strong></p>\n<p>Since we attach great importance to an individual and professional prophylaxis concept, we take as a matter of course also the subsequent polishing and sealing of the teeth, if this appears necessary for your child.</p>\n<p>&nbsp;</p>\n<p>Especially when the permanent teeth are still young, the risk of fissure or interdental caries is very high. If oral hygiene is not carried out diligently during this time, long-term consequences can be a burden on your child for a lifetime &#8211; we would like to avoid this with thorough dental prophylaxis.</p>\n<p>&nbsp;</p>\n<p>Especially with fixed orthodontics and tools is very important. In this way, a permanent health of the teeth is taken care of.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids8.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "prophylaxe"
+          },
+          "treatment_2": {
+            "title": "Fluoridation",
+            "description": "<p>The so-called fluoridation belongs to a complete prevention of healthy children&#8217;s teeth. Fluoridation protects tooth enamel, the outer part of the teeth, against decay. Dietary acids attack the enamel daily. It becomes porous, allowing bacteria to easily spread and spread at the attacked site. Fast caries can develop in case of insufficient dental care. Sufficient fluoride intake and regular dental fluoridation as part of our prophylactic program provide adequate protection of the teeth against these harmful acids.</p>\n<p>&nbsp;</p>\n<p>Depending on the caries susceptibility of your child, we decide at what intervals a fluoridation is useful and necessary. Brushing with fluoridated toothpaste or using fluoridated table salt can help protect your teeth.</p>\n<p>&nbsp;</p>\n<p>However, you should also pay attention to excessive fluoride intake, as this may lead to discolouration of the teeth.</p>\n<p>&nbsp;</p>\n<p>You should give your child fluoride.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids6.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "fluoridation"
+          },
+          "treatment_3": {
+            "title": "Sealing from the 1st Tooth",
+            "description": "<p>We, your pediatric dentist in Zurich, provide your child&#8217;s professional sealed teeth.</p>\n<p>&nbsp;</p>\n<p>All teeth with a surface crossed by furrows and pits are particularly susceptible to caries due to these dirt. There, bacteria and food particles accumulate that can not be even with the toothbrush.</p>\n<p>&nbsp;</p>\n<p>We, your paediatric dentist in Zurich, provide your child&#8217;s teeth with professional sealants that provide effective caries prevention for many years. The crevices in the tooth are closed so that dental plaque can no longer settle.</p>\n<p>&nbsp;</p>\n<p>Before we do a sealing, we raise the health of the teeth, the so-called dental status. If it has already decayed on the teeth, it is gently removed. The resulting defect is then sealed with a plastic. For healthy teeth, we can perform a seal without further treatment steps. A dental seal, in healthy teeth is a fissure seal the speech, is done in a few minutes. However, if a major tooth defect is discovered, the hole in the tooth must first be treated with filling therapy. Subsequently, a so-called therapeutic fissure seal can be done.</p>\n<p>&nbsp;</p>\n<p>Although a seal is carefully processed by us, parts of the seal may be lost over time due to wear. At each inspection visit, we check the condition of the seal and, if necessary, renew or supplement the existing seal.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids12.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "sealing_from_the_1st_tooth"
+          },
+          "treatment_4": {
+            "title": "Cavities",
+            "description": "<p>Eram Dental Health Clinic, your Pediatric Clinic in Zurich is prophylaxis-oriented and attaches great importance to thorough dental care. However, it can always happen that your child suffers from one or more teeth. In a regular check-up, we can counteract this at an early stage or limit the damage caused by a caries disease, so we want to return to the heart of the regular visit of your child to the dentist,</p>\n<p>&nbsp;</p>\n<p>If a child&#8217;s tooth if ill, the removal of the caries and a subsequent filling of the affected area are essential. If one leaves carious teeth, the caries bacteria spread further and can thus infect the permanent teeth. When removing the diseased tooth substance, we proceed especially gently and gently to obtain as much healthy tooth substance as possible. Then we restore the damaged tooth with the help of filling materials. Here we offer both cement fillings and plastic fillings to meet your optical requirements.</p>\n<p>&nbsp;</p>\n<p>Your child does not have to be afraid of the procedure, because our empathic dentists make sure that they feel as little as possible of the treatment. During the treatment we play your favorite movie or your favorite music over our ceiling monitors or headphones &#8211; so your child can relax a bit and the intervention is over sooner than expected. As a pediatric dentist in Munich, we also find a suitable treatment solution for patients with a great deal of dental anxiety, and with our trained team, they provide sensitive and particularly gentle care. For example, under the influence of nitrous oxide, under sedation or general anesthesia, treatments enable a nearly fearless and painless dentist experience.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids11.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "cavities"
+          },
+          "treatment_5": {
+            "title": "Teeth grinding",
+            "description": "<p>Lasting teeth grinding, tongue and cheek biting or tight clenching of teeth can occur in both adults and children. Most often, these phenomena are observed with the breakthrough of the first teeth. Affected children and adolescents complain of jaw pain, muscle tension or malaise. In addition to these painful symptoms, the teeth sooner or later leads to the loss of valuable tooth substance.</p>\n<p>&nbsp;</p>\n<p>If you know your child suffers from teeth grinding, we advise you to consult your pediatric dentist. As your pediatric dentist in Munich, we examine your child&#8217;s teeth on a crunched tooth and look for tension in the muscles. A transparent plastic splint, which is made to rubbed off.</p>\n<p>&nbsp;</p>\n<p>In addition, we investigate the cause of the nocturnal crunch &#8211; often there is a malposition of the teeth behind it. Stress and external pressure can cause teeth grinding.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids3.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "teeth_grinding"
+          },
+          "treatment_6": {
+            "title": "Anesthesia Treatments",
+            "description": "<p>Young children with dental pain and / or infection require treatment at any age. Of course, there are many reasons for this. Some dental procedures require your child to be completely silent, there may be a lot to fix, or the noise of the drill may be scary. Our goal is always to provide the safest, most pain-free treatment for your kids.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids9.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "anesthesia_treatments"
+          },
+          "treatment_7": {
+            "title": "Tooth extractions",
+            "description": "<p>If a molar tooth is so badly damaged it can no longer be preserved. Inadequate or incorrect treatment that could lead to long-term damage that we, your pediatric dentist in Munich, would like to spare your child.</p>\n<p>&nbsp;</p>\n<p>The removal of the deciduous tooth creates a gap. This must be closed to maintain the function and development of the chewing organ. Unlike adults, however, the gap must not be closed by a final dentures. So-called placeholders offer an optimal solution for your child.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids2.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "tooth_extractions"
+          },
+          "treatment_8": {
+            "title": "Orthodontics",
+            "description": "<p>Eram Dental Health Clinic is the leading Orthodontic Clinic for Children in Zurich.</p>\n<p>&nbsp;</p>\n<p>We offer all kind of orthodontic treatments for your kids. With over 8,000 documented, orthodontic treatment cases, we impress with an extraordinary experience in childrens orthodontic treatments.</p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic, your orthodontic clinic in Zurich, we offer following treatments for your kids.</p>\n<p>&nbsp;</p>\n<p><strong>Removable braces</strong></p>\n<p>Removable braces, called called plates, are mostly used in children, in which there are some deciduous teeth available.</p>\n<p>&nbsp;</p>\n<p><strong>Fixed braces</strong></p>\n<p>The fixed braces, colloquially called &#8222;Plättlispange&#8220; or &#8222;Gartenhag&#8220;, is most commonly used in orthodontic corrections. It is usually used when all permanent teeth have broken through. With sufficient jawbone teeth can be straightened at any age.</p>\n<p>&nbsp;</p>\n<p><strong>&#8222;Invisible&#8220; braces</strong></p>\n<p>Today, there are various ways to correct the malocclusion almost invisibly. We will gladly advise you which treatment is best for you.</p>\n<p>&nbsp;</p>\n<p><strong>Ceramic brackets</strong></p>\n<p>The tooth-colored ceramic brackets are glued to the outside of the teeth. They are more aesthetic than metal brackets because they are barely noticeable due to their transparency. For this reason, they are popular with both teenagers and adults.</p>\n<p>&nbsp;</p>\n<p><strong>Lingualtechnik</strong></p>\n<p>In the lingual technique, the fixed braces on the inside of the teeth attached so that it is completely invisible from the outside.</p>\n<p>&nbsp;</p>\n<p><strong>Invisible Braces &#8211; Lingual Technique</strong></p>\n<p>A widely used treatment system is Incognito ™, which makes individual brackets and bows individually for each patient.</p>\n<p>&nbsp;</p>\n<p><strong>Aligners</strong></p>\n<p>Aligners are removable and almost invisible plastic rails. They can be used to treat malocclusions without the use of metal brackets and wires. Aligners can also be used in adolescents, as long as all permanent teeth have broken through. This is usually the case from the age of 12.</p>\n<p>&nbsp;</p>\n<p><strong>Retainer</strong></p>\n<p>Unfortunately, the teeth do not remain in their new, straight position after orthodontic treatment. Therefore, a stabilisation phase is always necessary at the end of an active orthodontic treatment.</p>\n<p>&nbsp;</p>\n<p><strong>Combined orthodontic-oral surgery</strong></p>\n<p>With pronounced jaw malpositions, a treatment with braces alone does not always lead to the desired result. In such cases, we are looking for the most promising solution for you in cooperation with oral surgeons</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids7.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "treatment_orthodontics"
+          },
+          "treatment_9": {
+            "title": "Sport Mouthguard",
+            "description": "<p>Injuries to the teeth often occur in some sports and leisure activities. At risk are the middle upper incisors.</p>\n<p>&nbsp;</p>\n<p>The injuries can lead to tooth fractures and tooth loss. Often, lengthy post-treatments are the result, in which case the tooth must be replaced in the worst case.</p>\n<p>&nbsp;</p>\n<p>To prevent a dental accident, there are effective protective measures, without your child having to pass the fun of sports. Standard and effective protection is provided by the sports mouthguard, which is adapted to the individual jaw conditions.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/kids1.jpeg",
+            "image_2": false,
+            "image_3": false,
+            "link": "sport_mouthguard"
+          }
+        }
+      },
+      "treatment3": {
+        "link": "dental_care",
+        "section_title": " Eram Advanced Dental Care",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+          "image_2": false,
+          "image_3": false
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Periodontics",
+            "description": "<p><strong>Periodontitis is a severe form of gum disease and requires attention from our dental team. Keeping your gums healthy is essential for protecting your teeth. At Eram Dental Health Clinic we will always take care of your gums and treat signs of gum disease.</strong></p>\n<p>&nbsp;</p>\n<p>The gums supporting your teeth, holding them in place and acting as a barrier to bacteria. A healthy gum is pink and firm. However, over-time on the gum line, making the gums vulnerable to infection and disease. Smoking, a sugary diet, overlapping teeth, diseases such as diabetes and certain medications can also cause gum disease.</p>\n<p>&nbsp;</p>\n<p>The first stage of gum disease is gingivitis. Symptoms include bleeding of the gums, inflammation and soreness. You may even experience an infection of the gums. If you develop periodontitis you may experience more serious symptoms including abscesses, and pocketing – which is where the seal of the gum is affected and develops a deep space, where bacteria, plaque and calculus can settle and cause further damage.</p>\n<p>&nbsp;</p>\n<p>Periodontitis affects the jaw bone and can result in the teeth loosening or even being lost.</p>\n<p>&nbsp;</p>\n<p>It is very important to treat the early signs of gum disease. For example, if you experience bleeding after brushing or flossing you may want to use a specially formulated mouthwash to try and treat this, as well as brushing and flossing more thoroughly.</p>\n<p>&nbsp;</p>\n<p>If this issue has not been resolved in a few weeks, it is important to visit Eram Dental Health Clinic so we can examine your gums. Our thorough cleaning techniques will help to prevent gum disease.</p>\n<p>&nbsp;</p>\n<p>Where periodontal disease has advanced, you may need specialist attention and we can refer you to a periodontist who can provide the treatment you require.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "periodontics"
+          },
+          "treatment_2": {
+            "title": "Endodontics",
+            "description": "<p><img class=\"alignright size-medium wp-image-372\" src=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/endodontics-broseley-1-300x279.jpg\" sizes=\"(max-width: 300px) 100vw, 300px\" srcset=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/endodontics-broseley-1-300x279.jpg 300w, https://www.broseleydental.co.uk/wp-content/uploads/2018/01/endodontics-broseley-1.jpg 380w\" alt=\"\" width=\"300\" height=\"279\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>We provide our patients with endodontic treatment.</strong></p>\n<p>&nbsp;</p>\n<p>Root canal treatment is the most common form of endodontic therapy, and at Eram Dental Health Clinic, your dental clinic in Zurich, we can provide this highly skilled and delicate procedure to resolve the pain and swelling that may arise from this type of infection.</p>\n<p>&nbsp;</p>\n<p>The soft tissue or dental pulp inside a tooth becomes vulnerable to infection if the outer layers have cracked or been damaged.</p>\n<p>&nbsp;</p>\n<p><strong>The procedure</strong></p>\n<p>Your dentist will ensure the area being treated has been numbed with local anaesthetic prior to starting the treatment.</p>\n<p>&nbsp;</p>\n<p>They will then remove the top of your tooth to access the internal tissue and clean the infection from the soft tissue, using files and disinfectant. The dentist will end the procedure by using a crown to strengthen and protect the remainder of your natural tooth.</p>\n<p>&nbsp;</p>\n<p>If our dentist has problems accessing the root of the tooth, or the site of the infection, we may refer you to an endodontist – a specialist in treating internal dental problems. You may also be referred to a specialist if you have recurrent root canal infections.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "endodontics"
+          },
+          "treatment_3": {
+            "title": "Dentis Check Up",
+            "description": "<p>Eram Dental Health Clinic also wants to help you to get healthy, beautiful and long-lasting teeth.</p>\n<p>&nbsp;</p>\n<p>Regular dental examination is important to maintain the health of your teeth and gums. The check-up with our dentist helps you to make an important contribution to your oral hygiene.</p>\n<p>&nbsp;</p>\n<p><strong>Children</strong></p>\n<p>It makes sense to have an annual check with our dentist. This examination does not concern the early detection of caries damage. Is space shortage expected? Does a molar molar have been lost prematurely? Eram Dental also helps our youngest patients with healthy teeth.<br />\nyouth</p>\n<p>&nbsp;</p>\n<p>After compulsory schooling, a lot of hectic times begin for many young adults. Vocational training, separation from the home, military service and self-employment are pending. The teeth play a minor role here. Frequently changing the eating habits, so that sometimes massive damage in a short time.</p>\n<p>&nbsp;</p>\n<p>An annual check including X-rays and intensive care (individual prophylaxis) are highly recommended to detect any possible tooth damage early.</p>\n<p>&nbsp;</p>\n<p><strong>Adults</strong></p>\n<p>The dental check-up of adult persons is usually short and shifts their emphasis away from caries to stable ratios of the periodontium, oral health and esthetic problems. Similarly, it often requires the advice of young parents in the dental care and nutrition of their offspring.</p>\n<p>We at the dental office Eram Dental want to be your reliable partner for your teeth.</p>\n<p>&nbsp;</p>\n<p><strong>Seniors</strong></p>\n<p>More and more people are getting older with more and more teeth. The manual dexterity can decrease or the passivity gets out of hand. Often, various drugs with a variety of side effects, in part, the oral cavity to be taken. Often in this phase of life a more intensive dental care is announced, which aims primarily at the long-term preservation of the chewing function.</p>\n<p>&nbsp;</p>\n<p>The inspection dates are fixed relatively quickly and on a monthly, biannual or individual basis as required.</p>\n<p>&nbsp;</p>\n<p>Would you like to be advised on specific treatments in addition to the normal dental check-up? Eram Dental provides you with free orthodontic (such as Invisalign), surgical (e.g., implant) or aesthetic (e.g., veneer) consultations.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is looking forward, to welcome you soon.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "dentist_check_up"
+          },
+          "treatment_4": {
+            "title": "Bruxism",
+            "description": "<p>Our goal is to help you to have radiantly beautiful and healthy teeth that you can.</p>\n<p>&nbsp;</p>\n<p>Teeth grinding and teeth pressing is known under the technical term bruxism and provides non-treatment for unpleasant pain and unwanted tooth damage. The dental practice Eram Dental provides you with a simple but very effective bite rail for stress-free nights and unpleasant consequences.</p>\n<p>&nbsp;</p>\n<p>Benefit from a crunch bar for a fast, efficient and effective long-term solution.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment. We look forward to your call.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "bruxism"
+          },
+          "treatment_5": {
+            "title": "Prosthodontics",
+            "description": "<p><strong>You may require prosthodontic treatment if you have lost teeth or your natural teeth have been damaged by decay or trauma. Prosthodontics is concerned with restoring and revitalizing your teeth to improve appearance and dental function.</strong></p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic, we recognize the need for long-lasting and dependable dental restorations. Losing your teeth can feel worrisome and cause problems when eating and interacting with others. This field of dentistry can, therefore, help you to look and feel better about your teeth.</p>\n<p>&nbsp;</p>\n<p>Prosthodontic treatment takes care of your teeth. We offer a range of prosthodontic services such as:</p>\n<ul>\n<li>Crowns &#8211; To restore damaged teeth, strengthen weakened teeth and hold bridges in place</li>\n<li>Dental Bridges – to ‘bridge’ the gap left when you have lost a tooth</li>\n<li>Dentures or Implant Retained Dentures – to replace multiple missing teeth</li>\n<li>Single Dental Implant – for a permanent and long-lasting solution to one missing tooth</li>\n<li>Cosmetic Dentistry – we offer a range of cosmetic dental treatments to improve and enhance your natural teeth</li>\n</ul>\n<p>&nbsp;</p>\n<p>Prosthodontics is an advanced form of dental treatment which focuses on you as an individual and provide a solution for your missing or damaged teeth.</p>\n<p>&nbsp;</p>\n<p>It is important to replace lost teeth as quickly as possible to avoid problems with eating and chewing as well as future problems such as deterioration of the jaw bone.</p>\n<p>&nbsp;</p>\n<p>We offer patients a thorough and bespoke treatment plan to meet their dental needs.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "prosthodontics"
+          }
+        }
+      },
+      "treatment4": {
+        "link": "oral_surgery",
+        "section_title": "Eram Oral Surgery",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+          "image_2": false,
+          "image_3": false
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Oral Surgery",
+            "description": "<p>Eram Dental Health Clinic is the leading dental clinic in Switzerland for oral surgery. Doctors and professors have over 20 years of experience in oral surgery and implantology. Through our expertise, patients from all over the world travel to Eram Dental Health Clinic.</p>\n<p>&nbsp;</p>\n<p>Our goal is to help you to have radiantly beautiful and healthy teeth that you can.</p>\n<p>&nbsp;</p>\n<p>Our core competencies in oral surgery and implantology includes the following treatments.</p>\n<p>&nbsp;</p>\n<ul>\n<li>Wisdom teeth removals</li>\n<li>Bone abutments in the area of ​​the maxillary sinuses<br />\nsinus lift (internal and external), Bennex method</li>\n<li>Removal and treatment of cysts in the jaw area: cystectomy / cystostomy / marupialization<br />\nDental implants even in complex situations</li>\n<li>Removal of retained, displaced teeth as part of an orthodontic treatment</li>\n<li>Tooth transplantations</li>\n<li>Gingival grafts / soft tissue grafts<br />\nRecession covers for exposed tooth necks or root surfaces<br />\nBone abutments (using membrane techniques or self-bone)<br />\nApicectomies</li>\n<li>Removal of individual tooth roots in the context of a gum therapy: root amputations</li>\n<li>Dental surgery reshaping of multi-root teeth into several individual teeth: hemisections</li>\n<li>Dental surgery crown extensions<br />\nBone block retrieval to build up larger bony defects in a reconstruction</li>\n<li>Biopsies (in collaboration with the Institute of Pathology)<br />\nOral mucosa treatments</li>\n</ul>\n<p>&nbsp;</p>\n<p>All treatments can of course be done under full anaesthesia.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is looking forward, to welcome you soon.</p>\n<p>&nbsp;</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "treatment_oral_surgery"
+          },
+          "treatment_2": {
+            "title": "Wisdom Tooth",
+            "description": "<p><img class=\"size-medium wp-image-368 alignleft\" src=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/tooth-extraction-broseley-1-300x279.jpg\" sizes=\"(max-width: 300px) 100vw, 300px\" srcset=\"https://www.broseleydental.co.uk/wp-content/uploads/2018/01/tooth-extraction-broseley-1-300x279.jpg 300w, https://www.broseleydental.co.uk/wp-content/uploads/2018/01/tooth-extraction-broseley-1.jpg 380w\" alt=\"\" width=\"300\" height=\"279\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Eram Dental Health Clinic is the leading dental clinic in Switzerland for oral surgery. Doctors and professors have over 20 years of experience in oral surgery and implantology. Through our expertise, patients from all over the world travel to Eram Dental Health Clinic.</strong></p>\n<p>&nbsp;</p>\n<p>Our goal is to help you to have radiantly beautiful and healthy teeth that you can.</p>\n<p>&nbsp;</p>\n<p>Our core competencies in oral surgery and implantology includes the following treatments.</p>\n<p>&nbsp;</p>\n<ul>\n<li>Wisdom teeth removals</li>\n<li>Bone abutments in the area of ​​the maxillary sinuses sinus lift (internal and external), Bennex method Removal and treatment of cysts in the jaw area: cystectomy / cystostomy / marupialization</li>\n<li>Dental implants even in complex situations</li>\n<li>Removal of retained, displaced teeth as part of an orthodontic treatment</li>\n<li>Tooth transplantations</li>\n<li>Gingival grafts / soft tissue grafts<br />\nRecession covers for exposed tooth necks or root surfaces</li>\n<li>Bone abutments (using membrane techniques or self-bone)</li>\n<li>Apicectomies<br />\nRemoval of individual tooth roots in the context of a gum therapy: root amputations</li>\n<li>Dental surgery reshaping of multi-root teeth into several individual teeth: hemisections</li>\n<li>Dental surgery crown extensions</li>\n<li>Bone block retrieval to build up larger bony defects in a reconstruction</li>\n<li>Biopsies (in collaboration with the Institute of Pathology)<br />\nOral mucosa treatments</li>\n</ul>\n<p>&nbsp;</p>\n<p>All treatments can of course be done under full anesthesia.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is looking forward, to welcome you soon.</p>\n<p>&nbsp;</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "wisdom_tooth"
+          }
+        }
+      },
+      "treatment5": {
+        "link": "dental_hygiene",
+        "section_title": "Eram Dental Hygiene",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+          "image_2": false,
+          "image_3": false
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Dental Hygiene",
+            "description": "<p>Professional dental cleaning and dental hygiene is an integral part of dental prophylaxis. The dental practice Eram Dental specializes in eliminating the deficiencies of daily oral hygiene. Due to our focus on maximum precision, cleanliness and sensitivity, dental hygiene becomes a pleasant and painless experience. Our entire prophylaxis team values ​​a trusting and long-term relationship with our patients.</p>\n<p>&nbsp;</p>\n<p>Thanks to regular dental hygiene at Eram Dental Health Clinic, you are making a significant contribution to preserving your natural teeth. In addition, cyclical dental hygiene leads to a pleasant oral hygiene and prevents tooth decay and periodontitis.</p>\n<p>&nbsp;</p>\n<p>Our team of highly experienced dental hygienists and prophylaxis assistants looks forward to welcoming you to the Eram Dental dental practice.</p>\n<p>&nbsp;</p>\n<p><strong>Your dental hygiene / teeth cleaning at Eram </strong><strong>Dental Health Clinic</strong></p>\n<p>Each treatment is individually tailored to your needs and life. A tooth cleaning must be individually tailored to you. Together with you we create a treatment plan that is optimally adapted to your everyday life and medical history. Before each treatment, you will be informed exactly about the procedure. This creates a pleasant and trusting feeling and helps you to reduce fears. Our most important aspect is that we focus on thorough and painless teeth cleansing. For this we use hand instruments, air flow and perioflow or ultrasound devices. The interdental spaces are gently flossed. A treatment takes about 60 minutes.</p>\n<p>&nbsp;</p>\n<p>Each of our dental hygienists and prophylactic assistants has at least eight years of experience and sensitivity.</p>\n<p>&nbsp;</p>\n<p>Your teeth are important to us even after treatment. In order to maintain your oral health, we give you individual and valuable tips for the home.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is looking forward, to welcome you soon.</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "treatment_dental_hygiene"
+          },
+          "treatment_2": {
+            "title": "Bleaching",
+            "description": "<p><strong>Zoom Power Bleaching</strong></p>\n<p>A beautiful smile supports your positive charisma. Whether or not it is for a radiant smile for everyday life, every day of our patients are convinced of a dental bleaching at Eram Dental Health Clinic.</p>\n<p>&nbsp;</p>\n<p>The dental practice Eram Dental specializes in lightening your teeth gently, safely and for a long time. We are the leading dental practice in Zurich for dental whitening and offering our patients.<br />\nZoom Power Bleaching</p>\n<p>&nbsp;</p>\n<p>The Zoom Power Bleaching is the professional bleaching procedure par excellence.</p>\n<p>&nbsp;</p>\n<p>The gel is used to zoom in 3-4 times every 15 minutes. Thanks to the Zoom Power Bleaching, even stubborn discoloration is effectively and sustainably removed. This safe procedure, which is carried out by our dental specialists, can be carried out twice a year without any problems. Thanks to the Zoom Power Bleaching, your teeth will be 6-8 shades lighter.</p>\n<p>&nbsp;</p>\n<p>There are a variety of over-the-counter products for whiter teeth (e.g., toothpastes and whitening gels). There are also various bleaching procedures in beauty salons. These products / procedures are hardly comparable with professional teeth whitening. Although these are cheaper, but differ in terms of impact, security, reliability in some massive.</p>\n<p>&nbsp;</p>\n<p><strong>Home bleaching</strong></p>\n<p>In addition to the Zoom Power Bleaching and the Quick Quick Whitening procedure, which you can perform comfortably at home. Home bleaching is the ideal complement to the in-office bleaching which is carried out in our practice. In just one visit with us in practice, we will prepare your customized home whitening rails. So you can buy the right gel for the application from us. The home whitening session can be at any time at home and is a safe and gentle alternative to in-office whitening. Together with the delivery of your rails, we want to inform you in detail about the application.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is looking forward, to welcome you soon.</p>\n",
+            "image_1": 2855,
+            "image_2": false,
+            "image_3": false,
+            "link": "bleaching"
+          },
+          "treatment_3": {
+            "title": "Air Flow",
+            "description": "<p><strong>Airflow Teeth Cleaning</strong></p>\n<p>Airflow &#8211; the best for your teeth. Removes deposits and discolouration effectively &amp; reliably.</p>\n<p>&nbsp;</p>\n<p>As one of the few dental practices in Zurich, Eram Dental Health Clinic offers its Airflow Teeth Cleaning. Thanks to sophisticated products and techniques, disturbing discolouration and microbial plaque can be removed gently and completely. With a mixture of air, the corresponding powders and water, teeth, implants, crowns, veneers and soft tissue are cleaned effectively and at the same time gently and professionally. The biofilm, consisting of bacteria and other microorganisms, is thus removed without the use of chemical aids.</p>\n<p>&nbsp;</p>\n<p>This process with Airflow goes far beyond simple calculus removal.</p>\n<p>Your advantages with Airflow tooth cleaning</p>\n<p>&nbsp;</p>\n<p>The air flow system is used for prophylaxis, aesthetics and restoration of dental health.</p>\n<p>&nbsp;</p>\n<p>Reliable removal of hard and soft dental plaque<br />\nElimination of persistent discoloration of the teeth<br />\nProphylaxis of periodontal diseases (gingivitis, periodontitis, peri-implantitis)</p>\n<ul>\n<li>Cleaning hard to reach areas</li>\n<li>Fissure cleaning and opening (sealing)</li>\n<li>Pleasant treatment (noise-free, no curette application)</li>\n<li>No damage to epithelia or adjacent tissue</li>\n<li>Avoiding scratched tooth surfaces</li>\n<li>Gentle procedure with application of biokinetic energy</li>\n<li>Combination with Piezon Scaling possible</li>\n<li>Special products for patients with sensitive gums</li>\n</ul>\n<p>&nbsp;</p>\n<p>Airflow will help you get a completely new sensation of cleanliness of your teeth.</p>\n<p>&nbsp;</p>\n<p>We look forward to your call and visit with us. Book your appointment here.</p>\n<p>&nbsp;</p>\n<p>Please click <a href=\"#contact\">here</a> or call <a href=\"callto:+41/44 222 21 11\">+41/44 222 21 11</a> to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon.</p>\n",
+            "image_1": 2855,
+            "image_2": false,
+            "image_3": false,
+            "link": "air_flow"
+          },
+          "treatment_4": {
+            "title": "Periodontics",
+            "description": "<p><strong>Periodontitis is a severe form of gum disease and requires attention from our dental team. Keeping your gums healthy is essential for protecting your teeth. At Eram Dental Health Clinic we will always take care of your gums and treat signs of gum disease.</strong></p>\n<p>&nbsp;</p>\n<p>The gums supporting your teeth, holding them in place and acting as a barrier to bacteria. A healthy gum is pink and firm. However, over-time on the gum line, making the gums vulnerable to infection and disease. Smoking, a sugary diet, overlapping teeth, diseases such as diabetes and certain medications can also cause gum disease.</p>\n<p>&nbsp;</p>\n<p>The first stage of gum disease is gingivitis. Symptoms include bleeding of the gums, inflammation and soreness. You may even experience an infection of the gums. If you develop periodontitis you may experience more serious symptoms including abscesses, and pocketing – which is where the seal of the gum is affected and develops a deep space, where bacteria, plaque and calculus can settle and cause further damage.</p>\n<p>&nbsp;</p>\n<p>Periodontitis affects the jaw bone and can result in the teeth loosening or even being lost.</p>\n<p>&nbsp;</p>\n<p>It is very important to treat the early signs of gum disease. For example, if you experience bleeding after brushing or flossing you may want to use a specially formulated mouthwash to try and treat this, as well as brushing and flossing more thoroughly.</p>\n<p>&nbsp;</p>\n<p>If this issue has not been resolved in a few weeks, it is important to visit Eram Dental Health Clinic so we can examine your gums. Our thorough cleaning techniques will help to prevent gum disease.</p>\n<p>&nbsp;</p>\n<p>Where periodontal disease has advanced, you may need specialist attention and we can refer you to a periodontist who can provide the treatment you require.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon</p>\n",
+            "image_1": 2855,
+            "image_2": false,
+            "image_3": false,
+            "link": "periodontics"
+          },
+          "treatment_5": {
+            "title": "Halithosis",
+            "description": "<p>An individual root cause analysis is essential to combat halitosis.</p>\n<p>&nbsp;</p>\n<p>Bad breath is an unpleasant and often underestimated problem that can quickly lead to a serious lack of self-esteem.</p>\n<p>&nbsp;</p>\n<p>Bad breath, also known as halitosis or foetor ex ore, may have a negative impact on your social as well as your professional environment. In addition, halitosis is unfortunately a topic that is not addressed due to the feeling of shame and thus remains untreated. The regular and professional dental hygiene with the appropriate oral hygiene instructions, helps in most cases already to a significant improvement.</p>\n<p>&nbsp;</p>\n<p>There are many reasons that cause bad breath. The causes are often found simply and can be defeated by simple means. In most cases where patients with halitosis arrive at Eram Dental Health Clinic, unfortunately, incorrect or inaccurate have been diagnosed, leaving the problem untreated. Return to a pleasant feeling and self-confidence.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is your competent partner for managing and controlling bad breath.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "halithosis"
+          }
+        }
+      },
+      "treatment6": {
+        "link": "orthodontics",
+        "section_title": "Ortodontics",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_02.jpg",
+          "image_2": false,
+          "image_3": false
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Invisalign",
+            "description": "<p><strong> Invisalign Clear Aligners Eram Dental Health Clinic</strong></p>\n<p>&nbsp;</p>\n<p>Virtually invisible and removable, you can enjoy a straight smile with Invisalign orthodontic treatment.</p>\n<p>&nbsp;</p>\n<p>Invisalign &#8211; a discrete orthodontic appliance that can treat both aesthetic and functional orthodontic issues.</p>\n<p>&nbsp;</p>\n<p>Designed for patients seeking a discrete way of improving their teeth, Invisalign is a removable clear brace system that is almost invisible to the eye.</p>\n<p>&nbsp;</p>\n<p>The aligners are more comfortable than a fixed brace and you can remove them to eat and drink &#8211; thus having a minimum impact on your daily life.</p>\n<p>&nbsp;</p>\n<p><strong>Benefits of Invisalign</strong></p>\n<p>We offer our patients the following cosmetic dentistry solutions:</p>\n<ul>\n<li>Suitable for patients over the age of 16</li>\n<li>Barely noticeable, transparent aligners</li>\n<li>Quick and efficient treatment</li>\n<li>Used worldwide with proven results</li>\n<li>Patients can see the end results prior to</li>\n<li>treatment with our advanced technology</li>\n<li>We offer helpful finance plans so you can spread the cost of treatment</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>The treatment</strong></p>\n<p>Treatment is provided through a series of transparent aligners (which are similar to mouth guards). The Invisalign aligner is changed every two weeks. Each aligner has been designed to encourage the progressive movement of your teeth into the end position to give you a great looking smile, making you feel more confident and happy.</p>\n<p>&nbsp;</p>\n<p>Another great advantage of Invisalign is that patients can see the potential results before starting treatment. With Invisalign’s Clincheck technology you will see how your teeth are likely to look like if you choose Invisalign orthodontic treatment – giving you more confidence and reassurance about your future new smile.</p>\n<p>&nbsp;</p>\n<p>Invisalign aligners are created specifically for you by our laboratory and once you have completed treatment we can provide a retainer which you will wear to maintain the new position of your teeth.</p>\n<p>&nbsp;</p>\n<p><strong>What is clincheck?</strong></p>\n<p>Clincheck is Invisaligns own 3D animated treatment plan that is created following your full consultation or Invisalign records visit.</p>\n<p>&nbsp;</p>\n<p>Following your Invisalign records visit, the moulds we take of your teeth are shipped to the Invisalign laboratory where they are scanned into a special scanning machine to create a 3D model of your teeth.</p>\n<p>&nbsp;</p>\n<p>From there, your Invisalign Specialist Doctor at Eram Dental Health Clinic will work alongside the team at Invisalign to create the custom 3D animation of your treatment plan.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "invisalign"
+          },
+          "treatment_2": {
+            "title": "Orthodontic Treatment",
+            "description": "<p>We are convinced that the smile is the quality of life.</p>\n<p>&nbsp;</p>\n<p>A beautiful smile and healthy, straight teeth make up for a living. But not everyone has beautiful straight teeth by nature. Often there is not enough space in the mouth for the teeth that are still in the jaw or have already grown out. This not only results in the appearance of the teeth, but can also result in health problems as reduced chewing function or tooth decay.</p>\n<p>&nbsp;</p>\n<p>Eram Dental Health Clinic is specialized in following orthodontic treatments.</p>\n<p>&nbsp;</p>\n<p><strong>Invisalign</strong></p>\n<p>Invisalign is an almost invisible solution to correct teeth for a more beautiful smile.</p>\n<p>&nbsp;</p>\n<p>The Invisalign aligners are practically completely transparent.</p>\n<p>&nbsp;</p>\n<p>More information about Invisalign at Eram Dental Health Clinic is available here. (Link to Invisalign treatment page).</p>\n<p>&nbsp;</p>\n<p><strong>Damon System</strong></p>\n<p>The Damon system is not just revolutionary braces and wires, it is a completely new orthodontic treatment method that Eram Dental Helth Clinic offers its patients. Using low biological-sensitive forces, the Damon System provides a natural 10-tooth smile and improves the patient&#8217;s overall facial aesthetics.</p>\n<p>&nbsp;</p>\n<p><strong>Incognito Lingual System</strong></p>\n<p>Eram Dental Health Clinic offers an innovative Incognito Lingual concept, which fixes the braces to the inside of the teeth and is completely invisible.</p>\n<p>&nbsp;</p>\n<p>The passive self-ligating Damon brackets eliminate the need for elastic rubber ligatures. This facilitates tooth movement at very low forces.</p>\n<p>&nbsp;</p>\n<p><strong>Ceramic and Metal Braces</strong></p>\n<p>In children and adolescents, fixed braces are often chosen when the permanent teeth are in the breakthrough and space is needed for them. In general, fixed braces are used for all corrections of tooth misalignments as soon as the permanent teeth have broken through. Adults can also correct malocclusions with fixed braces.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "ortho_orthodontic_treatment"
+          }
+        }
+      },
+      "treatment7": {
+        "link": "implants",
+        "section_title": "Eram Implants",
+        "section_carousel": {
+          "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_17.jpg",
+          "image_2": false,
+          "image_3": false
+        },
+        "treatments": {
+          "treatment_1": {
+            "title": "Dental Implants ",
+            "description": "<p>Beautiful, healthy and happy teeth, which can be proud of the rest of your life.</p>\n<p>&nbsp;</p>\n<p>Various reasons can lead to people losing their teeth. Whether it is due to an accident or disease of the periodontium, with an implant we enable a complete and long-term restoration of the chewing function and your beautiful and healthy smile.</p>\n<p>&nbsp;</p>\n<p>Benefits of Dental Implants<br />\nImplants have been used by dental professionals for a number of years<br />\nAdvances in dental technology make this treatment highly successful and trusted<br />\nLong lasting solution to missing teeth<br />\nNatural in appearance so they blend into the mouth By replacing missing teeth your mouth will be restored to full dental function<br />\nWe offer finance solutions so you can manage the cost of implants in helpful installments</p>\n<p>&nbsp;</p>\n<p>Whether it is to close a single tooth gap or the treatment of a completely toothless jaw, implant solutions at Eram Dental Health Clinic guarantee you safety and reliability in every life situation. It is our aim to offer you a perfect aesthetic and functional dental prosthesis, based on well-founded specialist knowledge, many years of competence and the highest quality materials.</p>\n<p>&nbsp;</p>\n<p>Dental implants are part of our routine interventions &#8211; safe and proven thanks to our over 20 years of experience in dental implants.</p>\n<p>&nbsp;</p>\n<p>Fixed, attractive teeth are a piece of quality of life. Dental implantology enables our specialists, even with extensive tooth loss and unfavorable jaw conditions, practically always a fixed dental prosthesis. However, the preservation of your natural teeth is always in the foreground for you and us.</p>\n<p>&nbsp;</p>\n<p><iframe title=\"Dental Implant Animation by Digimax Dental\" width=\"500\" height=\"281\" src=\"https://www.youtube.com/embed/61hFre2CNik?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></p>\n<p>&nbsp;</p>\n<p>We are your specialists in the field of dental implants in Zurich. Our many years of experience and standardized procedures in the fields of aesthetics and implantology lead to safe and beautiful results.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_01.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "dental_Implants "
+          },
+          "treatment_2": {
+            "title": "Implant Retained Dentures",
+            "description": "<p>If you wear dentures or are considering a denture appliance to restore your teeth, you can not offer them.</p>\n<p>&nbsp;</p>\n<p>An implant retained denture allows you to use your appliance with confidence as it clips into place, giving you a stable and solid foundation.</p>\n<p>&nbsp;</p>\n<p>At Eram Dental Health Clinic, our specialist for dental implants, provides the expertise and knowledge required to improve and enhance your denture appliance and eliminate the worry of rubbing it against your gums or moving around in the mouth.</p>\n<p>&nbsp;</p>\n<p><strong>Benefits of an implant retained denture</strong><br />\nReduces the likelihood of a denture slipping out of place Metal wings or clips are attached to the denture which is held in place by the implants<br />\nConfidence in eating the foods that you enjoy<br />\nIncreased comfort when wearing your denture<br />\nEnhanced confidence in the knowledge that your denture will not move out of place</p>\n<p><strong>The procedure</strong></p>\n<p>This restorative procedure entails a number of titanium implants being embedded into the jaw bone. These act as ‘roots’ or anchors for your denture appliance which clips onto them and is held firmly in place.</p>\n<p>&nbsp;</p>\n<p>We will take impressions of your teeth so that our laboratory team can build your bespoke denture. Following the implant procedure and a period of healing, we will then show you how to clip the denture into place.</p>\n<p>&nbsp;</p>\n<p>Just like a traditional denture, an implant retained device is removable and easy to care for.</p>\n<p>&nbsp;</p>\n<p>Before we can progress with this treatment we will need to ensure that your jaw bone can hold the titanium implants and carefully plan each step of the treatment.</p>\n<p>&nbsp;</p>\n<p>Please click here or call +41/44 222 21 11 to book your appointment. Eram Dental Health Clinic is looking forward, to welcome you soon</p>\n",
+            "image_1": "https://www.eram-dh.com/wp-content/uploads/2019/09/eram_07.jpg",
+            "image_2": false,
+            "image_3": false,
+            "link": "implant_retained_dentures"
+          }
+        }
+      }
+    },
+    "page_text": {
+      "emergency": "Emergency",
+      "book_appointment": "Book an appointment",
+      "menu_items": {
+        "menu_1": "Home",
+        "menu_2": "Our treatments",
+        "menu_3": "About us",
+        "menu_4": "The clinic",
+        "menu_5": "Testimonials",
+        "menu_6": "Contact us"
+      },
+      "sections": {
+        "advertising_title": "ERAM SPECIAL OFFERS",
+        "our_treatments": "<p>Our <br /><span>Treatments</span></p>\n",
+        "values_title": "<p>Why do patients<br /><span>trust us?</span></p>\n",
+        "clinic_title": "<p>See where we<br /><span>create smiles</span></p>\n",
+        "clinic_subtitle": "The Clinic",
+        "team_title": "<p>See who<br /><span>creates smiles</span></p>\n",
+        "team_subtitle": "The Team",
+        "team_1": "Dentist",
+        "team_2": "Dentalhygiene / Prophylaxe",
+        "team_3": "Dental asistant",
+        "team_4": "Anesthesie Team",
+        "team_5": "Dental technic",
+        "team_6": "Management"
+      },
+      "testimonial_button": "See the history"
+    }
+  },
+  "_links": {
+    "self": [
+      {
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/posts/3915"
+      }
+    ],
+    "collection": [
+      {
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/posts"
+      }
+    ],
+    "about": [
+      {
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/types/post"
+      }
+    ],
+    "author": [
+      {
+        "embeddable": true,
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/users/2"
+      }
+    ],
+    "replies": [
+      {
+        "embeddable": true,
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/comments?post=3915"
+      }
+    ],
+    "version-history": [
+      {
+        "count": 40,
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/posts/3915/revisions"
+      }
+    ],
+    "predecessor-version": [
+      {
+        "id": 3956,
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/posts/3915/revisions/3956"
+      }
+    ],
+    "wp:attachment": [
+      {
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/media?parent=3915"
+      }
+    ],
+    "wp:term": [
+      {
+        "taxonomy": "category",
+        "embeddable": true,
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/categories?post=3915"
+      },
+      {
+        "taxonomy": "post_tag",
+        "embeddable": true,
+        "href": "https://www.eram-dh.com/wp-json/wp/v2/tags?post=3915"
+      }
+    ],
+    "curies": [
+      {
+        "name": "wp",
+        "href": "https://api.w.org/{rel}",
+        "templated": true
+      }
+    ]
+  }
+}
