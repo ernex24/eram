@@ -310,7 +310,7 @@ class MainMenu extends Component {
 												onClick={() => handler('german')}
 											/>
 										</li>
-										<li>
+										{/* <li>
 											<img alt="eram-dental"
 												src="/assets/images/flag-italy.svg"
 												onClick={() => handler('italian')}
@@ -327,7 +327,7 @@ class MainMenu extends Component {
 												src="/assets/images/flag-france.svg"
 												onClick={() => handler('french')}
 											/>
-										</li>
+										</li> */}
 									</ul>
 								</div>
 							</li>
